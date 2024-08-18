@@ -1,0 +1,43 @@
+{
+    "type": "minecraft:blasting",
+    "category": "equipment",
+    "ingredient": [
+      {
+        "item": "ecraft:cincinnasite_diamond_helmet"
+      },
+      {
+        "item": "ecraft:cincinnasite_diamond_chestplate"
+      },
+      {
+        "item": "ecraft:cincinnasite_diamond_leggings"
+      },
+      {
+        "item": "ecraft:cincinnasite_diamond_boots"
+      },
+      {
+        "item": "betternether:cincinnasite_axe_diamond"
+      },
+      {
+        "item": "betternether:cincinnasite_hoe_diamond"
+      },
+      {
+        "item": "betternether:cincinnasite_sword_diamond"
+      },
+      {
+        "item": "betternether:cincinnasite_shovel_diamond"
+      },
+      {
+        "item": "betternether:cincinnasite_pickaxe_diamond"
+      },
+      {
+        "item": "additional-armoury:diamond_dagger"
+      },
+      {
+        "item": "additional-armoury:diamond_mace"
+      }
+    ],
+    "result": {
+      "id": "ecraft:cincinnasite_diamond_nugget"
+    }
+  }
+  

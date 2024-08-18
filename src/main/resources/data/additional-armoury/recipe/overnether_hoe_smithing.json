@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "additional-armoury:overnether_ingot"
+  },
+  "base": {
+    "item": "betternether:cincinnasite_hoe_diamond"
+  },
+  "result": {
+    "count": 1,
+    "id": "additional-armoury:overnether_hoe"
+  },
+  "template": {
+    "item": "additional-armoury:overnether_upgrade_smithing_template"
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "equipment",
+    "group": "ecraft:cincinnasite_diamond_ingot",
+    "ingredients": [],
+    "result": {
+      "id": "ecraft:cincinnasite_diamond_nugget",
+      "count": 9
+    }
+  }
+  

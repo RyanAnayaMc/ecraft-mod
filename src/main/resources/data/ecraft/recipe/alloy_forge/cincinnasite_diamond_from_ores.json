@@ -1,0 +1,17 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "tag": "minecraft:diamond_ores"
+    },
+	  {
+      "item": "betternether:cincinnasite_ore"
+    }
+  ],
+  "output": {
+    "item": "ecraft:cincinnasite_diamond_ingot",
+    "count": 2
+  },
+  "min_forge_tier": 2,
+  "fuel_per_tick": 7
+}

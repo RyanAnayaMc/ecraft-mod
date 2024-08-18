@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "additional-armoury:endernether_ingot"
+  },
+  "base": {
+    "item": "betternether:cincinnasite_shovel_diamond"
+  },
+  "result": {
+    "count": 1,
+    "id": "additional-armoury:endernether_shovel"
+  },
+  "template": {
+    "item": "additional-armoury:endernether_upgrade_smithing_template"
+  }
+}

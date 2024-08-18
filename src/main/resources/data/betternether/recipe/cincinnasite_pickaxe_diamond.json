@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "XXX",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "ecraft:cincinnasite_diamond_ingot"
+    }
+  },
+  "result": {
+    "id": "betternether:cincinnasite_pickaxe_diamond",
+    "count": 1
+  }
+}

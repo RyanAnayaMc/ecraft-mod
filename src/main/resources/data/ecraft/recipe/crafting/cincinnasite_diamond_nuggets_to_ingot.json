@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "nnn",
+      "nnn",
+      "nnn"
+    ],
+    "key": {
+      "n": {
+        "item": "ecraft:cincinnasite_diamond_nugget"
+      }
+    },
+    "result": {
+      "id": "ecraft:cincinnasite_diamond_ingot"
+    }
+  }
+  

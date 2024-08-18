@@ -1,0 +1,43 @@
+{
+	"schemaVersion": 1,
+	"id": "ecraft",
+	"version": "0.1+1.21",
+	"name": "eeeeeecraft",
+	"description": "Helper mod for the eeeeeecraft modpack.",
+	"authors": [
+		"RyanAnayaMc"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MPL-2.0",
+	"icon": "assets/ecraft/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.night.ecraft.Ecraft"
+		],
+		"fabric-datagen": [
+			"dev.night.ecraft.EcraftDataGenerator"
+		],
+		"client": [
+			"dev.night.ecraft.EcraftClient"
+		]
+	},
+	"mixins": [
+		"ecraft.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*",
+		"mythicmetals": ">=0.20.0+1.21-alpha6",
+		"betternether": ">=21.0.10",
+		"additional-armoury": "*"
+	},
+	"suggests": {
+
+	}
+}

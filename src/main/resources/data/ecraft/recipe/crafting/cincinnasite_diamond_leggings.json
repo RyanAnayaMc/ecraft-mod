@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ccc",
+      "c c",
+      "c c"
+    ],
+    "key": {
+      "c": {
+        "item": "ecraft:cincinnasite_diamond_ingot"
+      }
+    },
+    "result": {
+      "id": "ecraft:cincinnasite_diamond_leggings"
+    }
+  }
+  
