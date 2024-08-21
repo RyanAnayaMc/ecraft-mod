@@ -2,7 +2,7 @@
   "type": "alloy_forgery:forging",
   "inputs": [
     {
-      "item": "minecraft:diamond"
+      "item": "ecraft:raw_diamond"
     },
 	{
       "item": "betternether:cincinnasite"
@@ -12,6 +12,12 @@
     "item": "ecraft:cincinnasite_diamond_ingot",
     "count": 1
   },
+  "overrides": {
+    "3+": {
+      "id": "ecraft:cincinnasite_diamond_ingot",
+      "count": 2
+    }
+  },
   "min_forge_tier": 2,
-  "fuel_per_tick": 7
+  "fuel_per_tick": 10
 }

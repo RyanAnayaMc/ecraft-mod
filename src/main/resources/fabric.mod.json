@@ -26,7 +26,11 @@
 		]
 	},
 	"mixins": [
-		"ecraft.mixins.json"
+		"ecraft.mixins.json",
+		{
+			"config": "ecraft.client.mixins.json",
+			"environment": "client"
+		}
 	],
 	"depends": {
 		"fabricloader": ">=0.15.11",

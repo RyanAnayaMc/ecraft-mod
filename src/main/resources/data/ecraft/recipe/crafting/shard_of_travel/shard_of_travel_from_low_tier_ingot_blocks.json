@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bb"
+  ],
+  "key": {
+    "b": [
+      {
+        "item": "minecraft:lapis_block"
+      },
+      {
+        "item": "minecraft:coal_block"
+      },
+      {
+        "item": "minecraft:copper_block"
+      },
+      {
+        "item": "minecraft:waxed_copper_block"
+      },
+      {
+        "item": "mythicmetals:banglum_block"
+      },
+      {
+        "item": "mythicmetals:morkite_block"
+      },
+      {
+        "item": "mythicmetals:silver_block"
+      },
+      {
+        "item": "mythicmetals:tin_block"
+      }
+    ]
+  },
+  "result": {
+    "id": "ecraft:shard_of_travel",
+    "count": 1
+  }
+}

@@ -10,14 +10,24 @@ base {
 	archivesName = project.archives_base_name
 }
 
-repositories {
-	// Add repositories to retrieve artifacts from in here.
-	// You should only use this when depending on other mods because
-	// Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
-	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
-	// for more information about repositories.
 
+repositories {
+	mavenCentral()
+
+	maven { url 'https://maven.ambertation.de/releases' }
+
+	maven {
+		url "https://jitpack.io"
+	}
+
+	maven {
+		url "https://cursemaven.com"
+		content {
+			includeGroup "curse.maven"
+		}
+	}
 }
+
 
 fabricApi {
 	configureDataGeneration()
@@ -32,7 +42,13 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-	
+	modImplementation "curse.maven:combat-plus-core-973671:5566228"
+	modImplementation "curse.maven:dual-swords-893211:5535831"
+	modImplementation "curse.maven:additional-armoury-973673:5535673"
+	modImplementation "com.github.provismet:lilylib:${project.lilylib_version}"
+	include "com.github.provismet:lilylib:${project.lilylib_version}"
+
+	modImplementation "curse.maven:sassot-857563:5600959"
 }
 
 processResources {

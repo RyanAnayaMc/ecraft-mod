@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "ccc",
+    "ccc",
+    "ccc"
+  ],
+  "key": {
+    "c": {
+      "item": "ecraft:cincinnasite_diamond_ingot"
+    }
+  },
+  "result": {
+    "id": "ecraft:cincinnasite_diamond_block",
+    "count": 1
+  }
+}

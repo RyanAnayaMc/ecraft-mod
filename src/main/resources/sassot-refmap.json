@@ -1,0 +1,582 @@
+{
+  "mappings": {
+    "solipingen/sassot/mixin/block/BambooBlockMixin": {
+      "calcBlockBreakingDelta": "Lnet/minecraft/class_2211;method_9594(Lnet/minecraft/class_2680;Lnet/minecraft/class_1657;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)F"
+    },
+    "solipingen/sassot/mixin/block/BuddingAmethystBlockMixin": {
+      "randomTick": "Lnet/minecraft/class_5543;method_9514(Lnet/minecraft/class_2680;Lnet/minecraft/class_3218;Lnet/minecraft/class_2338;Lnet/minecraft/class_5819;)V"
+    },
+    "solipingen/sassot/mixin/block/CalibratedSculkSensorBlockMixin": {
+      "<init>": "Lnet/minecraft/class_8236;<init>(Lnet/minecraft/class_4970$class_2251;)V"
+    },
+    "solipingen/sassot/mixin/block/CobwebBlockMixin": {
+      "<init>": "Lnet/minecraft/class_2560;<init>(Lnet/minecraft/class_4970$class_2251;)V"
+    },
+    "solipingen/sassot/mixin/block/PowderSnowBlockMixin": {
+      "onEntityCollision": "Lnet/minecraft/class_5635;method_9548(Lnet/minecraft/class_2680;Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_1297;)V"
+    },
+    "solipingen/sassot/mixin/block/SculkBlockMixin": {
+      "<init>": "Lnet/minecraft/class_7125;<init>(Lnet/minecraft/class_4970$class_2251;)V"
+    },
+    "solipingen/sassot/mixin/block/SculkCatalystMixin": {
+      "<init>": "Lnet/minecraft/class_7126;<init>(Lnet/minecraft/class_4970$class_2251;)V"
+    },
+    "solipingen/sassot/mixin/block/SculkSensorBlockMixin": {
+      "<init>": "Lnet/minecraft/class_5703;<init>(Lnet/minecraft/class_4970$class_2251;)V"
+    },
+    "solipingen/sassot/mixin/block/SculkShriekerBlockMixin": {
+      "<init>": "Lnet/minecraft/class_7268;<init>(Lnet/minecraft/class_4970$class_2251;)V"
+    },
+    "solipingen/sassot/mixin/block/accessors/AbstractBlockAccessor": {
+      "collidable": "field_23159:Z"
+    },
+    "solipingen/sassot/mixin/enchantment/EnchantmentMixin": {
+      "canBeCombined": "Lnet/minecraft/class_1887;method_60033(Lnet/minecraft/class_6880;Lnet/minecraft/class_6880;)Z",
+      "isAcceptableItem": "Lnet/minecraft/class_1887;method_8192(Lnet/minecraft/class_1799;)Z",
+      "isSupportedItem": "Lnet/minecraft/class_1887;method_60046(Lnet/minecraft/class_1799;)Z"
+    },
+    "solipingen/sassot/mixin/entity/LivingEntityMixin": {
+      "Lnet/minecraft/entity/LivingEntity;damageShield(F)V": "Lnet/minecraft/class_1309;method_6056(F)V",
+      "Lnet/minecraft/entity/LivingEntity;horizontalCollision:Z": "Lnet/minecraft/class_1309;field_5976:Z",
+      "Lnet/minecraft/entity/LivingEntity;isInLava()Z": "Lnet/minecraft/class_1309;method_5771()Z",
+      "Lnet/minecraft/entity/LivingEntity;isTouchingWater()Z": "Lnet/minecraft/class_1309;method_5799()Z",
+      "Lnet/minecraft/sound/SoundEvents;ITEM_SHIELD_BLOCK:Lnet/minecraft/sound/SoundEvent;": "Lnet/minecraft/class_3417;field_15150:Lnet/minecraft/class_3414;",
+      "addPowderSnowSlowIfNeeded": "Lnet/minecraft/class_1309;method_32325()V",
+      "applyDamage": "method_6074(Lnet/minecraft/class_1282;F)V",
+      "blockedByShield": "Lnet/minecraft/class_1309;method_6061(Lnet/minecraft/class_1282;)Z",
+      "computeFallDamage": "Lnet/minecraft/class_1309;method_23329(FF)I",
+      "damage": "Lnet/minecraft/class_1309;method_5643(Lnet/minecraft/class_1282;F)Z",
+      "disablesShield": "Lnet/minecraft/class_1309;method_42149()Z",
+      "getPreferredEquipmentSlot": "Lnet/minecraft/class_1309;method_32326(Lnet/minecraft/class_1799;)Lnet/minecraft/class_1304;",
+      "handleStatus": "Lnet/minecraft/class_1309;method_5711(B)V",
+      "initDataTracker": "Lnet/minecraft/class_1309;method_5693(Lnet/minecraft/class_2945$class_9222;)V",
+      "onKilledBy": "Lnet/minecraft/class_1309;method_23733(Lnet/minecraft/class_1309;)V",
+      "readCustomDataFromNbt": "Lnet/minecraft/class_1309;method_5749(Lnet/minecraft/class_2487;)V",
+      "setLivingFlag": "method_6085(IZ)V",
+      "setMovementSpeed": "Lnet/minecraft/class_1309;method_6125(F)V",
+      "takeKnockback": "Lnet/minecraft/class_1309;method_6005(DDD)V",
+      "teleport": "Lnet/minecraft/class_1309;method_6082(DDDZ)Z",
+      "tickMovement": "Lnet/minecraft/class_1309;method_6007()V",
+      "tickRiptide": "Lnet/minecraft/class_1309;method_6035(Lnet/minecraft/class_238;Lnet/minecraft/class_238;)V",
+      "travel": "Lnet/minecraft/class_1309;method_6091(Lnet/minecraft/class_243;)V",
+      "writeCustomDataToNbt": "Lnet/minecraft/class_1309;method_5652(Lnet/minecraft/class_2487;)V"
+    },
+    "solipingen/sassot/mixin/entity/accessors/AbstractSkeletonEntityAccessor": {
+      "meleeAttackGoal": "field_7221:Lnet/minecraft/class_1366;"
+    },
+    "solipingen/sassot/mixin/entity/accessors/MobEntityInvoker": {
+      "getXpToDrop": "method_6110()I"
+    },
+    "solipingen/sassot/mixin/entity/accessors/PersistentProjectileEntityInvoker": {
+      "setPierceLevel": "method_7451(B)V"
+    },
+    "solipingen/sassot/mixin/entity/ai/brain/task/HoldTradeOffersTaskMixin": {
+      "shouldRun(Lnet/minecraft/server/world/ServerWorld;Lnet/minecraft/entity/passive/VillagerEntity;)Z": "Lnet/minecraft/class_4130;method_19599(Lnet/minecraft/class_3218;Lnet/minecraft/class_1646;)Z"
+    },
+    "solipingen/sassot/mixin/entity/ai/brain/task/MeleeAttackTaskMixin": {
+      "isHoldingUsableRangedWeapon": "Lnet/minecraft/class_4816;method_25942(Lnet/minecraft/class_1308;)Z"
+    },
+    "solipingen/sassot/mixin/entity/ai/goal/DrownedAttackGoalMixin": {
+      "canStart": "Lnet/minecraft/class_1551$class_1552;method_6264()Z",
+      "net.minecraft.entity.mob.DrownedEntity$DrownedAttackGoal": "net/minecraft/class_1551$class_1552",
+      "shouldContinue": "Lnet/minecraft/class_1551$class_1552;method_6266()Z"
+    },
+    "solipingen/sassot/mixin/entity/ai/goal/TridentAttackGoalMixin": {
+      "canStart": "Lnet/minecraft/class_1551$class_1558;method_6264()Z",
+      "net.minecraft.entity.mob.DrownedEntity$TridentAttackGoal": "net/minecraft/class_1551$class_1558",
+      "stop": "Lnet/minecraft/class_1551$class_1558;method_6270()V"
+    },
+    "solipingen/sassot/mixin/entity/effect/StatusEffectMixin": {
+      "Lnet/minecraft/entity/effect/StatusEffect$EffectAttributeModifierCreator;<init>(Lnet/minecraft/util/Identifier;DLnet/minecraft/entity/attribute/EntityAttributeModifier$Operation;)V": "Lnet/minecraft/class_1291$class_8634;<init>(Lnet/minecraft/class_2960;DLnet/minecraft/class_1322$class_1323;)V",
+      "addAttributeModifier": "Lnet/minecraft/class_1291;method_5566(Lnet/minecraft/class_6880;Lnet/minecraft/class_2960;DLnet/minecraft/class_1322$class_1323;)Lnet/minecraft/class_1291;"
+    },
+    "solipingen/sassot/mixin/entity/mob/DrownedEntityMixin": {
+      "Lnet/minecraft/item/Items;FISHING_ROD:Lnet/minecraft/item/Item;": "Lnet/minecraft/class_1802;field_8378:Lnet/minecraft/class_1792;",
+      "initCustomGoals": "Lnet/minecraft/class_1551;method_7208()V",
+      "initEquipment": "Lnet/minecraft/class_1551;method_5964(Lnet/minecraft/class_5819;Lnet/minecraft/class_1266;)V",
+      "initialize": "Lnet/minecraft/class_1551;method_5943(Lnet/minecraft/class_5425;Lnet/minecraft/class_1266;Lnet/minecraft/class_3730;Lnet/minecraft/class_1315;)Lnet/minecraft/class_1315;",
+      "shootAt": "Lnet/minecraft/class_1551;method_7105(Lnet/minecraft/class_1309;F)V"
+    },
+    "solipingen/sassot/mixin/entity/mob/MobEntityMixin": {
+      "getAttackBox": "Lnet/minecraft/class_1308;method_53511()Lnet/minecraft/class_238;",
+      "getAttackDamageWith": "method_57295(Lnet/minecraft/class_1799;)D",
+      "prefersNewEquipment": "Lnet/minecraft/class_1308;method_5955(Lnet/minecraft/class_1799;Lnet/minecraft/class_1799;)Z"
+    },
+    "solipingen/sassot/mixin/entity/mob/PatrolEntityMixin": {
+      "Lnet/minecraft/entity/mob/PatrolEntity;equipStack(Lnet/minecraft/entity/EquipmentSlot;Lnet/minecraft/item/ItemStack;)V": "Lnet/minecraft/class_3732;method_5673(Lnet/minecraft/class_1304;Lnet/minecraft/class_1799;)V",
+      "initialize": "Lnet/minecraft/class_3732;method_5943(Lnet/minecraft/class_5425;Lnet/minecraft/class_1266;Lnet/minecraft/class_3730;Lnet/minecraft/class_1315;)Lnet/minecraft/class_1315;"
+    },
+    "solipingen/sassot/mixin/entity/mob/PiglinBrainMixin": {
+      "Lnet/minecraft/entity/mob/PiglinBrain;addFightActivities(Lnet/minecraft/entity/mob/PiglinEntity;Lnet/minecraft/entity/ai/brain/Brain;)V": "Lnet/minecraft/class_4838;method_24751(Lnet/minecraft/class_4836;Lnet/minecraft/class_4095;)V",
+      "create": "Lnet/minecraft/class_4838;method_24732(Lnet/minecraft/class_4836;Lnet/minecraft/class_4095;)Lnet/minecraft/class_4095;",
+      "getNearestZombifiedPiglin": "method_29537(Lnet/minecraft/class_4836;)Z",
+      "isHoldingCrossbow": "method_24748(Lnet/minecraft/class_1309;)Z",
+      "isPreferredAttackTarget": "method_24755(Lnet/minecraft/class_4836;Lnet/minecraft/class_1309;)Z"
+    },
+    "solipingen/sassot/mixin/entity/mob/PiglinEntityMixin": {
+      "Lnet/minecraft/entity/mob/PiglinEntity;isHoldingTool()Z": "Lnet/minecraft/class_4836;method_30237()Z",
+      "Lnet/minecraft/item/Items;GOLDEN_SWORD:Lnet/minecraft/item/Item;": "Lnet/minecraft/class_1802;field_8845:Lnet/minecraft/class_1792;",
+      "getActivity": "Lnet/minecraft/class_4836;method_24705()Lnet/minecraft/class_4837;",
+      "initialize": "Lnet/minecraft/class_4836;method_5943(Lnet/minecraft/class_5425;Lnet/minecraft/class_1266;Lnet/minecraft/class_3730;Lnet/minecraft/class_1315;)Lnet/minecraft/class_1315;",
+      "makeInitialWeapon": "Lnet/minecraft/class_4836;method_24702()Lnet/minecraft/class_1799;",
+      "prefersNewEquipment": "Lnet/minecraft/class_4836;method_5955(Lnet/minecraft/class_1799;Lnet/minecraft/class_1799;)Z"
+    },
+    "solipingen/sassot/mixin/entity/mob/PillagerEntityMixin": {
+      "<init>": "Lnet/minecraft/class_1604;<init>(Lnet/minecraft/class_1299;Lnet/minecraft/class_1937;)V",
+      "initEquipment": "Lnet/minecraft/class_1604;method_5964(Lnet/minecraft/class_5819;Lnet/minecraft/class_1266;)V",
+      "initialize": "Lnet/minecraft/class_1604;method_5943(Lnet/minecraft/class_5425;Lnet/minecraft/class_1266;Lnet/minecraft/class_3730;Lnet/minecraft/class_1315;)Lnet/minecraft/class_1315;",
+      "readCustomDataFromNbt": "Lnet/minecraft/class_1604;method_5749(Lnet/minecraft/class_2487;)V",
+      "shootAt": "Lnet/minecraft/class_1604;method_7105(Lnet/minecraft/class_1309;F)V"
+    },
+    "solipingen/sassot/mixin/entity/mob/RavagerEntityMixin": {
+      "knockBack": "Lnet/minecraft/class_1584;method_7068(Lnet/minecraft/class_1297;)V"
+    },
+    "solipingen/sassot/mixin/entity/mob/VindicatorEntityMixin": {
+      "initEquipment": "Lnet/minecraft/class_1632;method_5964(Lnet/minecraft/class_5819;Lnet/minecraft/class_1266;)V",
+      "initialize": "Lnet/minecraft/class_1632;method_5943(Lnet/minecraft/class_5425;Lnet/minecraft/class_1266;Lnet/minecraft/class_3730;Lnet/minecraft/class_1315;)Lnet/minecraft/class_1315;"
+    },
+    "solipingen/sassot/mixin/entity/mob/WitherSkeletonEntityMixin": {
+      "initEquipment": "Lnet/minecraft/class_1639;method_5964(Lnet/minecraft/class_5819;Lnet/minecraft/class_1266;)V",
+      "initialize": "Lnet/minecraft/class_1639;method_5943(Lnet/minecraft/class_5425;Lnet/minecraft/class_1266;Lnet/minecraft/class_3730;Lnet/minecraft/class_1315;)Lnet/minecraft/class_1315;",
+      "updateEnchantments": "Lnet/minecraft/class_1639;method_5984(Lnet/minecraft/class_5425;Lnet/minecraft/class_5819;Lnet/minecraft/class_1266;)V"
+    },
+    "solipingen/sassot/mixin/entity/mob/ZombieEntityMixin": {
+      "Lnet/minecraft/entity/mob/ZombieEntity;updateEnchantments(Lnet/minecraft/world/ServerWorldAccess;Lnet/minecraft/util/math/random/Random;Lnet/minecraft/world/LocalDifficulty;)V": "Lnet/minecraft/class_1642;method_5984(Lnet/minecraft/class_5425;Lnet/minecraft/class_5819;Lnet/minecraft/class_1266;)V",
+      "initEquipment": "Lnet/minecraft/class_1642;method_5964(Lnet/minecraft/class_5819;Lnet/minecraft/class_1266;)V",
+      "initialize": "Lnet/minecraft/class_1642;method_5943(Lnet/minecraft/class_5425;Lnet/minecraft/class_1266;Lnet/minecraft/class_3730;Lnet/minecraft/class_1315;)Lnet/minecraft/class_1315;"
+    },
+    "solipingen/sassot/mixin/entity/mob/ZombieVillagerEntityMixin": {
+      "initialize": "Lnet/minecraft/class_1641;method_5943(Lnet/minecraft/class_5425;Lnet/minecraft/class_1266;Lnet/minecraft/class_3730;Lnet/minecraft/class_1315;)Lnet/minecraft/class_1315;"
+    },
+    "solipingen/sassot/mixin/entity/mob/ZombifiedPiglinEntityMixin": {
+      "Lnet/minecraft/item/Items;GOLDEN_SWORD:Lnet/minecraft/item/Item;": "Lnet/minecraft/class_1802;field_8845:Lnet/minecraft/class_1792;",
+      "initEquipment": "Lnet/minecraft/class_1590;method_5964(Lnet/minecraft/class_5819;Lnet/minecraft/class_1266;)V"
+    },
+    "solipingen/sassot/mixin/entity/passive/IronGolemEntityMixin": {
+      "canTarget": "Lnet/minecraft/class_1439;method_5973(Lnet/minecraft/class_1299;)Z"
+    },
+    "solipingen/sassot/mixin/entity/passive/PigEntityMixin": {
+      "Lnet/minecraft/entity/ai/goal/TemptGoal;<init>(Lnet/minecraft/entity/mob/PathAwareEntity;DLjava/util/function/Predicate;Z)V": "Lnet/minecraft/class_1391;<init>(Lnet/minecraft/class_1314;DLjava/util/function/Predicate;Z)V",
+      "Lnet/minecraft/entity/player/PlayerEntity;isHolding(Lnet/minecraft/item/Item;)Z": "Lnet/minecraft/class_1657;method_24518(Lnet/minecraft/class_1792;)Z",
+      "getControllingPassenger": "Lnet/minecraft/class_1452;method_5642()Lnet/minecraft/class_1309;",
+      "initGoals": "Lnet/minecraft/class_1452;method_5959()V"
+    },
+    "solipingen/sassot/mixin/entity/passive/StriderEntityMixin": {
+      "Lnet/minecraft/entity/player/PlayerEntity;isHolding(Lnet/minecraft/item/Item;)Z": "Lnet/minecraft/class_1657;method_24518(Lnet/minecraft/class_1792;)Z",
+      "Lnet/minecraft/item/Items;WARPED_FUNGUS_ON_A_STICK:Lnet/minecraft/item/Item;": "Lnet/minecraft/class_1802;field_23254:Lnet/minecraft/class_1792;",
+      "getControllingPassenger": "Lnet/minecraft/class_4985;method_5642()Lnet/minecraft/class_1309;",
+      "initialize": "Lnet/minecraft/class_4985;method_5943(Lnet/minecraft/class_5425;Lnet/minecraft/class_1266;Lnet/minecraft/class_3730;Lnet/minecraft/class_1315;)Lnet/minecraft/class_1315;"
+    },
+    "solipingen/sassot/mixin/entity/passive/VillagerEntityMixin": {
+      "Lnet/minecraft/entity/passive/VillagerEntity;getOffers()Lnet/minecraft/village/TradeOfferList;": "Lnet/minecraft/class_1646;method_8264()Lnet/minecraft/class_1916;",
+      "Lnet/minecraft/entity/passive/VillagerEntity;gossip:Lnet/minecraft/village/VillagerGossips;": "Lnet/minecraft/class_1646;field_18534:Lnet/minecraft/class_4136;",
+      "createVillagerAttributes": "Lnet/minecraft/class_1646;method_26955()Lnet/minecraft/class_5132$class_5133;",
+      "fillRecipes": "Lnet/minecraft/class_1646;method_7237()V",
+      "initBrain": "Lnet/minecraft/class_1646;method_19174(Lnet/minecraft/class_4095;)V",
+      "interactMob": "Lnet/minecraft/class_1646;method_5992(Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;)Lnet/minecraft/class_1269;",
+      "levelUp": "Lnet/minecraft/class_1646;method_16918()V",
+      "mobTick": "Lnet/minecraft/class_1646;method_5958()V",
+      "onInteractionWith": "Lnet/minecraft/class_1646;method_18870(Lnet/minecraft/class_4151;Lnet/minecraft/class_1297;)V",
+      "readCustomDataFromNbt": "Lnet/minecraft/class_1646;method_5749(Lnet/minecraft/class_2487;)V",
+      "reinitializeBrain": "Lnet/minecraft/class_1646;method_19179(Lnet/minecraft/class_3218;)V",
+      "talkWithVillager": "Lnet/minecraft/class_1646;method_19177(Lnet/minecraft/class_3218;Lnet/minecraft/class_1646;J)V",
+      "writeCustomDataToNbt": "Lnet/minecraft/class_1646;method_5652(Lnet/minecraft/class_2487;)V"
+    },
+    "solipingen/sassot/mixin/entity/player/PlayerEntityMixin": {
+      "Lnet/minecraft/entity/player/PlayerEntity;setSprinting(Z)V": "Lnet/minecraft/class_1657;method_5728(Z)V",
+      "attack": "Lnet/minecraft/class_1657;method_7324(Lnet/minecraft/class_1297;)V",
+      "damageShield": "Lnet/minecraft/class_1657;method_6056(F)V",
+      "disableShield": "Lnet/minecraft/class_1657;method_7284()V",
+      "getBlockBreakingSpeed": "Lnet/minecraft/class_1657;method_7351(Lnet/minecraft/class_2680;)F",
+      "getDamageAgainst": "method_59903(Lnet/minecraft/class_1297;FLnet/minecraft/class_1282;)F",
+      "takeShieldHit": "Lnet/minecraft/class_1657;method_6090(Lnet/minecraft/class_1309;)V",
+      "tick": "Lnet/minecraft/class_1657;method_5773()V",
+      "travel": "Lnet/minecraft/class_1657;method_6091(Lnet/minecraft/class_243;)V"
+    },
+    "dev/night/ecraft/mixin/entity/projectile/FishingBobberEntityMixin": {
+      "<init>(Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/world/World;II)V": "Lnet/minecraft/class_1536;<init>(Lnet/minecraft/class_1657;Lnet/minecraft/class_1937;II)V",
+      "Lnet/minecraft/entity/player/PlayerEntity;getLuck()F": "Lnet/minecraft/class_1657;method_7292()F",
+      "Lnet/minecraft/entity/projectile/FishingBobberEntity;discard()V": "Lnet/minecraft/class_1536;method_31472()V",
+      "Lnet/minecraft/entity/projectile/FishingBobberEntity;setVelocity(Lnet/minecraft/util/math/Vec3d;)V": "Lnet/minecraft/class_1536;method_18799(Lnet/minecraft/class_243;)V",
+      "Lnet/minecraft/fluid/FluidState;isIn(Lnet/minecraft/registry/tag/TagKey;)Z": "Lnet/minecraft/class_3610;method_15767(Lnet/minecraft/class_6862;)Z",
+      "Lnet/minecraft/item/ItemStack;isOf(Lnet/minecraft/item/Item;)Z": "Lnet/minecraft/class_1799;method_31574(Lnet/minecraft/class_1792;)Z",
+      "getPositionType(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/entity/projectile/FishingBobberEntity$PositionType;": "Lnet/minecraft/class_1536;method_26342(Lnet/minecraft/class_2338;)Lnet/minecraft/class_1536$class_4984;",
+      "pullHookedEntity": "Lnet/minecraft/class_1536;method_6954(Lnet/minecraft/class_1297;)V",
+      "removeIfInvalid": "Lnet/minecraft/class_1536;method_6959(Lnet/minecraft/class_1657;)Z",
+      "tick": "Lnet/minecraft/class_1536;method_5773()V",
+      "use": "Lnet/minecraft/class_1536;method_6957(Lnet/minecraft/class_1799;)I"
+    },
+    "solipingen/sassot/mixin/entity/projectile/TridentEntityMixin": {
+      "<init>(Lnet/minecraft/world/World;Lnet/minecraft/entity/LivingEntity;Lnet/minecraft/item/ItemStack;)V": "Lnet/minecraft/class_1685;<init>(Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;Lnet/minecraft/class_1799;)V",
+      "Lnet/minecraft/entity/projectile/PersistentProjectileEntity;tick()V": "Lnet/minecraft/class_1665;method_5773()V",
+      "Lnet/minecraft/entity/projectile/TridentEntity;asItemStack()Lnet/minecraft/item/ItemStack;": "Lnet/minecraft/class_1685;method_7445()Lnet/minecraft/class_1799;",
+      "Lnet/minecraft/entity/projectile/TridentEntity;discard()V": "Lnet/minecraft/class_1685;method_31472()V",
+      "Lnet/minecraft/entity/projectile/TridentEntity;getOwner()Lnet/minecraft/entity/Entity;": "Lnet/minecraft/class_1685;method_24921()Lnet/minecraft/class_1297;",
+      "Lnet/minecraft/entity/projectile/TridentEntity;onHit(Lnet/minecraft/entity/LivingEntity;)V": "Lnet/minecraft/class_1685;method_7450(Lnet/minecraft/class_1309;)V",
+      "Lnet/minecraft/entity/projectile/TridentEntity;setVelocity(Lnet/minecraft/util/math/Vec3d;)V": "Lnet/minecraft/class_1685;method_18799(Lnet/minecraft/class_243;)V",
+      "age": "Lnet/minecraft/class_1685;method_7446()V",
+      "getDragInWater": "Lnet/minecraft/class_1685;method_7436()F",
+      "initDataTracker": "Lnet/minecraft/class_1685;method_5693(Lnet/minecraft/class_2945$class_9222;)V",
+      "isOwnerAlive": "method_7493()Z",
+      "onEntityHit": "Lnet/minecraft/class_1685;method_7454(Lnet/minecraft/class_3966;)V",
+      "readCustomDataFromNbt": "Lnet/minecraft/class_1685;method_5749(Lnet/minecraft/class_2487;)V",
+      "tick": "Lnet/minecraft/class_1685;method_5773()V",
+      "writeCustomDataToNbt": "Lnet/minecraft/class_1685;method_5652(Lnet/minecraft/class_2487;)V"
+    },
+    "solipingen/sassot/mixin/item/AxeItemMixin": {
+      "<init>": "Lnet/minecraft/class_1743;<init>(Lnet/minecraft/class_1832;Lnet/minecraft/class_1792$class_1793;)V"
+    },
+    "solipingen/sassot/mixin/item/FishingRodItemMixin": {
+      "getEnchantability": "Lnet/minecraft/class_1787;method_7837()I",
+      "use": "Lnet/minecraft/class_1787;method_7836(Lnet/minecraft/class_1937;Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;)Lnet/minecraft/class_1271;"
+    },
+    "solipingen/sassot/mixin/item/HoeItemMixin": {
+      "<init>": "Lnet/minecraft/class_1794;<init>(Lnet/minecraft/class_1832;Lnet/minecraft/class_1792$class_1793;)V"
+    },
+    "solipingen/sassot/mixin/item/ItemMixin": {
+      "postMine": "Lnet/minecraft/class_1792;method_7879(Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;Lnet/minecraft/class_1309;)Z"
+    },
+    "solipingen/sassot/mixin/item/ItemStackMixin": {
+      "appendAttributeModifierTooltip": "Lnet/minecraft/class_1799;method_57364(Ljava/util/function/Consumer;Lnet/minecraft/class_1657;Lnet/minecraft/class_6880;Lnet/minecraft/class_1322;)V"
+    },
+    "solipingen/sassot/mixin/item/MaceItemMixin": {
+      "<init>": "Lnet/minecraft/class_9362;<init>(Lnet/minecraft/class_1792$class_1793;)V",
+      "Lnet/minecraft/item/MaceItem;shouldDealAdditionalDamage(Lnet/minecraft/entity/LivingEntity;)Z": "Lnet/minecraft/class_9362;method_58659(Lnet/minecraft/class_1309;)Z",
+      "createAttributeModifiers": "Lnet/minecraft/class_9362;method_59532()Lnet/minecraft/class_9285;",
+      "createToolComponent": "Lnet/minecraft/class_9362;method_58412()Lnet/minecraft/class_9424;",
+      "getBonusAttackDamage": "Lnet/minecraft/class_9362;method_58403(Lnet/minecraft/class_1297;FLnet/minecraft/class_1282;)F",
+      "postHit": "Lnet/minecraft/class_9362;method_7873(Lnet/minecraft/class_1799;Lnet/minecraft/class_1309;Lnet/minecraft/class_1309;)Z",
+      "shouldDealAdditionalDamage": "Lnet/minecraft/class_9362;method_58659(Lnet/minecraft/class_1309;)Z"
+    },
+    "solipingen/sassot/mixin/item/MiningToolItemMixin": {
+      "postDamageEntity": "Lnet/minecraft/class_1766;method_59978(Lnet/minecraft/class_1799;Lnet/minecraft/class_1309;Lnet/minecraft/class_1309;)V"
+    },
+    "solipingen/sassot/mixin/item/PickaxeItemMixin": {
+      "<init>": "Lnet/minecraft/class_1810;<init>(Lnet/minecraft/class_1832;Lnet/minecraft/class_1792$class_1793;)V"
+    },
+    "solipingen/sassot/mixin/item/ShovelItemMixin": {
+      "<init>": "Lnet/minecraft/class_1821;<init>(Lnet/minecraft/class_1832;Lnet/minecraft/class_1792$class_1793;)V"
+    },
+    "solipingen/sassot/mixin/item/SmithingTemplateItemMixin": {
+      "<init>": "Lnet/minecraft/class_8052;<init>(Lnet/minecraft/class_2561;Lnet/minecraft/class_2561;Lnet/minecraft/class_2561;Lnet/minecraft/class_2561;Lnet/minecraft/class_2561;Ljava/util/List;Ljava/util/List;[Lnet/minecraft/class_7696;)V"
+    },
+    "solipingen/sassot/mixin/item/SwordItemMixin": {
+      "createAttributeModifiers": "Lnet/minecraft/class_1829;method_57394(Lnet/minecraft/class_1832;IF)Lnet/minecraft/class_9285;",
+      "createToolComponent": "Lnet/minecraft/class_1829;method_58417()Lnet/minecraft/class_9424;"
+    },
+    "solipingen/sassot/mixin/item/ToolMaterialsMixin": {
+      "getAttackDamage": "Lnet/minecraft/class_1834;method_8028()F",
+      "getDurability": "Lnet/minecraft/class_1834;method_8025()I",
+      "getMiningSpeedMultiplier": "Lnet/minecraft/class_1834;method_8027()F"
+    },
+    "solipingen/sassot/mixin/item/TridentItemMixin": {
+      "<init>": "Lnet/minecraft/class_1835;<init>(Lnet/minecraft/class_1792$class_1793;)V",
+      "Lnet/minecraft/entity/player/PlayerEntity;isTouchingWaterOrRain()Z": "Lnet/minecraft/class_1657;method_5721()Z",
+      "createAttributeModifiers": "Lnet/minecraft/class_1835;method_57395()Lnet/minecraft/class_9285;",
+      "createToolComponent": "Lnet/minecraft/class_1835;method_58420()Lnet/minecraft/class_9424;",
+      "getEnchantability": "Lnet/minecraft/class_1835;method_7837()I",
+      "onStoppedUsing": "Lnet/minecraft/class_1835;method_7840(Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;I)V"
+    },
+    "solipingen/sassot/mixin/recipe/ShieldDecorationRecipeMixin": {
+      "craft(Lnet/minecraft/recipe/input/CraftingRecipeInput;Lnet/minecraft/registry/RegistryWrapper$WrapperLookup;)Lnet/minecraft/item/ItemStack;": "Lnet/minecraft/class_1872;method_17731(Lnet/minecraft/class_9694;Lnet/minecraft/class_7225$class_7874;)Lnet/minecraft/class_1799;",
+      "matches(Lnet/minecraft/recipe/input/CraftingRecipeInput;Lnet/minecraft/world/World;)Z": "Lnet/minecraft/class_1872;method_17732(Lnet/minecraft/class_9694;Lnet/minecraft/class_1937;)Z"
+    },
+    "solipingen/sassot/mixin/server/network/ServerPlayNetworkHandlerMixin": {
+      "requestTeleport(DDDFFLjava/util/Set;)V": "Lnet/minecraft/class_3244;method_14360(DDDFFLjava/util/Set;)V"
+    },
+    "solipingen/sassot/mixin/server/network/ServerPlayerEntityMixin": {
+      "getDamageAgainst": "Lnet/minecraft/class_3222;method_59903(Lnet/minecraft/class_1297;FLnet/minecraft/class_1282;)F"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "solipingen/sassot/mixin/block/BambooBlockMixin": {
+        "calcBlockBreakingDelta": "Lnet/minecraft/class_2211;method_9594(Lnet/minecraft/class_2680;Lnet/minecraft/class_1657;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)F"
+      },
+      "solipingen/sassot/mixin/block/BuddingAmethystBlockMixin": {
+        "randomTick": "Lnet/minecraft/class_5543;method_9514(Lnet/minecraft/class_2680;Lnet/minecraft/class_3218;Lnet/minecraft/class_2338;Lnet/minecraft/class_5819;)V"
+      },
+      "solipingen/sassot/mixin/block/CalibratedSculkSensorBlockMixin": {
+        "<init>": "Lnet/minecraft/class_8236;<init>(Lnet/minecraft/class_4970$class_2251;)V"
+      },
+      "solipingen/sassot/mixin/block/CobwebBlockMixin": {
+        "<init>": "Lnet/minecraft/class_2560;<init>(Lnet/minecraft/class_4970$class_2251;)V"
+      },
+      "solipingen/sassot/mixin/block/PowderSnowBlockMixin": {
+        "onEntityCollision": "Lnet/minecraft/class_5635;method_9548(Lnet/minecraft/class_2680;Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_1297;)V"
+      },
+      "solipingen/sassot/mixin/block/SculkBlockMixin": {
+        "<init>": "Lnet/minecraft/class_7125;<init>(Lnet/minecraft/class_4970$class_2251;)V"
+      },
+      "solipingen/sassot/mixin/block/SculkCatalystMixin": {
+        "<init>": "Lnet/minecraft/class_7126;<init>(Lnet/minecraft/class_4970$class_2251;)V"
+      },
+      "solipingen/sassot/mixin/block/SculkSensorBlockMixin": {
+        "<init>": "Lnet/minecraft/class_5703;<init>(Lnet/minecraft/class_4970$class_2251;)V"
+      },
+      "solipingen/sassot/mixin/block/SculkShriekerBlockMixin": {
+        "<init>": "Lnet/minecraft/class_7268;<init>(Lnet/minecraft/class_4970$class_2251;)V"
+      },
+      "solipingen/sassot/mixin/block/accessors/AbstractBlockAccessor": {
+        "collidable": "field_23159:Z"
+      },
+      "solipingen/sassot/mixin/enchantment/EnchantmentMixin": {
+        "canBeCombined": "Lnet/minecraft/class_1887;method_60033(Lnet/minecraft/class_6880;Lnet/minecraft/class_6880;)Z",
+        "isAcceptableItem": "Lnet/minecraft/class_1887;method_8192(Lnet/minecraft/class_1799;)Z",
+        "isSupportedItem": "Lnet/minecraft/class_1887;method_60046(Lnet/minecraft/class_1799;)Z"
+      },
+      "solipingen/sassot/mixin/entity/LivingEntityMixin": {
+        "Lnet/minecraft/entity/LivingEntity;damageShield(F)V": "Lnet/minecraft/class_1309;method_6056(F)V",
+        "Lnet/minecraft/entity/LivingEntity;horizontalCollision:Z": "Lnet/minecraft/class_1309;field_5976:Z",
+        "Lnet/minecraft/entity/LivingEntity;isInLava()Z": "Lnet/minecraft/class_1309;method_5771()Z",
+        "Lnet/minecraft/entity/LivingEntity;isTouchingWater()Z": "Lnet/minecraft/class_1309;method_5799()Z",
+        "Lnet/minecraft/sound/SoundEvents;ITEM_SHIELD_BLOCK:Lnet/minecraft/sound/SoundEvent;": "Lnet/minecraft/class_3417;field_15150:Lnet/minecraft/class_3414;",
+        "addPowderSnowSlowIfNeeded": "Lnet/minecraft/class_1309;method_32325()V",
+        "applyDamage": "method_6074(Lnet/minecraft/class_1282;F)V",
+        "blockedByShield": "Lnet/minecraft/class_1309;method_6061(Lnet/minecraft/class_1282;)Z",
+        "computeFallDamage": "Lnet/minecraft/class_1309;method_23329(FF)I",
+        "damage": "Lnet/minecraft/class_1309;method_5643(Lnet/minecraft/class_1282;F)Z",
+        "disablesShield": "Lnet/minecraft/class_1309;method_42149()Z",
+        "getPreferredEquipmentSlot": "Lnet/minecraft/class_1309;method_32326(Lnet/minecraft/class_1799;)Lnet/minecraft/class_1304;",
+        "handleStatus": "Lnet/minecraft/class_1309;method_5711(B)V",
+        "initDataTracker": "Lnet/minecraft/class_1309;method_5693(Lnet/minecraft/class_2945$class_9222;)V",
+        "onKilledBy": "Lnet/minecraft/class_1309;method_23733(Lnet/minecraft/class_1309;)V",
+        "readCustomDataFromNbt": "Lnet/minecraft/class_1309;method_5749(Lnet/minecraft/class_2487;)V",
+        "setLivingFlag": "method_6085(IZ)V",
+        "setMovementSpeed": "Lnet/minecraft/class_1309;method_6125(F)V",
+        "takeKnockback": "Lnet/minecraft/class_1309;method_6005(DDD)V",
+        "teleport": "Lnet/minecraft/class_1309;method_6082(DDDZ)Z",
+        "tickMovement": "Lnet/minecraft/class_1309;method_6007()V",
+        "tickRiptide": "Lnet/minecraft/class_1309;method_6035(Lnet/minecraft/class_238;Lnet/minecraft/class_238;)V",
+        "travel": "Lnet/minecraft/class_1309;method_6091(Lnet/minecraft/class_243;)V",
+        "writeCustomDataToNbt": "Lnet/minecraft/class_1309;method_5652(Lnet/minecraft/class_2487;)V"
+      },
+      "solipingen/sassot/mixin/entity/accessors/AbstractSkeletonEntityAccessor": {
+        "meleeAttackGoal": "field_7221:Lnet/minecraft/class_1366;"
+      },
+      "solipingen/sassot/mixin/entity/accessors/MobEntityInvoker": {
+        "getXpToDrop": "method_6110()I"
+      },
+      "solipingen/sassot/mixin/entity/accessors/PersistentProjectileEntityInvoker": {
+        "setPierceLevel": "method_7451(B)V"
+      },
+      "solipingen/sassot/mixin/entity/ai/brain/task/HoldTradeOffersTaskMixin": {
+        "shouldRun(Lnet/minecraft/server/world/ServerWorld;Lnet/minecraft/entity/passive/VillagerEntity;)Z": "Lnet/minecraft/class_4130;method_19599(Lnet/minecraft/class_3218;Lnet/minecraft/class_1646;)Z"
+      },
+      "solipingen/sassot/mixin/entity/ai/brain/task/MeleeAttackTaskMixin": {
+        "isHoldingUsableRangedWeapon": "Lnet/minecraft/class_4816;method_25942(Lnet/minecraft/class_1308;)Z"
+      },
+      "solipingen/sassot/mixin/entity/ai/goal/DrownedAttackGoalMixin": {
+        "canStart": "Lnet/minecraft/class_1551$class_1552;method_6264()Z",
+        "net.minecraft.entity.mob.DrownedEntity$DrownedAttackGoal": "net/minecraft/class_1551$class_1552",
+        "shouldContinue": "Lnet/minecraft/class_1551$class_1552;method_6266()Z"
+      },
+      "solipingen/sassot/mixin/entity/ai/goal/TridentAttackGoalMixin": {
+        "canStart": "Lnet/minecraft/class_1551$class_1558;method_6264()Z",
+        "net.minecraft.entity.mob.DrownedEntity$TridentAttackGoal": "net/minecraft/class_1551$class_1558",
+        "stop": "Lnet/minecraft/class_1551$class_1558;method_6270()V"
+      },
+      "solipingen/sassot/mixin/entity/effect/StatusEffectMixin": {
+        "Lnet/minecraft/entity/effect/StatusEffect$EffectAttributeModifierCreator;<init>(Lnet/minecraft/util/Identifier;DLnet/minecraft/entity/attribute/EntityAttributeModifier$Operation;)V": "Lnet/minecraft/class_1291$class_8634;<init>(Lnet/minecraft/class_2960;DLnet/minecraft/class_1322$class_1323;)V",
+        "addAttributeModifier": "Lnet/minecraft/class_1291;method_5566(Lnet/minecraft/class_6880;Lnet/minecraft/class_2960;DLnet/minecraft/class_1322$class_1323;)Lnet/minecraft/class_1291;"
+      },
+      "solipingen/sassot/mixin/entity/mob/DrownedEntityMixin": {
+        "Lnet/minecraft/item/Items;FISHING_ROD:Lnet/minecraft/item/Item;": "Lnet/minecraft/class_1802;field_8378:Lnet/minecraft/class_1792;",
+        "initCustomGoals": "Lnet/minecraft/class_1551;method_7208()V",
+        "initEquipment": "Lnet/minecraft/class_1551;method_5964(Lnet/minecraft/class_5819;Lnet/minecraft/class_1266;)V",
+        "initialize": "Lnet/minecraft/class_1551;method_5943(Lnet/minecraft/class_5425;Lnet/minecraft/class_1266;Lnet/minecraft/class_3730;Lnet/minecraft/class_1315;)Lnet/minecraft/class_1315;",
+        "shootAt": "Lnet/minecraft/class_1551;method_7105(Lnet/minecraft/class_1309;F)V"
+      },
+      "solipingen/sassot/mixin/entity/mob/MobEntityMixin": {
+        "getAttackBox": "Lnet/minecraft/class_1308;method_53511()Lnet/minecraft/class_238;",
+        "getAttackDamageWith": "method_57295(Lnet/minecraft/class_1799;)D",
+        "prefersNewEquipment": "Lnet/minecraft/class_1308;method_5955(Lnet/minecraft/class_1799;Lnet/minecraft/class_1799;)Z"
+      },
+      "solipingen/sassot/mixin/entity/mob/PatrolEntityMixin": {
+        "Lnet/minecraft/entity/mob/PatrolEntity;equipStack(Lnet/minecraft/entity/EquipmentSlot;Lnet/minecraft/item/ItemStack;)V": "Lnet/minecraft/class_3732;method_5673(Lnet/minecraft/class_1304;Lnet/minecraft/class_1799;)V",
+        "initialize": "Lnet/minecraft/class_3732;method_5943(Lnet/minecraft/class_5425;Lnet/minecraft/class_1266;Lnet/minecraft/class_3730;Lnet/minecraft/class_1315;)Lnet/minecraft/class_1315;"
+      },
+      "solipingen/sassot/mixin/entity/mob/PiglinBrainMixin": {
+        "Lnet/minecraft/entity/mob/PiglinBrain;addFightActivities(Lnet/minecraft/entity/mob/PiglinEntity;Lnet/minecraft/entity/ai/brain/Brain;)V": "Lnet/minecraft/class_4838;method_24751(Lnet/minecraft/class_4836;Lnet/minecraft/class_4095;)V",
+        "create": "Lnet/minecraft/class_4838;method_24732(Lnet/minecraft/class_4836;Lnet/minecraft/class_4095;)Lnet/minecraft/class_4095;",
+        "getNearestZombifiedPiglin": "method_29537(Lnet/minecraft/class_4836;)Z",
+        "isHoldingCrossbow": "method_24748(Lnet/minecraft/class_1309;)Z",
+        "isPreferredAttackTarget": "method_24755(Lnet/minecraft/class_4836;Lnet/minecraft/class_1309;)Z"
+      },
+      "solipingen/sassot/mixin/entity/mob/PiglinEntityMixin": {
+        "Lnet/minecraft/entity/mob/PiglinEntity;isHoldingTool()Z": "Lnet/minecraft/class_4836;method_30237()Z",
+        "Lnet/minecraft/item/Items;GOLDEN_SWORD:Lnet/minecraft/item/Item;": "Lnet/minecraft/class_1802;field_8845:Lnet/minecraft/class_1792;",
+        "getActivity": "Lnet/minecraft/class_4836;method_24705()Lnet/minecraft/class_4837;",
+        "initialize": "Lnet/minecraft/class_4836;method_5943(Lnet/minecraft/class_5425;Lnet/minecraft/class_1266;Lnet/minecraft/class_3730;Lnet/minecraft/class_1315;)Lnet/minecraft/class_1315;",
+        "makeInitialWeapon": "Lnet/minecraft/class_4836;method_24702()Lnet/minecraft/class_1799;",
+        "prefersNewEquipment": "Lnet/minecraft/class_4836;method_5955(Lnet/minecraft/class_1799;Lnet/minecraft/class_1799;)Z"
+      },
+      "solipingen/sassot/mixin/entity/mob/PillagerEntityMixin": {
+        "<init>": "Lnet/minecraft/class_1604;<init>(Lnet/minecraft/class_1299;Lnet/minecraft/class_1937;)V",
+        "initEquipment": "Lnet/minecraft/class_1604;method_5964(Lnet/minecraft/class_5819;Lnet/minecraft/class_1266;)V",
+        "initialize": "Lnet/minecraft/class_1604;method_5943(Lnet/minecraft/class_5425;Lnet/minecraft/class_1266;Lnet/minecraft/class_3730;Lnet/minecraft/class_1315;)Lnet/minecraft/class_1315;",
+        "readCustomDataFromNbt": "Lnet/minecraft/class_1604;method_5749(Lnet/minecraft/class_2487;)V",
+        "shootAt": "Lnet/minecraft/class_1604;method_7105(Lnet/minecraft/class_1309;F)V"
+      },
+      "solipingen/sassot/mixin/entity/mob/RavagerEntityMixin": {
+        "knockBack": "Lnet/minecraft/class_1584;method_7068(Lnet/minecraft/class_1297;)V"
+      },
+      "solipingen/sassot/mixin/entity/mob/VindicatorEntityMixin": {
+        "initEquipment": "Lnet/minecraft/class_1632;method_5964(Lnet/minecraft/class_5819;Lnet/minecraft/class_1266;)V",
+        "initialize": "Lnet/minecraft/class_1632;method_5943(Lnet/minecraft/class_5425;Lnet/minecraft/class_1266;Lnet/minecraft/class_3730;Lnet/minecraft/class_1315;)Lnet/minecraft/class_1315;"
+      },
+      "solipingen/sassot/mixin/entity/mob/WitherSkeletonEntityMixin": {
+        "initEquipment": "Lnet/minecraft/class_1639;method_5964(Lnet/minecraft/class_5819;Lnet/minecraft/class_1266;)V",
+        "initialize": "Lnet/minecraft/class_1639;method_5943(Lnet/minecraft/class_5425;Lnet/minecraft/class_1266;Lnet/minecraft/class_3730;Lnet/minecraft/class_1315;)Lnet/minecraft/class_1315;",
+        "updateEnchantments": "Lnet/minecraft/class_1639;method_5984(Lnet/minecraft/class_5425;Lnet/minecraft/class_5819;Lnet/minecraft/class_1266;)V"
+      },
+      "solipingen/sassot/mixin/entity/mob/ZombieEntityMixin": {
+        "Lnet/minecraft/entity/mob/ZombieEntity;updateEnchantments(Lnet/minecraft/world/ServerWorldAccess;Lnet/minecraft/util/math/random/Random;Lnet/minecraft/world/LocalDifficulty;)V": "Lnet/minecraft/class_1642;method_5984(Lnet/minecraft/class_5425;Lnet/minecraft/class_5819;Lnet/minecraft/class_1266;)V",
+        "initEquipment": "Lnet/minecraft/class_1642;method_5964(Lnet/minecraft/class_5819;Lnet/minecraft/class_1266;)V",
+        "initialize": "Lnet/minecraft/class_1642;method_5943(Lnet/minecraft/class_5425;Lnet/minecraft/class_1266;Lnet/minecraft/class_3730;Lnet/minecraft/class_1315;)Lnet/minecraft/class_1315;"
+      },
+      "solipingen/sassot/mixin/entity/mob/ZombieVillagerEntityMixin": {
+        "initialize": "Lnet/minecraft/class_1641;method_5943(Lnet/minecraft/class_5425;Lnet/minecraft/class_1266;Lnet/minecraft/class_3730;Lnet/minecraft/class_1315;)Lnet/minecraft/class_1315;"
+      },
+      "solipingen/sassot/mixin/entity/mob/ZombifiedPiglinEntityMixin": {
+        "Lnet/minecraft/item/Items;GOLDEN_SWORD:Lnet/minecraft/item/Item;": "Lnet/minecraft/class_1802;field_8845:Lnet/minecraft/class_1792;",
+        "initEquipment": "Lnet/minecraft/class_1590;method_5964(Lnet/minecraft/class_5819;Lnet/minecraft/class_1266;)V"
+      },
+      "solipingen/sassot/mixin/entity/passive/IronGolemEntityMixin": {
+        "canTarget": "Lnet/minecraft/class_1439;method_5973(Lnet/minecraft/class_1299;)Z"
+      },
+      "solipingen/sassot/mixin/entity/passive/PigEntityMixin": {
+        "Lnet/minecraft/entity/ai/goal/TemptGoal;<init>(Lnet/minecraft/entity/mob/PathAwareEntity;DLjava/util/function/Predicate;Z)V": "Lnet/minecraft/class_1391;<init>(Lnet/minecraft/class_1314;DLjava/util/function/Predicate;Z)V",
+        "Lnet/minecraft/entity/player/PlayerEntity;isHolding(Lnet/minecraft/item/Item;)Z": "Lnet/minecraft/class_1657;method_24518(Lnet/minecraft/class_1792;)Z",
+        "getControllingPassenger": "Lnet/minecraft/class_1452;method_5642()Lnet/minecraft/class_1309;",
+        "initGoals": "Lnet/minecraft/class_1452;method_5959()V"
+      },
+      "solipingen/sassot/mixin/entity/passive/StriderEntityMixin": {
+        "Lnet/minecraft/entity/player/PlayerEntity;isHolding(Lnet/minecraft/item/Item;)Z": "Lnet/minecraft/class_1657;method_24518(Lnet/minecraft/class_1792;)Z",
+        "Lnet/minecraft/item/Items;WARPED_FUNGUS_ON_A_STICK:Lnet/minecraft/item/Item;": "Lnet/minecraft/class_1802;field_23254:Lnet/minecraft/class_1792;",
+        "getControllingPassenger": "Lnet/minecraft/class_4985;method_5642()Lnet/minecraft/class_1309;",
+        "initialize": "Lnet/minecraft/class_4985;method_5943(Lnet/minecraft/class_5425;Lnet/minecraft/class_1266;Lnet/minecraft/class_3730;Lnet/minecraft/class_1315;)Lnet/minecraft/class_1315;"
+      },
+      "solipingen/sassot/mixin/entity/passive/VillagerEntityMixin": {
+        "Lnet/minecraft/entity/passive/VillagerEntity;getOffers()Lnet/minecraft/village/TradeOfferList;": "Lnet/minecraft/class_1646;method_8264()Lnet/minecraft/class_1916;",
+        "Lnet/minecraft/entity/passive/VillagerEntity;gossip:Lnet/minecraft/village/VillagerGossips;": "Lnet/minecraft/class_1646;field_18534:Lnet/minecraft/class_4136;",
+        "createVillagerAttributes": "Lnet/minecraft/class_1646;method_26955()Lnet/minecraft/class_5132$class_5133;",
+        "fillRecipes": "Lnet/minecraft/class_1646;method_7237()V",
+        "initBrain": "Lnet/minecraft/class_1646;method_19174(Lnet/minecraft/class_4095;)V",
+        "interactMob": "Lnet/minecraft/class_1646;method_5992(Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;)Lnet/minecraft/class_1269;",
+        "levelUp": "Lnet/minecraft/class_1646;method_16918()V",
+        "mobTick": "Lnet/minecraft/class_1646;method_5958()V",
+        "onInteractionWith": "Lnet/minecraft/class_1646;method_18870(Lnet/minecraft/class_4151;Lnet/minecraft/class_1297;)V",
+        "readCustomDataFromNbt": "Lnet/minecraft/class_1646;method_5749(Lnet/minecraft/class_2487;)V",
+        "reinitializeBrain": "Lnet/minecraft/class_1646;method_19179(Lnet/minecraft/class_3218;)V",
+        "talkWithVillager": "Lnet/minecraft/class_1646;method_19177(Lnet/minecraft/class_3218;Lnet/minecraft/class_1646;J)V",
+        "writeCustomDataToNbt": "Lnet/minecraft/class_1646;method_5652(Lnet/minecraft/class_2487;)V"
+      },
+      "solipingen/sassot/mixin/entity/player/PlayerEntityMixin": {
+        "Lnet/minecraft/entity/player/PlayerEntity;setSprinting(Z)V": "Lnet/minecraft/class_1657;method_5728(Z)V",
+        "attack": "Lnet/minecraft/class_1657;method_7324(Lnet/minecraft/class_1297;)V",
+        "damageShield": "Lnet/minecraft/class_1657;method_6056(F)V",
+        "disableShield": "Lnet/minecraft/class_1657;method_7284()V",
+        "getBlockBreakingSpeed": "Lnet/minecraft/class_1657;method_7351(Lnet/minecraft/class_2680;)F",
+        "getDamageAgainst": "method_59903(Lnet/minecraft/class_1297;FLnet/minecraft/class_1282;)F",
+        "takeShieldHit": "Lnet/minecraft/class_1657;method_6090(Lnet/minecraft/class_1309;)V",
+        "tick": "Lnet/minecraft/class_1657;method_5773()V",
+        "travel": "Lnet/minecraft/class_1657;method_6091(Lnet/minecraft/class_243;)V"
+      },
+      "dev/night/ecraft/mixin/entity/projectile/FishingBobberEntityMixin": {
+        "<init>(Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/world/World;II)V": "Lnet/minecraft/class_1536;<init>(Lnet/minecraft/class_1657;Lnet/minecraft/class_1937;II)V",
+        "Lnet/minecraft/entity/player/PlayerEntity;getLuck()F": "Lnet/minecraft/class_1657;method_7292()F",
+        "Lnet/minecraft/entity/projectile/FishingBobberEntity;discard()V": "Lnet/minecraft/class_1536;method_31472()V",
+        "Lnet/minecraft/entity/projectile/FishingBobberEntity;setVelocity(Lnet/minecraft/util/math/Vec3d;)V": "Lnet/minecraft/class_1536;method_18799(Lnet/minecraft/class_243;)V",
+        "Lnet/minecraft/fluid/FluidState;isIn(Lnet/minecraft/registry/tag/TagKey;)Z": "Lnet/minecraft/class_3610;method_15767(Lnet/minecraft/class_6862;)Z",
+        "Lnet/minecraft/item/ItemStack;isOf(Lnet/minecraft/item/Item;)Z": "Lnet/minecraft/class_1799;method_31574(Lnet/minecraft/class_1792;)Z",
+        "getPositionType(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/entity/projectile/FishingBobberEntity$PositionType;": "Lnet/minecraft/class_1536;method_26342(Lnet/minecraft/class_2338;)Lnet/minecraft/class_1536$class_4984;",
+        "pullHookedEntity": "Lnet/minecraft/class_1536;method_6954(Lnet/minecraft/class_1297;)V",
+        "removeIfInvalid": "Lnet/minecraft/class_1536;method_6959(Lnet/minecraft/class_1657;)Z",
+        "tick": "Lnet/minecraft/class_1536;method_5773()V",
+        "use": "Lnet/minecraft/class_1536;method_6957(Lnet/minecraft/class_1799;)I"
+      },
+      "solipingen/sassot/mixin/entity/projectile/TridentEntityMixin": {
+        "<init>(Lnet/minecraft/world/World;Lnet/minecraft/entity/LivingEntity;Lnet/minecraft/item/ItemStack;)V": "Lnet/minecraft/class_1685;<init>(Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;Lnet/minecraft/class_1799;)V",
+        "Lnet/minecraft/entity/projectile/PersistentProjectileEntity;tick()V": "Lnet/minecraft/class_1665;method_5773()V",
+        "Lnet/minecraft/entity/projectile/TridentEntity;asItemStack()Lnet/minecraft/item/ItemStack;": "Lnet/minecraft/class_1685;method_7445()Lnet/minecraft/class_1799;",
+        "Lnet/minecraft/entity/projectile/TridentEntity;discard()V": "Lnet/minecraft/class_1685;method_31472()V",
+        "Lnet/minecraft/entity/projectile/TridentEntity;getOwner()Lnet/minecraft/entity/Entity;": "Lnet/minecraft/class_1685;method_24921()Lnet/minecraft/class_1297;",
+        "Lnet/minecraft/entity/projectile/TridentEntity;onHit(Lnet/minecraft/entity/LivingEntity;)V": "Lnet/minecraft/class_1685;method_7450(Lnet/minecraft/class_1309;)V",
+        "Lnet/minecraft/entity/projectile/TridentEntity;setVelocity(Lnet/minecraft/util/math/Vec3d;)V": "Lnet/minecraft/class_1685;method_18799(Lnet/minecraft/class_243;)V",
+        "age": "Lnet/minecraft/class_1685;method_7446()V",
+        "getDragInWater": "Lnet/minecraft/class_1685;method_7436()F",
+        "initDataTracker": "Lnet/minecraft/class_1685;method_5693(Lnet/minecraft/class_2945$class_9222;)V",
+        "isOwnerAlive": "method_7493()Z",
+        "onEntityHit": "Lnet/minecraft/class_1685;method_7454(Lnet/minecraft/class_3966;)V",
+        "readCustomDataFromNbt": "Lnet/minecraft/class_1685;method_5749(Lnet/minecraft/class_2487;)V",
+        "tick": "Lnet/minecraft/class_1685;method_5773()V",
+        "writeCustomDataToNbt": "Lnet/minecraft/class_1685;method_5652(Lnet/minecraft/class_2487;)V"
+      },
+      "solipingen/sassot/mixin/item/AxeItemMixin": {
+        "<init>": "Lnet/minecraft/class_1743;<init>(Lnet/minecraft/class_1832;Lnet/minecraft/class_1792$class_1793;)V"
+      },
+      "solipingen/sassot/mixin/item/FishingRodItemMixin": {
+        "getEnchantability": "Lnet/minecraft/class_1787;method_7837()I",
+        "use": "Lnet/minecraft/class_1787;method_7836(Lnet/minecraft/class_1937;Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;)Lnet/minecraft/class_1271;"
+      },
+      "solipingen/sassot/mixin/item/HoeItemMixin": {
+        "<init>": "Lnet/minecraft/class_1794;<init>(Lnet/minecraft/class_1832;Lnet/minecraft/class_1792$class_1793;)V"
+      },
+      "solipingen/sassot/mixin/item/ItemMixin": {
+        "postMine": "Lnet/minecraft/class_1792;method_7879(Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_2680;Lnet/minecraft/class_2338;Lnet/minecraft/class_1309;)Z"
+      },
+      "solipingen/sassot/mixin/item/ItemStackMixin": {
+        "appendAttributeModifierTooltip": "Lnet/minecraft/class_1799;method_57364(Ljava/util/function/Consumer;Lnet/minecraft/class_1657;Lnet/minecraft/class_6880;Lnet/minecraft/class_1322;)V"
+      },
+      "solipingen/sassot/mixin/item/MaceItemMixin": {
+        "<init>": "Lnet/minecraft/class_9362;<init>(Lnet/minecraft/class_1792$class_1793;)V",
+        "Lnet/minecraft/item/MaceItem;shouldDealAdditionalDamage(Lnet/minecraft/entity/LivingEntity;)Z": "Lnet/minecraft/class_9362;method_58659(Lnet/minecraft/class_1309;)Z",
+        "createAttributeModifiers": "Lnet/minecraft/class_9362;method_59532()Lnet/minecraft/class_9285;",
+        "createToolComponent": "Lnet/minecraft/class_9362;method_58412()Lnet/minecraft/class_9424;",
+        "getBonusAttackDamage": "Lnet/minecraft/class_9362;method_58403(Lnet/minecraft/class_1297;FLnet/minecraft/class_1282;)F",
+        "postHit": "Lnet/minecraft/class_9362;method_7873(Lnet/minecraft/class_1799;Lnet/minecraft/class_1309;Lnet/minecraft/class_1309;)Z",
+        "shouldDealAdditionalDamage": "Lnet/minecraft/class_9362;method_58659(Lnet/minecraft/class_1309;)Z"
+      },
+      "solipingen/sassot/mixin/item/MiningToolItemMixin": {
+        "postDamageEntity": "Lnet/minecraft/class_1766;method_59978(Lnet/minecraft/class_1799;Lnet/minecraft/class_1309;Lnet/minecraft/class_1309;)V"
+      },
+      "solipingen/sassot/mixin/item/PickaxeItemMixin": {
+        "<init>": "Lnet/minecraft/class_1810;<init>(Lnet/minecraft/class_1832;Lnet/minecraft/class_1792$class_1793;)V"
+      },
+      "solipingen/sassot/mixin/item/ShovelItemMixin": {
+        "<init>": "Lnet/minecraft/class_1821;<init>(Lnet/minecraft/class_1832;Lnet/minecraft/class_1792$class_1793;)V"
+      },
+      "solipingen/sassot/mixin/item/SmithingTemplateItemMixin": {
+        "<init>": "Lnet/minecraft/class_8052;<init>(Lnet/minecraft/class_2561;Lnet/minecraft/class_2561;Lnet/minecraft/class_2561;Lnet/minecraft/class_2561;Lnet/minecraft/class_2561;Ljava/util/List;Ljava/util/List;[Lnet/minecraft/class_7696;)V"
+      },
+      "solipingen/sassot/mixin/item/SwordItemMixin": {
+        "createAttributeModifiers": "Lnet/minecraft/class_1829;method_57394(Lnet/minecraft/class_1832;IF)Lnet/minecraft/class_9285;",
+        "createToolComponent": "Lnet/minecraft/class_1829;method_58417()Lnet/minecraft/class_9424;"
+      },
+      "solipingen/sassot/mixin/item/ToolMaterialsMixin": {
+        "getAttackDamage": "Lnet/minecraft/class_1834;method_8028()F",
+        "getDurability": "Lnet/minecraft/class_1834;method_8025()I",
+        "getMiningSpeedMultiplier": "Lnet/minecraft/class_1834;method_8027()F"
+      },
+      "solipingen/sassot/mixin/item/TridentItemMixin": {
+        "<init>": "Lnet/minecraft/class_1835;<init>(Lnet/minecraft/class_1792$class_1793;)V",
+        "Lnet/minecraft/entity/player/PlayerEntity;isTouchingWaterOrRain()Z": "Lnet/minecraft/class_1657;method_5721()Z",
+        "createAttributeModifiers": "Lnet/minecraft/class_1835;method_57395()Lnet/minecraft/class_9285;",
+        "createToolComponent": "Lnet/minecraft/class_1835;method_58420()Lnet/minecraft/class_9424;",
+        "getEnchantability": "Lnet/minecraft/class_1835;method_7837()I",
+        "onStoppedUsing": "Lnet/minecraft/class_1835;method_7840(Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;I)V"
+      },
+      "solipingen/sassot/mixin/recipe/ShieldDecorationRecipeMixin": {
+        "craft(Lnet/minecraft/recipe/input/CraftingRecipeInput;Lnet/minecraft/registry/RegistryWrapper$WrapperLookup;)Lnet/minecraft/item/ItemStack;": "Lnet/minecraft/class_1872;method_17731(Lnet/minecraft/class_9694;Lnet/minecraft/class_7225$class_7874;)Lnet/minecraft/class_1799;",
+        "matches(Lnet/minecraft/recipe/input/CraftingRecipeInput;Lnet/minecraft/world/World;)Z": "Lnet/minecraft/class_1872;method_17732(Lnet/minecraft/class_9694;Lnet/minecraft/class_1937;)Z"
+      },
+      "solipingen/sassot/mixin/server/network/ServerPlayNetworkHandlerMixin": {
+        "requestTeleport(DDDFFLjava/util/Set;)V": "Lnet/minecraft/class_3244;method_14360(DDDFFLjava/util/Set;)V"
+      },
+      "solipingen/sassot/mixin/server/network/ServerPlayerEntityMixin": {
+        "getDamageAgainst": "Lnet/minecraft/class_3222;method_59903(Lnet/minecraft/class_1297;FLnet/minecraft/class_1282;)F"
+      }
+    }
+  }
+}

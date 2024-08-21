@@ -1,0 +1,33 @@
+{
+  "parent": "ecraft:get_diamond",
+  "criteria": {
+    "cincinnasite_diamond": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ecraft:cincinnasite_diamond_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.ecraft.get_cincinnasite_diamond_ingot.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "ecraft:cincinnasite_diamond_ingot"
+    },
+    "title": {
+      "translate": "advancement.ecraft.get_cincinnasite_diamond_ingot"
+    }
+  },
+  "requirements": [
+    [
+      "cincinnasite_diamond"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

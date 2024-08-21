@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "ecraft:item/cincinnasite_diamond_spear/cincinnasite_diamond_spear"
+  }
+}

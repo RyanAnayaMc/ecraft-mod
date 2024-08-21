@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "ecraft:raw_diamond_block"
+    }
+  ],
+  "result": {
+    "id": "ecraft:raw_diamond",
+    "count": 9
+  }
+}

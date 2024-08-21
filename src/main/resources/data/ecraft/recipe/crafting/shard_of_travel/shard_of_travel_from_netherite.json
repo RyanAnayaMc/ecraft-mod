@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:netherite_ingot"
+      },
+      {
+        "item": "additional-armoury:overnether_ingot"
+      },
+      {
+        "item": "additional-armoury:endernether_ingot"
+      }
+    ]
+  ],
+  "result": {
+    "id": "ecraft:shard_of_travel",
+    "count": 16
+  }
+}

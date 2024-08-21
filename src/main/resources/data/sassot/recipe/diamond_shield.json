@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "key": {
+      "o": {
+        "item": "ecraft:cincinnasite_diamond_ingot"
+      }
+    },
+    "pattern": [
+      "ooo",
+      "ooo",
+      " o "
+    ],
+    "result": {
+      "id": "sassot:cincinnasite_diamond_shield"
+    }
+}

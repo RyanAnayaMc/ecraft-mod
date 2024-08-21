@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bb"
+  ],
+  "key": {
+    "b": [
+      {
+        "item": "mythicmetals:adamantite_block"
+      },
+      {
+        "item": "mythicmetals:mythril_block"
+      },
+      {
+        "item": "mythicmetals:orichalcum_block"
+      },
+      {
+        "item": "mythicmetals:palladium_block"
+      },
+      {
+        "item": "mythicmetals:runite_block"
+      },
+      {
+        "item": "mythicmetals:star_platinum_block"
+      },
+      {
+        "item": "mythicmetals:starrite_block"
+      }
+    ]
+  },
+  "result": {
+    "id": "ecraft:shard_of_travel",
+    "count": 6
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "item": "ecraft:raw_diamond",
+      "count": 2
+    }
+  ],
+  "output": {
+    "item": "minecraft:diamond",
+    "count": 3
+  },
+  "overrides": {
+    "2+": {
+      "item": "minecraft:diamond",
+      "count": 4
+    }
+  },
+  "min_forge_tier": 1,
+  "fuel_per_tick": 5
+}

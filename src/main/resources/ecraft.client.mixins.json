@@ -1,0 +1,12 @@
+{
+  "required": false,
+  "package": "dev.night.ecraft.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "client-sassot-refmap.json"
+}

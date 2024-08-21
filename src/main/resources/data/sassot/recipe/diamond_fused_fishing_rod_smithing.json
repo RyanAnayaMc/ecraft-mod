@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform", 
+    "template": {
+      "item": "sassot:fishing_rod_fusion_smithing_template"
+    }, 
+    "addition": {
+      "item": "ecraft:cincinnasite_diamond_ingot"
+    },
+    "base": {
+      "item": "minecraft:fishing_rod"
+    },
+    "result": {
+      "id": "sassot:cincinnasite_diamond_fused_fishing_rod"
+    }
+}

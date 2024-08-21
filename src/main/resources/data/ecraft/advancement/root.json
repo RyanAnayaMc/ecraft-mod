@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": {
+      "id": "ecraft:shard_of_travel"
+    },
+    "title": { "translate": "advancement.ecraft.start" },
+    "description": { "translate": "advancement.ecraft.start.desc" }
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "sends_telemetry_event": true
+}

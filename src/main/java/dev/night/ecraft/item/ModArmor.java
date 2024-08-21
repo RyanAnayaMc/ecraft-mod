@@ -2,6 +2,7 @@ package dev.night.ecraft.item;
 
 import dev.night.ecraft.Ecraft;
 import net.minecraft.item.*;
+import net.minecraft.util.Rarity;
 
 public class ModArmor {
     // Cincinnasite Diamond Armor
@@ -9,7 +10,9 @@ public class ModArmor {
             ModItems.registerItem("cincinnasite_diamond_helmet", new ArmorItem(
                     ModArmorMaterials.CINCINNASITE_DIAMOND,
                     ArmorItem.Type.HELMET,
-                    new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(
+                    new Item.Settings()
+                            .rarity(Rarity.UNCOMMON)
+                            .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(
                             ModArmorMaterials.CINCINNASITE_DIAMOND_DURABILITY_MULTIPLIER
                     ))
             ));
@@ -18,7 +21,9 @@ public class ModArmor {
             ModItems.registerItem("cincinnasite_diamond_chestplate", new ArmorItem(
                     ModArmorMaterials.CINCINNASITE_DIAMOND,
                     ArmorItem.Type.CHESTPLATE,
-                    new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(
+                    new Item.Settings()
+                            .rarity(Rarity.UNCOMMON)
+                            .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(
                             ModArmorMaterials.CINCINNASITE_DIAMOND_DURABILITY_MULTIPLIER
                     ))
             ));
@@ -27,7 +32,9 @@ public class ModArmor {
             ModItems.registerItem("cincinnasite_diamond_leggings", new ArmorItem(
                     ModArmorMaterials.CINCINNASITE_DIAMOND,
                     ArmorItem.Type.LEGGINGS,
-                    new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(
+                    new Item.Settings()
+                            .rarity(Rarity.UNCOMMON)
+                            .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(
                             ModArmorMaterials.CINCINNASITE_DIAMOND_DURABILITY_MULTIPLIER
                     ))
             ));
@@ -36,7 +43,9 @@ public class ModArmor {
             ModItems.registerItem("cincinnasite_diamond_boots", new ArmorItem(
                     ModArmorMaterials.CINCINNASITE_DIAMOND,
                     ArmorItem.Type.BOOTS,
-                    new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(
+                    new Item.Settings()
+                            .rarity(Rarity.UNCOMMON)
+                            .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(
                             ModArmorMaterials.CINCINNASITE_DIAMOND_DURABILITY_MULTIPLIER
                     ))
             ));

@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bb"
+  ],
+  "key": {
+    "b": [
+      {
+        "item": "minecraft:iron_block"
+      },
+      {
+        "item": "minecraft:gold_block"
+      },
+      {
+        "item": "minecraft:emerald_block"
+      },
+      {
+        "item": "minecraft:diamond_block"
+      },
+      {
+        "item": "mythicmetals:aquarium_block"
+      },
+      {
+        "item": "mythicmetals:kyber_block"
+      },
+      {
+        "item": "mythicmetals:steel_block"
+      },
+      {
+        "item": "mythicmetals:quadrillum_block"
+      },
+      {
+        "item": "mythicmetals:midas_gold_block"
+      },
+      {
+        "item": "mythicmetals:stormyx_block"
+      },
+      {
+        "item": "mythicmetals:prometheum_block"
+      },
+      {
+        "item": "mythicmetals:platinum_block"
+      },
+      {
+        "item": "mythicmetals:osmium_block"
+      },
+      {
+        "item": "mythicmetals:carmot_block"
+      },
+      {
+        "item": "mythicmetals:durasteel_block"
+      },
+      {
+        "item": "mythicmetals:manganese_block"
+      },
+      {
+        "item": "betternether:cincinnasite_forged"
+      },
+      {
+        "item": "betternether:nether_ruby_block"
+      },
+      {
+        "item": "minecraft:diamond_block"
+      }
+    ]
+  },
+  "result": {
+    "id": "ecraft:shard_of_travel",
+    "count": 3
+  }
+}
