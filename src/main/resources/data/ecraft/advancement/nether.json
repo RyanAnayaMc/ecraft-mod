@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:obsidian",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.nether"
+    },
+    "description": {
+      "translate": "advancement.ecraft.nether.desc"
+    }
+  },
+  "parent": "ecraft:mid_pickaxe",
+  "criteria": {
+    "entered_nether": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_nether"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "entered_nether"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

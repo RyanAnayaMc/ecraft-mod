@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "betternether:nether_ruby",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.nether_ruby"
+    },
+    "description": {
+      "translate": "advancement.ecraft.nether_ruby.desc"
+    }
+  },
+  "parent": "ecraft:nether",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "betternether:nether_ruby_ore",
+              "betternether:nether_ruby"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "mythicmetals:runite_ingot",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.runite"
+    },
+    "description": {
+      "translate": "advancement.ecraft.runite.desc"
+    }
+  },
+  "parent": "ecraft:mid_pickaxe",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythicmetals:runite_ingot",
+              "mythicmetals:runite_ore",
+              "mythicmetals:raw_runite",
+              "mythicmetals:deepslate_runite_ore"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

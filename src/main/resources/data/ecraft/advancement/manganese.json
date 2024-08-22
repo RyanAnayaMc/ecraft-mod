@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "mythicmetals:manganese_ingot",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.manganese"
+    },
+    "description": {
+      "translate": "advancement.ecraft.manganese.desc"
+    }
+  },
+  "parent": "ecraft:mid_pickaxe",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythicmetals:manganese_ingot",
+              "mythicmetals:manganese_ore",
+              "mythicmetals:raw_manganese"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

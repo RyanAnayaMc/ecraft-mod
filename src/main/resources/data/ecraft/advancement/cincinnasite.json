@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "betternether:cincinnasite_ingot",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.cincinnasite"
+    },
+    "description": {
+      "translate": "advancement.ecraft.cincinnasite.desc"
+    }
+  },
+  "parent": "ecraft:nether",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "betternether:cincinnasite_ingot",
+              "betternether:cincinnasite_ore",
+              "betternether:cincinnasite"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

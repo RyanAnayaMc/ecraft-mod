@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "mythicmetals:mythril_ingot",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.mythril"
+    },
+    "description": {
+      "translate": "advancement.ecraft.mythril.desc"
+    }
+  },
+  "parent": "ecraft:cincinnasite_diamond_pickaxe",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythicmetals:mythril_ingot",
+              "mythicmetals:mythril_ore",
+              "mythicmetals:deepslate_mythril_ore",
+              "mythicmetals:raw_mythril"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

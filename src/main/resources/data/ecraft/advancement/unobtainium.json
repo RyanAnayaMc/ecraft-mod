@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "mythicmetals:unobtainium",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.unobtainium"
+    },
+    "description": {
+      "translate": "advancement.ecraft.unobtainium.desc"
+    }
+  },
+  "parent": "ecraft:high_tier_pickaxe",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythicmetals:unobtainium"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

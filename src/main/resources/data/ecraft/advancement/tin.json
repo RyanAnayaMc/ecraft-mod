@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "mythicmetals:tin_ingot",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.tin"
+    },
+    "description": {
+      "translate": "advancement.ecraft.tin.desc"
+    }
+  },
+  "parent": "ecraft:copper_pickaxe",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythicmetals:tin_ore",
+              "mythicmetals:raw_tin",
+              "mythicmetals:tin_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

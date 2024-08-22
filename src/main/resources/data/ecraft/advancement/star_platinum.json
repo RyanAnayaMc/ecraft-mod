@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "mythicmetals:star_platinum",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.star_platinum"
+    },
+    "description": {
+      "translate": "advancement.ecraft.star_platinum.desc"
+    }
+  },
+  "parent": "ecraft:starrite",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythicmetals:star_platinum"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_ingot",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.iron"
+    },
+    "description": {
+      "translate": "advancement.ecraft.iron.desc"
+    }
+  },
+  "parent": "ecraft:copper_pickaxe",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_ingot",
+              "minecraft:raw_iron",
+              "minecraft:iron_ore",
+              "minecraft:deepslate_iron_ore"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

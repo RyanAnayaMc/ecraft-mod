@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "mythicmetals:durasteel_ingot",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.durasteel"
+    },
+    "description": {
+      "translate": "advancement.ecraft.durasteel.desc"
+    }
+  },
+  "parent": "ecraft:mid_pickaxe",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythicmetals:durasteel_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

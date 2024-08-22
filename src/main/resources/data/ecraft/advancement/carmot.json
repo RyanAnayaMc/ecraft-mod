@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "mythicmetals:carmot_ingot",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.carmot"
+    },
+    "description": {
+      "translate": "advancement.ecraft.carmot.desc"
+    }
+  },
+  "parent": "ecraft:mid_pickaxe",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythicmetals:carmot_ingot",
+              "mythicmetals:carmot_ore",
+              "mythicmetals:raw_carmot",
+              "mythicmetals:deepslate_carmot_ore"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "mythicmetals:osmium_ingot",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.osmium"
+    },
+    "description": {
+      "translate": "advancement.ecraft.osmium.desc"
+    }
+  },
+  "parent": "ecraft:mid_pickaxe",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythicmetals:osmium_ingot",
+              "mythicmetals:osmium_ore",
+              "mythicmetals:raw_osmium"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

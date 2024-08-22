@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "mythicmetals:quadrillum_ingot",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.quadrillum"
+    },
+    "description": {
+      "translate": "advancement.ecraft.quadrillum.desc"
+    }
+  },
+  "parent": "ecraft:mid_pickaxe",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythicmetals:quadrillum_ingot",
+              "mythicmetals:quadrillum_ore",
+              "mythicmetals:raw_quadrillum"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_ingot",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.copper"
+    },
+    "description": {
+      "translate": "advancement.ecraft.copper.desc"
+    }
+  },
+  "parent": "ecraft:stone_pickaxe",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:copper_ore",
+              "minecraft:deepslate_copper_ore",
+              "minecraft:raw_copper",
+              "minecraft:copper_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

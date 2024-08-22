@@ -1,5 +1,7 @@
 {
     "item.minecraft.smithing_template.netherite_upgrade.applies_to": "Cincinnasite-Diamond Equipment",
     "item.minecraft.smithing_template.netherite_upgrade.base_slot_description": "Add cincinnasite-diamond armor, weapon, or tool",
-    "item.minecraft.diamond": "Diamond Ingot"
+    "item.minecraft.diamond": "Diamond Ingot",
+    "advancements.story.mine_diamond.description": "Acquire diamond ingots",
+    "advancements.story.mine_diamond.title": "They're INGOTS now?!"
 }

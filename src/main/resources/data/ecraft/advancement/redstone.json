@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.redstone"
+    },
+    "description": {
+      "translate": "advancement.ecraft.redstone.desc"
+    }
+  },
+  "parent": "ecraft:mid_pickaxe",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:redstone",
+              "minecraft:redstone_ore",
+              "minecraft:deepslate_redstone_ore",
+              "betternether:nether_redstone_ore"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

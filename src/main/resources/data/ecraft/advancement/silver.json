@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "mythicmetals:silver_ingot",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.silver"
+    },
+    "description": {
+      "translate": "advancement.ecraft.silver.desc"
+    }
+  },
+  "parent": "ecraft:copper_pickaxe",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythicmetals:silver_ore",
+              "mythicmetals:raw_silver",
+              "mythicmetals:silver_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

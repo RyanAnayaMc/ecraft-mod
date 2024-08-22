@@ -3,8 +3,13 @@
     "icon": {
       "id": "ecraft:shard_of_travel"
     },
-    "title": { "translate": "advancement.ecraft.start" },
-    "description": { "translate": "advancement.ecraft.start.desc" }
+    "title": {
+      "translate": "advancement.ecraft.start"
+    },
+    "description": {
+      "translate": "advancement.ecraft.start.desc"
+    },
+    "background": "ecraft:textures/block/raw_diamond_block.png"
   },
   "criteria": {
     "requirement": {

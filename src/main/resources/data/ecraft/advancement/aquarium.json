@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "mythicmetals:aquarium_ingot",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.aquarium"
+    },
+    "description": {
+      "translate": "advancement.ecraft.aquarium.desc"
+    }
+  },
+  "parent": "ecraft:mid_pickaxe",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythicmetals:aquarium_ingot",
+              "mythicmetals:aquarium_ore",
+              "mythicmetals:raw_aquarium"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

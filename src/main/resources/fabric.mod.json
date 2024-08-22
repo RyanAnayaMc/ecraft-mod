@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "ecraft",
-	"version": "0.1+1.21",
+	"version": "0.2+1.21",
 	"name": "eeeeeecraft",
 	"description": "Helper mod for the eeeeeecraft modpack.",
 	"authors": [
@@ -33,13 +33,15 @@
 		}
 	],
 	"depends": {
-		"fabricloader": ">=0.15.11",
+		"fabricloader": ">=0.16.0",
 		"minecraft": "~1.21",
 		"java": ">=21",
 		"fabric-api": "*",
 		"mythicmetals": ">=0.20.0+1.21-alpha6",
 		"betternether": ">=21.0.10",
-		"additional-armoury": "*"
+		"betterend": "*",
+		"additional-armoury": "*",
+		"sassot": "*"
 	},
 	"suggests": {
 

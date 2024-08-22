@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "mythicmetals:prometheum_ingot",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.prometheum"
+    },
+    "description": {
+      "translate": "advancement.ecraft.prometheum.desc"
+    }
+  },
+  "parent": "ecraft:mid_pickaxe",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythicmetals:prometheum_ingot",
+              "mythicmetals:prometheum_ore",
+              "mythicmetals:deepslate_prometheum_ore"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

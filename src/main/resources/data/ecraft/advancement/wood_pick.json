@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_pickaxe",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.wood_pick"
+    },
+    "description": {
+      "translate": "advancement.ecraft.wood_pick.desc"
+    }
+  },
+  "parent": "ecraft:root",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wooden_pickaxe"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

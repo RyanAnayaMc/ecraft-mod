@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ancient_debris",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.netherite_scrap"
+    },
+    "description": {
+      "translate": "advancement.ecraft.netherite_scrap.desc"
+    }
+  },
+  "parent": "ecraft:cincinnasite_diamond_pickaxe",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_scrap",
+              "minecraft:ancient_debris"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

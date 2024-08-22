@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "betternether:cincinnasite_pickaxe_diamond",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.cincinnasite_diamond_pickaxe"
+    },
+    "description": {
+      "translate": "advancement.ecraft.cincinnasite_diamond_pickaxe.desc"
+    }
+  },
+  "parent": "ecraft:cincinnasite_diamond",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "betternether:cincinnasite_pickaxe_diamond"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

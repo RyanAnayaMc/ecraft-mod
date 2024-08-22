@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "mythicmetals:palladium_ingot",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.palladium"
+    },
+    "description": {
+      "translate": "advancement.ecraft.palladium.desc"
+    }
+  },
+  "parent": "ecraft:cincinnasite_diamond_pickaxe",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythicmetals:palladium_ingot",
+              "mythicmetals:palladium_ore",
+              "mythicmetals:raw_palladium"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

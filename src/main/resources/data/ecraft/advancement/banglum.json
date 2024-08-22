@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "mythicmetals:banglum_ingot",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.banglum"
+    },
+    "description": {
+      "translate": "advancement.ecraft.banglum.desc"
+    }
+  },
+  "parent": "ecraft:mid_pickaxe",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythicmetals:banglum_ingot",
+              "mythicmetals:banglum_ore",
+              "mythicmetals:nether_banglum_ore",
+              "mythicmetals:raw_banglum"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

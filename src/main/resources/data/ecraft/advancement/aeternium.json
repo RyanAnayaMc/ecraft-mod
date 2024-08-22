@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "betterend:aeternium_ingot",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.aeternium"
+    },
+    "description": {
+      "translate": "advancement.ecraft.aeternium.desc"
+    }
+  },
+  "parent": "ecraft:terminite",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "betterend:aeternium_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

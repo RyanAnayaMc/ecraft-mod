@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "mythicmetals:kyber_ingot",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.kyber"
+    },
+    "description": {
+      "translate": "advancement.ecraft.kyber.desc"
+    }
+  },
+  "parent": "ecraft:mid_pickaxe",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythicmetals:kyber_ingot",
+              "mythicmetals:kyber_ore",
+              "mythicmetals:raw_kyber",
+              "mythicmetals:calcite_kyber_ore"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

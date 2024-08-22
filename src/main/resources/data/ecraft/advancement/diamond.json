@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "ecraft:raw_diamond",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.diamond"
+    },
+    "description": {
+      "translate": "advancement.ecraft.diamond.desc"
+    }
+  },
+  "parent": "ecraft:mid_pickaxe",
+  "criteria": {
+    "diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ecraft:raw_diamond",
+              "minecraft:diamond",
+              "minecraft:diamond_ore",
+              "minecraft:deepslate_diamond_ore"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "diamond"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

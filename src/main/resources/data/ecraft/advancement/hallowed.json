@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "mythicmetals:hallowed_ingot",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.hallowed"
+    },
+    "description": {
+      "translate": "advancement.ecraft.hallowed.desc"
+    }
+  },
+  "parent": "ecraft:cincinnasite_diamond_pickaxe",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythicmetals:hallowed_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

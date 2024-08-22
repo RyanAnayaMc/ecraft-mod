@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "sassot:copper_pickaxe",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.copper_pickaxe"
+    },
+    "description": {
+      "translate": "advancement.ecraft.copper_pickaxe.desc"
+    }
+  },
+  "parent": "ecraft:stone_pickaxe",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sassot:copper_pickaxe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

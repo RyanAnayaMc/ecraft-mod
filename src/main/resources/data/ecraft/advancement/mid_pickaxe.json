@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_pickaxe",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.mid_pickaxe"
+    },
+    "description": {
+      "translate": "advancement.ecraft.mid_pickaxe.desc"
+    }
+  },
+  "parent": "ecraft:copper_pickaxe",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_pickaxe",
+              "mythicmetals:bronze_pickaxe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

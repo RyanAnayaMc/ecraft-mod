@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "mythicmetals:bronze_ingot",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.bronze"
+    },
+    "description": {
+      "translate": "advancement.ecraft.bronze.desc"
+    }
+  },
+  "parent": "ecraft:copper_pickaxe",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mythicmetals:bronze_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

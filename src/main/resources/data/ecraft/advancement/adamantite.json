@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "mythicmetals:adamantite_ingot",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.adamantite"
+    },
+    "description": {
+      "translate": "advancement.ecraft.adamantite.desc"
+    }
+  },
+  "parent": "ecraft:cincinnasite_diamond_pickaxe",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythicmetals:adamantite_ingot",
+              "mythicmetals:adamantite_ore",
+              "mythicmetals:deepslate_adamantite_ore",
+              "mythicmetals:raw_adamantite"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

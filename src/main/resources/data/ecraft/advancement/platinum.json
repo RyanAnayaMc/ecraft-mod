@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "mythicmetals:platinum_ingot",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.platinum"
+    },
+    "description": {
+      "translate": "advancement.ecraft.platinum.desc"
+    }
+  },
+  "parent": "ecraft:mid_pickaxe",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythicmetals:platinum_ingot",
+              "mythicmetals:platinum_ore",
+              "mythicmetals:raw_platinum"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "betterend:thallasium_ingot",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.thallasium"
+    },
+    "description": {
+      "translate": "advancement.ecraft.thallasium.desc"
+    }
+  },
+  "parent": "ecraft:end",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "betterend:thallasium_ingot",
+              "betterend:thallasium_raw",
+              "betterend:thallasium_ore"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

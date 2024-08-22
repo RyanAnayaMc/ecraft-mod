@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "mythicmetals:orichalcum_ingot",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.orichalcum"
+    },
+    "description": {
+      "translate": "advancement.ecraft.orichalcum.desc"
+    }
+  },
+  "parent": "ecraft:cincinnasite_diamond_pickaxe",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythicmetals:orichalcum_ingot",
+              "mythicmetals:orichalcum_ore",
+              "mythicmetals:deepslate_orichalcum_ore",
+              "mythicmetals:raw_orichalcum",
+              "mythicmetals:tuff_orichalcum_ore",
+              "mythicmetals:smooth_basalt_orichalcum_ore"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

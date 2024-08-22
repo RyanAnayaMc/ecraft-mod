@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_pickaxe",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.stone_pickaxe"
+    },
+    "description": {
+      "translate": "advancement.ecraft.stone_pickaxe.desc"
+    }
+  },
+  "parent": "ecraft:cobblestone",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stone_pickaxe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

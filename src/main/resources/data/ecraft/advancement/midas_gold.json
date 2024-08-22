@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "mythicmetals:midas_gold_ingot",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.midas_gold"
+    },
+    "description": {
+      "translate": "advancement.ecraft.midas_gold.desc"
+    }
+  },
+  "parent": "ecraft:nether",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythicmetals:midas_gold_ingot",
+              "mythicmetals:midas_gold_ore",
+              "mythicmetals:raw_midas_gold"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cobblestone",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.cobblestone"
+    },
+    "description": {
+      "translate": "advancement.ecraft.cobblestone.desc"
+    }
+  },
+  "parent": "ecraft:wood_pick",
+  "criteria": {
+    "get_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:stone_tool_materials"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_stone"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

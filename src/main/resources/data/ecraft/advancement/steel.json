@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "mythicmetals:steel_ingot",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.steel"
+    },
+    "description": {
+      "translate": "advancement.ecraft.steel.desc"
+    }
+  },
+  "parent": "ecraft:mid_pickaxe",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythicmetals:steel_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

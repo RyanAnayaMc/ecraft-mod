@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_pickaxe",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.high_tier_pickaxe"
+    },
+    "description": {
+      "translate": "advancement.ecraft.high_tier_pickaxe.desc"
+    }
+  },
+  "parent": "ecraft:cincinnasite_diamond_pickaxe",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_pickaxe",
+              "mythicmetals:adamantite_pickaxe",
+              "mythicmetals:hallowed_pickaxe",
+              "mythicmetals:mythril_pickaxe",
+              "mythicmetals:mythril_drill",
+              "mythicmetals:orichalcum_pickaxe",
+              "mythicmetals:palladium_pickaxe",
+              "mythicmetals:star_platinum_pickaxe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

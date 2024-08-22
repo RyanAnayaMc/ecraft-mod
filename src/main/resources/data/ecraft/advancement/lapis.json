@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lapis_lazuli",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.lapis"
+    },
+    "description": {
+      "translate": "advancement.ecraft.lapis.desc"
+    }
+  },
+  "parent": "ecraft:stone_pickaxe",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:deepslate_lapis_ore",
+              "minecraft:lapis_ore",
+              "minecraft:lapis_lazuli",
+              "betternether:nether_lapis_ore"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "betterend:terminite_ingot",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.terminite"
+    },
+    "description": {
+      "translate": "advancement.ecraft.terminite.desc"
+    }
+  },
+  "parent": "ecraft:thallasium",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "betterend:terminite_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

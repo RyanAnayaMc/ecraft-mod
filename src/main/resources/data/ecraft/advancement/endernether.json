@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "additional-armoury:endernether_ingot",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.endernether"
+    },
+    "description": {
+      "translate": "advancement.ecraft.endernether.desc"
+    }
+  },
+  "parent": "ecraft:netherite_scrap",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "additional-armoury:endernether_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
