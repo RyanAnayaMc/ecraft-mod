@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:smelting",
+  "category": "equipment",
+  "ingredient": [
+    {
+      "item": "ecraft:terrasteel_helmet"
+    },
+    {
+      "item": "ecraft:terrasteel_chestplate"
+    },
+    {
+      "item": "ecraft:terrasteel_leggings"
+    },
+    {
+      "item": "ecraft:terrasteel_boots"
+    },
+    {
+      "item": "ecraft:terrasteel_axe"
+    },
+    {
+      "item": "ecraft:terrasteel_hoe"
+    },
+    {
+      "item": "ecraft:terrasteel_sword"
+    },
+    {
+      "item": "ecraft:terrasteel_shovel"
+    },
+    {
+      "item": "ecraft:terrasteel_pickaxe"
+    }
+  ],
+  "result": {
+    "id": "ecraft:terrasteel_nugget"
+  },
+  "experience": 30,
+  "cookingtime": 100
+}

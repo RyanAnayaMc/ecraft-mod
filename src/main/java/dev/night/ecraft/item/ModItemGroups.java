@@ -46,6 +46,9 @@ public class ModItemGroups {
                     entries.add(ModItems.CINCINNASITE_DIAMOND_INGOT);
                     entries.add(ModItems.CINCINNASITE_DIAMOND_NUGGET);
                     entries.add(ModBlocks.CINCINNASITE_DIAMOND_BLOCK);
+                    entries.add(ModItems.TERRASTEEL_INGOT);
+                    entries.add(ModItems.TERRASTEEL_NUGGET);
+                    entries.add(ModBlocks.TERRASTEEL_BLOCK);
 
                     // Add fishing rods
                     entries.add(ModWeapons.CINCINNASITE_DIAMOND_FUSED_FISHING_ROD);
@@ -57,6 +60,25 @@ public class ModItemGroups {
                     entries.add(ModArmor.CINCINNASITE_DIAMOND_CHESTPLATE);
                     entries.add(ModArmor.CINCINNASITE_DIAMOND_LEGGINGS);
                     entries.add(ModArmor.CINCINNASITE_DIAMOND_BOOTS);
+                    entries.add(ModArmor.TERRASTEEL_HELMET);
+                    entries.add(ModArmor.TERRASTEEL_CHESTPLATE);
+                    entries.add(ModArmor.TERRASTEEL_LEGGINGS);
+                    entries.add(ModArmor.TERRASTEEL_BOOTS);
+
+                    // Add swords
+                    entries.add(ModWeapons.TERRASTEEL_SWORD);
+
+                    // Add axes
+                    entries.add(ModWeapons.TERRASTEEL_AXE);
+
+                    // Add pickaxes
+                    entries.add(ModWeapons.TERRASTEEL_PICKAXE);
+
+                    // Add hoes
+                    entries.add(ModWeapons.TERRASTEEL_HOE);
+
+                    // Add shovels
+                    entries.add(ModWeapons.TERRASTEEL_SHOVEL);
 
                     // Add spears
                     entries.add(ModWeapons.CINCINNASITE_DIAMOND_SPEAR);

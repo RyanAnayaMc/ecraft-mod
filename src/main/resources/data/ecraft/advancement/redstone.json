@@ -11,7 +11,7 @@
       "translate": "advancement.ecraft.redstone.desc"
     }
   },
-  "parent": "ecraft:mid_pickaxe",
+  "parent": "ecraft:copper_pickaxe",
   "criteria": {
     "obj": {
       "trigger": "minecraft:inventory_changed",

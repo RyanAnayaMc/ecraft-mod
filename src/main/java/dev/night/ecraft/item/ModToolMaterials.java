@@ -6,14 +6,17 @@ import net.minecraft.entity.attribute.EntityAttribute;
 import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
+import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.TagKey;
+import net.minecraft.util.Identifier;
 
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-    CINCINNASITE_DIAMOND(2061, 8.2F, 3.7F, 14, BlockTags.INCORRECT_FOR_DIAMOND_TOOL, EntityAttributes.GENERIC_ATTACK_SPEED, 0F, () -> Ingredient.ofItems(ModItems.CINCINNASITE_DIAMOND_INGOT));
+    CINCINNASITE_DIAMOND(2061, 8.2F, 3.7F, 25, BlockTags.INCORRECT_FOR_DIAMOND_TOOL, EntityAttributes.GENERIC_ATTACK_SPEED, 0F, () -> Ingredient.ofItems(ModItems.CINCINNASITE_DIAMOND_INGOT)),
+    TERRASTEEL(2740, 17F, 7F, 28, TagKey.of(RegistryKeys.BLOCK, Identifier.of("mythicmetals", "incorrect_for_unobtainium_alloy_tools")), EntityAttributes.GENERIC_ATTACK_KNOCKBACK, 2f, () -> Ingredient.ofItems(ModItems.TERRASTEEL_INGOT));
 
 
     private final int itemDurability;

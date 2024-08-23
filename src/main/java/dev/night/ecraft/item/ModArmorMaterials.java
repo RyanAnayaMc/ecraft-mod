@@ -3,7 +3,6 @@ package dev.night.ecraft.item;
 import dev.night.ecraft.Ecraft;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
-import net.minecraft.item.ArmorMaterials;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.entry.RegistryEntry;
@@ -12,14 +11,15 @@ import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Identifier;
 import net.minecraft.recipe.Ingredient;
 
-
 import java.util.Map;
 
 import java.util.List;
 import java.util.function.Supplier;
 
 public class ModArmorMaterials {
-    public static final int CINCINNASITE_DIAMOND_DURABILITY_MULTIPLIER = 50;
+    public static final int CINCINNASITE_DIAMOND_DURABILITY_MULTIPLIER = 35;
+    public static final int TERRASTEEL_DURABILITY_MULTIPLIER = 50;
+
     public static final RegistryEntry<ArmorMaterial> CINCINNASITE_DIAMOND = registerMaterial(
         "cincinnasite_diamond",
             Map.of(
@@ -33,6 +33,24 @@ public class ModArmorMaterials {
             () -> Ingredient.ofItems(ModItems.CINCINNASITE_DIAMOND_INGOT),
             1.5F,
             0.05F,
+            false
+    );
+
+
+
+    public static final RegistryEntry<ArmorMaterial> TERRASTEEL = registerMaterial(
+            "terrasteel",
+            Map.of(
+                    ArmorItem.Type.HELMET, 4,
+                    ArmorItem.Type.CHESTPLATE, 11,
+                    ArmorItem.Type.LEGGINGS, 7,
+                    ArmorItem.Type.BOOTS, 4
+            ),
+            8,
+            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,
+            () -> Ingredient.ofItems(ModItems.TERRASTEEL_INGOT),
+            4,
+            0,
             false
     );
 

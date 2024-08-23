@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "mythicmetals:stormyx_ingot",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.stormyx"
+    },
+    "description": {
+      "translate": "advancement.ecraft.stormyx.desc"
+    }
+  },
+  "parent": "ecraft:cincinnasite_diamond_pickaxe",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mythicmetals:stormyx_ingot",
+              "mythicmetals:raw_stormyx",
+              "mythicmetals:stormyx_ore",
+              "mythicmetals:blackstone_stormyx_ore"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

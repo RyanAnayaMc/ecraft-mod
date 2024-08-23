@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "ecraft:terrasteel_ingot",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.terrasteel"
+    },
+    "description": {
+      "translate": "advancement.ecraft.terrasteel.desc"
+    }
+  },
+  "parent": "ecraft:aeternium",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ecraft:terrasteel_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

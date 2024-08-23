@@ -18,20 +18,27 @@ import net.minecraft.util.Rarity;
 import javax.swing.text.html.parser.Entity;
 
 public class ModItems {
+
     public static final Item CINCINNASITE_DIAMOND_INGOT =
             registerItem("cincinnasite_diamond_ingot", new Item(new Item.Settings().rarity(Rarity.UNCOMMON)));
 
     public static final Item CINCINNASITE_DIAMOND_NUGGET =
             registerItem("cincinnasite_diamond_nugget", new Item(new Item.Settings().rarity(Rarity.UNCOMMON)));
 
+    public static final Item TERRASTEEL_INGOT =
+            registerItem("terrasteel_ingot", new Item(new Item.Settings().rarity(Rarity.RARE).fireproof()));
+
+    public static final Item TERRASTEEL_NUGGET =
+            registerItem("terrasteel_nugget", new Item(new Item.Settings().rarity(Rarity.UNCOMMON).fireproof()));
+
+    public static final Item RAW_DIAMOND =
+            registerItem("raw_diamond", new Item(new Item.Settings()));
+
     public static final Item SHARD_OF_TRAVEL =
             registerItem("shard_of_travel", new Item(new Item.Settings()
                     .rarity(Rarity.RARE)
                     .component(DataComponentTypes.ENCHANTMENT_GLINT_OVERRIDE, true)
             ));
-
-    public static final Item RAW_DIAMOND =
-            registerItem("raw_diamond", new Item(new Item.Settings()));
     
     public static void initialize() {
         Ecraft.LOGGER.info("Mod " + Ecraft.MOD_ID + " registering items");

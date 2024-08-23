@@ -7,6 +7,7 @@
     "minecraft:redstone_block",
     "minecraft:redstone_ore",
     "minecraft:deepslate_redstone_ore",
+    "betternether:nether_redstone_ore",
     "mythicmetals:tin_ore",
     "mythicmetals:silver_ore"
   ]

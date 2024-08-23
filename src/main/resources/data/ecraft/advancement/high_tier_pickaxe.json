@@ -19,7 +19,9 @@
         "items": [
           {
             "items": [
+              "additional-armoury:overnether_pickaxe",
               "minecraft:netherite_pickaxe",
+              "additional-armoury:endernether_pickaxe",
               "mythicmetals:adamantite_pickaxe",
               "mythicmetals:hallowed_pickaxe",
               "mythicmetals:mythril_pickaxe",

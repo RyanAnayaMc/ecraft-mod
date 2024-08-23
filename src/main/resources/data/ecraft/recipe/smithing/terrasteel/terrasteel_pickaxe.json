@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "additional-armoury:overnether_pickaxe"
+  },
+  "addition": {
+    "item": "ecraft:terrasteel_ingot"
+  },
+  "result": {
+    "id": "ecraft:terrasteel_pickaxe"
+  },
+  "template": {
+    "item": "mythicmetals:unobtainium_smithing_template"
+  }
+}

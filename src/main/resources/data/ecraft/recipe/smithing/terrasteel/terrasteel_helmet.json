@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "ecraft:terrasteel_ingot"
+  },
+  "base": {
+    "item": "additional-armoury:overnether_helmet"
+  },
+  "result": {
+    "id": "ecraft:terrasteel_helmet"
+  },
+  "template": {
+    "item": "mythicmetals:unobtainium_smithing_template"
+  }
+}

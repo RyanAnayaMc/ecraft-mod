@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "ecraft:terrasteel_block"
+    }
+  ],
+  "result": {
+    "id": "ecraft:terrasteel_ingot",
+    "count": 9
+  }
+}

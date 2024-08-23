@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "betterend:ender_shard",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.ecraft.ender"
+    },
+    "description": {
+      "translate": "advancement.ecraft.ender.desc"
+    }
+  },
+  "parent": "ecraft:end",
+  "criteria": {
+    "obj": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "betterend:ender_shard"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obj"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

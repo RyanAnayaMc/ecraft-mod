@@ -1,14 +1,14 @@
 {
   "display": {
     "icon": {
-      "id": "mythicmetals:prometheum_ingot",
+      "id": "mythicmetals:morkite",
       "count": 1
     },
     "title": {
-      "translate": "advancement.ecraft.prometheum"
+      "translate": "advancement.ecraft.morkite"
     },
     "description": {
-      "translate": "advancement.ecraft.prometheum.desc"
+      "translate": "advancement.ecraft.morkite.desc"
     }
   },
   "parent": "ecraft:mid_pickaxe",
@@ -19,10 +19,9 @@
         "items": [
           {
             "items": [
-              "mythicmetals:prometheum_ingot",
-              "mythicmetals:prometheum_ore",
-              "mythicmetals:deepslate_prometheum_ore",
-              "mythicmetals:raw_prometheum"
+              "mythicmetals:morkite",
+              "mythicmetals:morkite_ore",
+              "mythicmetals:deepslate_morkite_ore"
             ]
           }
         ]

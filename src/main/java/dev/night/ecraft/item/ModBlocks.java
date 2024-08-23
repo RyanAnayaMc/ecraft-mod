@@ -27,6 +27,14 @@ public class ModBlocks {
             true
     );
 
+    public static final Block TERRASTEEL_BLOCK = registerBlock("terrasteel_block",
+            new Block(
+                    AbstractBlock.Settings.create()
+                            .sounds(BlockSoundGroup.NETHERITE)
+            ),
+            true
+    );
+
     public static Block registerBlock(String name, Block block, boolean shouldRegister, String spoofID) {
         Identifier id = Identifier.of(spoofID, name);
 

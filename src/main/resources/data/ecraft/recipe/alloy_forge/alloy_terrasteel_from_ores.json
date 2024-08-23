@@ -1,0 +1,29 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "item": "betternether:cincinnasite_ore"
+    },
+    {
+      "tag": "minecraft:diamond_ores"
+    },
+    {
+      "item": "mythicmetals:osmium_ore"
+    },
+    {
+      "tag": "mythicmetals:ores/prometheum"
+    },
+    {
+      "item": "mythicmetals:unobtainium"
+    },
+    {
+      "item": "betterend:aeternium_ingot"
+    }
+  ],
+  "output": {
+    "id": "ecraft:terrasteel_ingot",
+    "count": 2
+  },
+  "min_forge_tier": 3,
+  "fuel_per_tick": 40
+}

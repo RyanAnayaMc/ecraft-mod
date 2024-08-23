@@ -19,7 +19,10 @@
         "items": [
           {
             "items": [
-              "betternether:cincinnasite_pickaxe_diamond"
+              "betternether:cincinnasite_pickaxe_diamond",
+              "mythicmetals:runite_pickaxe",
+              "mythicmetals:stormyx_pickaxe",
+              "betterend:terminite_pickaxe"
             ]
           }
         ]

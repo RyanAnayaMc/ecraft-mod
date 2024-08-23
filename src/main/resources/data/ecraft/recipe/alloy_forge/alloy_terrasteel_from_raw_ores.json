@@ -1,0 +1,29 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "item": "betternether:cincinnasite"
+    },
+    {
+      "item": "ecraft:raw_diamond"
+    },
+    {
+      "item": "mythicmetals:raw_osmium"
+    },
+    {
+      "item": "mythicmetals:raw_prometheum"
+    },
+    {
+      "item": "mythicmetals:unobtainium"
+    },
+    {
+      "item": "betterend:aeternium_ingot"
+    }
+  ],
+  "output": {
+    "id": "ecraft:terrasteel_ingot",
+    "count": 1
+  },
+  "min_forge_tier": 3,
+  "fuel_per_tick": 40
+}

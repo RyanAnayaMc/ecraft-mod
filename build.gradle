@@ -26,6 +26,8 @@ repositories {
 			includeGroup "curse.maven"
 		}
 	}
+
+	flatDir{ dir 'lib' }
 }
 
 
@@ -47,6 +49,8 @@ dependencies {
 	modImplementation "curse.maven:additional-armoury-973673:5535673"
 	modImplementation "com.github.provismet:lilylib:${project.lilylib_version}"
 	include "com.github.provismet:lilylib:${project.lilylib_version}"
+
+
 
 	modImplementation "curse.maven:sassot-857563:5600959"
 }

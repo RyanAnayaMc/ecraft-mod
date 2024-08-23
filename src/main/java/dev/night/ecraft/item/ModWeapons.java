@@ -8,15 +8,13 @@ import dev.night.ecraft.Ecraft;
 import dev.night.ecraft.item.fishing_rod.EModFishingRodItem;
 import dev.night.ecraft.item.fishing_rod.EModOnAStickItem;
 import dev.night.ecraft.item.spear.ESpearItem;
+import dev.night.ecraft.util.Utilities;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.component.type.PotionContentsComponent;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.passive.PigEntity;
 import net.minecraft.entity.passive.StriderEntity;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemGroups;
-import net.minecraft.item.SaddleItem;
+import net.minecraft.item.*;
 import net.minecraft.potion.Potion;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
@@ -28,11 +26,8 @@ import solipingen.sassot.item.ModOnAStickItem;
 import solipingen.sassot.item.ModShieldItem;
 import solipingen.sassot.item.SpearItem;
 
-import java.rmi.registry.Registry;
-import java.util.Arrays;
-import java.util.List;
-
 public class ModWeapons {
+    //region Cincinnasite-Diamond Gear
     public static final Item CINCINNASITE_DIAMOND_DAGGER = ModItems.registerItem("cincinnasite_diamond_dagger",
             new DaggerItem(
                     ModToolMaterials.CINCINNASITE_DIAMOND,
@@ -118,6 +113,84 @@ public class ModWeapons {
                     7
             )
     , SpearsAxesSwordsShieldsAndOtherTools.MOD_ID);
+    //endregion
+
+    //region Terrasteel Gear
+    public static final Item TERRASTEEL_SWORD = ModItems.registerItem("terrasteel_sword",
+            new SwordItem(
+                    ModToolMaterials.TERRASTEEL,
+                    new Item.Settings()
+                            .rarity(Rarity.RARE)
+                            .fireproof()
+                            .attributeModifiers(
+                                    Utilities.createToolAttributes(
+                                            ModToolMaterials.TERRASTEEL,
+                                            4f, -2f
+                                    )
+                            )
+            )
+    );
+
+    public static final Item TERRASTEEL_AXE = ModItems.registerItem("terrasteel_axe",
+            new AxeItem(
+                    ModToolMaterials.TERRASTEEL,
+                    new Item.Settings()
+                            .rarity(Rarity.RARE)
+                            .fireproof()
+                            .attributeModifiers(
+                                    Utilities.createToolAttributes(
+                                            ModToolMaterials.TERRASTEEL,
+                                            6f, -2.5f
+                                    )
+                            )
+            )
+    );
+
+    public static final Item TERRASTEEL_SHOVEL = ModItems.registerItem("terrasteel_shovel",
+            new ShovelItem(
+                    ModToolMaterials.TERRASTEEL,
+                    new Item.Settings()
+                            .rarity(Rarity.RARE)
+                            .fireproof()
+                            .attributeModifiers(
+                                    Utilities.createToolAttributes(
+                                            ModToolMaterials.TERRASTEEL,
+                                            1.5f, -2.4f
+                                    )
+                            )
+            )
+    );
+
+    public static final Item TERRASTEEL_PICKAXE = ModItems.registerItem("terrasteel_pickaxe",
+            new PickaxeItem(
+                    ModToolMaterials.TERRASTEEL,
+                    new Item.Settings()
+                            .rarity(Rarity.RARE)
+                            .fireproof()
+                            .attributeModifiers(
+                                    Utilities.createToolAttributes(
+                                            ModToolMaterials.TERRASTEEL,
+                                            2.5f, -2.5f
+                                    )
+                            )
+            )
+    );
+
+    public static final Item TERRASTEEL_HOE = ModItems.registerItem("terrasteel_hoe",
+            new HoeItem(
+                    ModToolMaterials.TERRASTEEL,
+                    new Item.Settings()
+                            .rarity(Rarity.RARE)
+                            .fireproof()
+                            .attributeModifiers(
+                                    Utilities.createToolAttributes(
+                                            ModToolMaterials.TERRASTEEL,
+                                            1f, -2.1f
+                                    )
+                            )
+            )
+    );
+    //endregion
 
     public static void initialize() {
         Ecraft.LOGGER.info("Mod " + Ecraft.MOD_ID + " initializing weapons");

@@ -11,7 +11,7 @@
       "translate": "advancement.ecraft.nether_ruby.desc"
     }
   },
-  "parent": "ecraft:nether",
+  "parent": "ecraft:cincinnasite_diamond_pickaxe",
   "criteria": {
     "obj": {
       "trigger": "minecraft:inventory_changed",
