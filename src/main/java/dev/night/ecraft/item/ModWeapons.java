@@ -20,6 +20,7 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.resource.featuretoggle.FeatureSet;
 import net.minecraft.util.Rarity;
+import nourl.mythicmetals.item.tools.MythicToolMaterials;
 import solipingen.sassot.SpearsAxesSwordsShieldsAndOtherTools;
 import solipingen.sassot.item.ModFishingRodItem;
 import solipingen.sassot.item.ModOnAStickItem;
@@ -27,6 +28,24 @@ import solipingen.sassot.item.ModShieldItem;
 import solipingen.sassot.item.SpearItem;
 
 public class ModWeapons {
+
+    public static final Item METALLURGIUM_SPEAR = ModItems.registerItem("metallurgium_spear",
+            new ESpearItem(
+                    MythicToolMaterials.METALLURGIUM,
+                    new Item.Settings()
+                            .rarity(Rarity.RARE)
+                            .attributeModifiers(
+                                    SpearItem.createAttributeModifiers(
+                                            MythicToolMaterials.METALLURGIUM,
+                                            solipingen.sassot.item.ModItems.SPEAR_BASE_ATTACK_DAMAGE,
+                                            -2.3f
+                                    )
+                            )
+            )
+            , Ecraft.SASSOT_ID); // spoofed mod ID because sassot hardcodes it in asset loading
+
+
+
     //region Cincinnasite-Diamond Gear
     public static final Item CINCINNASITE_DIAMOND_DAGGER = ModItems.registerItem("cincinnasite_diamond_dagger",
             new DaggerItem(
@@ -65,7 +84,7 @@ public class ModWeapons {
                                     )
                             )
             )
-    , SpearsAxesSwordsShieldsAndOtherTools.MOD_ID); // spoofed mod ID because sassot hardcodes it in asset loading
+    , Ecraft.SASSOT_ID); // spoofed mod ID because sassot hardcodes it in asset loading
 
     public static final Item CINCINNASITE_DIAMOND_SHIELD = ModItems.registerItem("cincinnasite_diamond_shield",
             new ModShieldItem(
@@ -76,7 +95,7 @@ public class ModWeapons {
                     0.14f,
                     new Item.Settings()
             )
-    , SpearsAxesSwordsShieldsAndOtherTools.MOD_ID); // spoofed mod ID because sassot hardcodes it in asset loading
+    , Ecraft.SASSOT_ID); // spoofed mod ID because sassot hardcodes it in asset loading
 
     public static final Item CINCINNASITE_DIAMOND_FRAMED_WOODEN_SHIELD = ModItems.registerItem("cincinnasite_diamond_framed_wooden_shield",
             new ModShieldItem(
@@ -87,14 +106,14 @@ public class ModWeapons {
                     0.5f,
                     new Item.Settings()
             )
-    , SpearsAxesSwordsShieldsAndOtherTools.MOD_ID); // spoofed mod ID because sassot hardcodes it in asset loading
+    , Ecraft.SASSOT_ID); // spoofed mod ID because sassot hardcodes it in asset loading
 
     public static final Item CINCINNASITE_DIAMOND_FUSED_FISHING_ROD = ModItems.registerItem("cincinnasite_diamond_fused_fishing_rod",
             new EModFishingRodItem(
                     new Item.Settings(),
                     ModToolMaterials.CINCINNASITE_DIAMOND
             )
-    , SpearsAxesSwordsShieldsAndOtherTools.MOD_ID); // spoofed mod ID because sassot hardcodes it in asset loading
+    , Ecraft.SASSOT_ID); // spoofed mod ID because sassot hardcodes it in asset loading
 
     public static final Item WARPED_FUNGUS_ON_A_CINCINNASITE_DIAMOND_FUSED_STICK = ModItems.registerItem("warped_fungus_on_a_cincinnasite_diamond_fused_stick",
             new EModOnAStickItem<StriderEntity>(
@@ -103,7 +122,7 @@ public class ModWeapons {
                     ModToolMaterials.CINCINNASITE_DIAMOND,
                     1
             )
-    , SpearsAxesSwordsShieldsAndOtherTools.MOD_ID);
+    , Ecraft.SASSOT_ID);
 
     public static final Item CARROT_ON_A_CINCINNASITE_DIAMOND_FUSED_STICK = ModItems.registerItem("carrot_on_a_cincinnasite_diamond_fused_stick",
             new EModOnAStickItem<PigEntity>(
@@ -112,7 +131,7 @@ public class ModWeapons {
                     ModToolMaterials.CINCINNASITE_DIAMOND,
                     7
             )
-    , SpearsAxesSwordsShieldsAndOtherTools.MOD_ID);
+    , Ecraft.SASSOT_ID);
     //endregion
 
     //region Terrasteel Gear

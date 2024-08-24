@@ -1,5 +1,6 @@
 package dev.night.ecraft.client.item;
 
+import dev.night.ecraft.Ecraft;
 import dev.night.ecraft.item.ModWeapons;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
@@ -22,6 +23,7 @@ import solipingen.sassot.enchantment.ModEnchantments;
 public class ModModelPredicateProvider {
     public static void registerModItemModelPredicates() {
         registerSpear(ModWeapons.CINCINNASITE_DIAMOND_SPEAR);
+        registerSpear(ModWeapons.METALLURGIUM_SPEAR);
         registerShield(ModWeapons.CINCINNASITE_DIAMOND_SHIELD);
         registerFishingRod(ModWeapons.CINCINNASITE_DIAMOND_FUSED_FISHING_ROD);
     }
@@ -35,7 +37,7 @@ public class ModModelPredicateProvider {
     private static void registerShield(Item shield) {
         ModelPredicateProviderRegistry.register(shield, Identifier.of("blocking"),
                 (stack, world, entity, seed) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0f : 0.0f);
-        ModelPredicateProviderRegistry.register(shield, Identifier.of(SpearsAxesSwordsShieldsAndOtherTools.MOD_ID, "cloaking"),
+        ModelPredicateProviderRegistry.register(shield, Identifier.of(Ecraft.SASSOT_ID, "cloaking"),
                 (stack, world, entity, seed) -> {
                     if (entity != null) {
                         RegistryEntryLookup<Enchantment> enchantmentLookup = entity.getRegistryManager().createRegistryLookup().getOrThrow(RegistryKeys.ENCHANTMENT);

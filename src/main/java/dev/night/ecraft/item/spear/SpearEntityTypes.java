@@ -21,6 +21,15 @@ public class SpearEntityTypes extends ModEntityTypes {
                     ).dimensions(0.5f, 0.5f)
             .build());
 
+    public static final EntityType<MetallurgiumSpearEntity> METALLURGIUM_SPEAR_ENTITY =
+            Registry.register(
+                    Registries.ENTITY_TYPE,
+                    Identifier.of(Ecraft.SASSOT_ID, "metallurgium_spear"),
+                    EntityType.Builder.<MetallurgiumSpearEntity>create(
+                            MetallurgiumSpearEntity::new, SpawnGroup.MISC
+                    ).dimensions(0.5f, 0.5f)
+                            .build());
+
     public static void initialize() {
         Ecraft.LOGGER.info("Mod " + Ecraft.MOD_ID + " initialzing entities");
     }

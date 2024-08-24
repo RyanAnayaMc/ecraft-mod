@@ -1,7 +1,0 @@
-{
-    "parent": "sassot:item/generic/fishing_rod_cast",
-    "textures": {
-        "3": "ecraft:item/cincinnasite_diamond_fused_fishing_rod_cast",
-        "particle": "ecraft:item/cincinnasite_diamond_fused_fishing_rod_cast"
-    }
-}

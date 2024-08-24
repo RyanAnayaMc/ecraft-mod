@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/handheld",
-  "textures": {
-    "layer0": "ecraft:item/cincinnasite_diamond_dagger",
-    "layer1": "additional-armoury:item/dagger_tip"
-  }
-}

@@ -27,6 +27,18 @@ repositories {
 		}
 	}
 
+	exclusiveContent {
+		forRepository {
+			maven {
+				name = "Modrinth"
+				url = "https://api.modrinth.com/maven"
+			}
+		}
+		filter {
+			includeGroup "maven.modrinth"
+		}
+	}
+
 	flatDir{ dir 'lib' }
 }
 
@@ -50,7 +62,7 @@ dependencies {
 	modImplementation "com.github.provismet:lilylib:${project.lilylib_version}"
 	include "com.github.provismet:lilylib:${project.lilylib_version}"
 
-
+	modImplementation "maven.modrinth:mythicmetals:0.20.0+1.21-alpha6"
 
 	modImplementation "curse.maven:sassot-857563:5600959"
 }

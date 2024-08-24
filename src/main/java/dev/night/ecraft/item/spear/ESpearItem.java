@@ -23,6 +23,8 @@ public class ESpearItem extends SpearItem {
         SpearEntity spearEntity = new WoodenSpearEntity(pos.getX(), pos.getY(), pos.getZ(), world, stack.copyWithCount(1));
         if (stack.isOf(ModWeapons.CINCINNASITE_DIAMOND_SPEAR)) {
             spearEntity = new CincinnasiteDiamondSpearEntity(pos.getX(), pos.getY(), pos.getZ(), world, stack.copyWithCount(1));
+        } else if (stack.isOf(ModWeapons.METALLURGIUM_SPEAR)) {
+            spearEntity = new MetallurgiumSpearEntity(pos.getX(), pos.getY(), pos.getZ(), world, stack.copyWithCount(1));
         }
         spearEntity.pickupType = PersistentProjectileEntity.PickupPermission.ALLOWED;
         return spearEntity;

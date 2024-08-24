@@ -1,8 +1,10 @@
 package dev.night.ecraft.client.render.entity.projectile.spear;
 
 import dev.night.ecraft.Ecraft;
+import dev.night.ecraft.client.render.entity.model.ModEntityModelLayers;
 import dev.night.ecraft.client.render.entity.model.projectile.spear.CincinnasiteDiamondSpearEntityModel;
 import dev.night.ecraft.item.spear.CincinnasiteDiamondSpearEntity;
+import dev.night.ecraft.item.spear.MetallurgiumSpearEntity;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.client.render.OverlayTexture;
@@ -15,21 +17,20 @@ import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.RotationAxis;
-import dev.night.ecraft.client.render.entity.model.ModEntityModelLayers;
 
 @Environment(value = EnvType.CLIENT)
-public class CincinnasiteDiamondSpearEntityRenderer extends EntityRenderer<CincinnasiteDiamondSpearEntity> {
-    public static final Identifier TEXTURE = Identifier.of(Ecraft.SASSOT_ID, "textures/entity/spear/cincinnasite_diamond_spear.png");
+public class MetallurgiumSpearEntityRenderer extends EntityRenderer<MetallurgiumSpearEntity> {
+    public static final Identifier TEXTURE = Identifier.of(Ecraft.SASSOT_ID, "textures/entity/spear/metallurgium_spear.png");
     private final CincinnasiteDiamondSpearEntityModel model;
 
 
-    public CincinnasiteDiamondSpearEntityRenderer(EntityRendererFactory.Context context) {
+    public MetallurgiumSpearEntityRenderer(EntityRendererFactory.Context context) {
         super(context);
-        this.model = new CincinnasiteDiamondSpearEntityModel(context.getPart(ModEntityModelLayers.CINCINNASITE_DIAMOND_SPEAR_ENTITY_MODEL_LAYER));
+        this.model = new CincinnasiteDiamondSpearEntityModel(context.getPart(ModEntityModelLayers.METALLURGIUM_SPEAR_ENTITY_MODEL_LAYER));
     }
 
     @Override
-    public void render(CincinnasiteDiamondSpearEntity spearEntity, float f, float g, MatrixStack matrixStack, VertexConsumerProvider vertexConsumerProvider, int i) {
+    public void render(MetallurgiumSpearEntity spearEntity, float f, float g, MatrixStack matrixStack, VertexConsumerProvider vertexConsumerProvider, int i) {
         matrixStack.push();
         matrixStack.multiply(RotationAxis.POSITIVE_Y.rotationDegrees(MathHelper.lerp(g, spearEntity.prevYaw, spearEntity.getYaw()) - 90.0f));
         matrixStack.multiply(RotationAxis.POSITIVE_Z.rotationDegrees(MathHelper.lerp(g, spearEntity.prevPitch, spearEntity.getPitch()) - 90.0f));
@@ -41,7 +42,7 @@ public class CincinnasiteDiamondSpearEntityRenderer extends EntityRenderer<Cinci
     }
 
     @Override
-    public Identifier getTexture(CincinnasiteDiamondSpearEntity spearEntity) {
+    public Identifier getTexture(MetallurgiumSpearEntity spearEntity) {
         return TEXTURE;
     }
 }

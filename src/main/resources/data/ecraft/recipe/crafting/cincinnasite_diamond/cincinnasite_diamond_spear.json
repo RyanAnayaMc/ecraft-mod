@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "i": {
+      "item": "ecraft:cincinnasite_diamond_ingot"
+    }
+  },
+  "pattern": [
+    "   i",
+    " i ",
+    "i  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "sassot:cincinnasite_diamond_spear"
+  }
+}

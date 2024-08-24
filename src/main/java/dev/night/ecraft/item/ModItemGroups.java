@@ -82,6 +82,7 @@ public class ModItemGroups {
 
                     // Add spears
                     entries.add(ModWeapons.CINCINNASITE_DIAMOND_SPEAR);
+                    entries.add(ModWeapons.METALLURGIUM_SPEAR);
 
                     // Add shields
                     entries.add(ModWeapons.CINCINNASITE_DIAMOND_SHIELD);
