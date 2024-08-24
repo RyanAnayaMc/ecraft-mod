@@ -14,6 +14,8 @@ public class ModBlocks {
     public static final Block RAW_DIAMOND_BLOCK = registerBlock("raw_diamond_block",
             new Block(
                     AbstractBlock.Settings.create()
+                            .requiresTool()
+                            .strength(4f)
                             .sounds(BlockSoundGroup.METAL)
             ),
             true
@@ -22,6 +24,8 @@ public class ModBlocks {
     public static final Block CINCINNASITE_DIAMOND_BLOCK = registerBlock("cincinnasite_diamond_block",
             new Block(
                     AbstractBlock.Settings.create()
+                            .requiresTool()
+                            .strength(4.5f)
                             .sounds(BlockSoundGroup.METAL)
             ),
             true
@@ -30,6 +34,8 @@ public class ModBlocks {
     public static final Block TERRASTEEL_BLOCK = registerBlock("terrasteel_block",
             new Block(
                     AbstractBlock.Settings.create()
+                            .requiresTool()
+                            .strength(5f)
                             .sounds(BlockSoundGroup.NETHERITE)
             ),
             true

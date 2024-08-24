@@ -6,10 +6,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.component.DataComponentTypes;
 import net.minecraft.component.type.AttributeModifiersComponent;
 import net.minecraft.entity.attribute.EntityAttributes;
-import net.minecraft.item.ArmorItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
-import net.minecraft.item.ToolMaterial;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -39,7 +36,9 @@ public class ModItems {
                     .rarity(Rarity.RARE)
                     .component(DataComponentTypes.ENCHANTMENT_GLINT_OVERRIDE, true)
             ));
-    
+
+
+
     public static void initialize() {
         Ecraft.LOGGER.info("Mod " + Ecraft.MOD_ID + " registering items");
 

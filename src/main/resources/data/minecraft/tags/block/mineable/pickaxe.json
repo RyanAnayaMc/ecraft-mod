@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "ecraft:cincinnasite_diamond_block",
+    "ecraft:terrasteel_block",
+    "ecraft:raw_diamond_block"
+  ]
+}

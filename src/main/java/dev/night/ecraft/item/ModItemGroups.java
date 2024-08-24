@@ -3,6 +3,7 @@ package dev.night.ecraft.item;
 import com.provismet.AdditionalArmoury.items.DaggerItem;
 import com.provismet.AdditionalArmoury.registries.AADataComponentTypes;
 import dev.night.ecraft.Ecraft;
+import dev.night.ecraft.item.food.ModFood;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -38,6 +39,10 @@ public class ModItemGroups {
 
         ItemGroupEvents.modifyEntriesEvent(ECRAFT_GROUP_KEY).register(
                 entries -> {
+                    // Add foods
+                    entries.add(ModFood.DR_PEPPER);
+                    entries.add(ModFood.PIBB_XTRA);
+
                     // Add items
                     entries.add(ModItems.SHARD_OF_TRAVEL);
                     entries.add(ModItems.RAW_DIAMOND);

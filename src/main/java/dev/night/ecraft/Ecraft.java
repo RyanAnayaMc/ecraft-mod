@@ -1,6 +1,8 @@
 package dev.night.ecraft;
 
 import dev.night.ecraft.item.*;
+import dev.night.ecraft.item.food.ModFood;
+import dev.night.ecraft.item.food.ModFoodComponents;
 import dev.night.ecraft.item.spear.SpearEntityTypes;
 import net.fabricmc.api.ModInitializer;
 
@@ -17,6 +19,8 @@ public class Ecraft implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.initialize();
+		ModFoodComponents.initialize();
+		ModFood.initialize();
 		ModBlocks.initialize();
 		ModArmorMaterials.initialize();
 		SpearEntityTypes.initialize();
