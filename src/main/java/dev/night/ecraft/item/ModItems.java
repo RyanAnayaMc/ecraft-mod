@@ -37,7 +37,14 @@ public class ModItems {
                     .component(DataComponentTypes.ENCHANTMENT_GLINT_OVERRIDE, true)
             ));
 
+    public static final Item GUNLANCE_SHELL =
+            registerItem("gunlance_shell", new Item(new Item.Settings()));
 
+    public static final Item SMOOTHBORE_BARREL =
+            registerItem("smoothbore_barrel", new Item(new Item.Settings()));
+
+    public static final Item GUNLANCE_SMITHING_TEMPLATE =
+            registerItem("gunlance_smithing_template", new Item(new Item.Settings()));
 
     public static void initialize() {
         Ecraft.LOGGER.info("Mod " + Ecraft.MOD_ID + " registering items");

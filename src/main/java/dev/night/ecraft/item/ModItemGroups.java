@@ -1,8 +1,8 @@
 package dev.night.ecraft.item;
 
-import com.provismet.AdditionalArmoury.items.DaggerItem;
 import com.provismet.AdditionalArmoury.registries.AADataComponentTypes;
 import dev.night.ecraft.Ecraft;
+import dev.night.ecraft.block.ModBlocks;
 import dev.night.ecraft.item.food.ModFood;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
@@ -17,8 +17,6 @@ import net.minecraft.registry.*;
 import net.minecraft.resource.featuretoggle.FeatureSet;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
-
-import java.util.Arrays;
 
 public class ModItemGroups {
     public static final RegistryKey<ItemGroup> ECRAFT_GROUP_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), Identifier.of(Ecraft.MOD_ID, "ecraft"));
@@ -44,6 +42,9 @@ public class ModItemGroups {
                     entries.add(ModFood.PIBB_XTRA);
 
                     // Add items
+                    entries.add(ModItems.SMOOTHBORE_BARREL);
+                    entries.add(ModItems.GUNLANCE_SMITHING_TEMPLATE);
+
                     entries.add(ModItems.SHARD_OF_TRAVEL);
                     entries.add(ModItems.RAW_DIAMOND);
                     entries.add(Items.DIAMOND);
@@ -54,11 +55,6 @@ public class ModItemGroups {
                     entries.add(ModItems.TERRASTEEL_INGOT);
                     entries.add(ModItems.TERRASTEEL_NUGGET);
                     entries.add(ModBlocks.TERRASTEEL_BLOCK);
-
-                    // Add fishing rods
-                    entries.add(ModWeapons.CINCINNASITE_DIAMOND_FUSED_FISHING_ROD);
-                    entries.add(ModWeapons.CARROT_ON_A_CINCINNASITE_DIAMOND_FUSED_STICK);
-                    entries.add(ModWeapons.WARPED_FUNGUS_ON_A_CINCINNASITE_DIAMOND_FUSED_STICK);
 
                     // Add armor
                     entries.add(ModArmor.CINCINNASITE_DIAMOND_HELMET);
@@ -85,13 +81,14 @@ public class ModItemGroups {
                     // Add shovels
                     entries.add(ModWeapons.TERRASTEEL_SHOVEL);
 
-                    // Add spears
-                    entries.add(ModWeapons.CINCINNASITE_DIAMOND_SPEAR);
-                    entries.add(ModWeapons.METALLURGIUM_SPEAR);
+                    // Add lances
+                    for (Item item : ModWeapons.lances)
+                        entries.add(item);
 
-                    // Add shields
-                    entries.add(ModWeapons.CINCINNASITE_DIAMOND_SHIELD);
-                    entries.add(ModWeapons.CINCINNASITE_DIAMOND_FRAMED_WOODEN_SHIELD);
+                    // Add gunlances
+                    entries.add(ModItems.GUNLANCE_SHELL);
+                    for (Item item : ModWeapons.gunlances)
+                        entries.add(item);
 
                     // Add maces
                     entries.add(ModWeapons.CINCINNASITE_DIAMOND_MACE);

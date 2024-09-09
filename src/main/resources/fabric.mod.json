@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "ecraft",
-	"version": "0.2+1.21",
+	"version": "0.2+1.21.1",
 	"name": "eeeeeecraft",
 	"description": "Helper mod for the eeeeeecraft modpack.",
 	"authors": [
@@ -23,6 +23,9 @@
 		],
 		"client": [
 			"dev.night.ecraft.EcraftClient"
+		],
+		"dynamicHud": [
+			"dev.night.ecraft.client.GunlanceAmmoHudOverlay"
 		]
 	},
 	"mixins": [
@@ -34,14 +37,13 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.16.0",
-		"minecraft": "~1.21",
+		"minecraft": "~1.21.1",
 		"java": ">=21",
 		"fabric-api": "*",
-		"mythicmetals": ">=0.20.0+1.21-alpha6",
+		"mythicmetals": ">=0.20.1+1.21",
 		"betternether": ">=21.0.10",
 		"betterend": "*",
-		"additional-armoury": "*",
-		"sassot": "*"
+		"additional-armoury": "*"
 	},
 	"suggests": {
 

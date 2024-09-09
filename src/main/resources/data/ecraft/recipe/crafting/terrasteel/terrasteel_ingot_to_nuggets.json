@@ -1,12 +1,13 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "category": "equipment",
-    "ingredients": [
-      "ecraft:terrasteel_ingot"
-    ],
-    "result": {
-      "id": "ecraft:terrasteel_nugget",
-      "count": 9
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "ecraft:terrasteel_ingot"
     }
+  ],
+  "result": {
+    "id": "ecraft:terrasteel_nugget",
+    "count": 9
   }
-  
+}

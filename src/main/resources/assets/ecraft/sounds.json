@@ -1,0 +1,32 @@
+{
+  "gunlance_empty": {
+    "subtitle": "subtitles.ecraft.gunlance_empty",
+    "sounds": [
+      "ecraft:gunlance_empty"
+    ]
+  },
+  "gunlance_fire": {
+    "subtitle": "subtitles.ecraft.gunlance_fire",
+    "sounds": [
+      "ecraft:gunlance_fire"
+    ]
+  },
+  "gunlance_reload": {
+    "subtitle": "subtitles.ecraft.gunlance_reload",
+    "sounds": [
+      "ecraft:gunlance_reload"
+    ]
+  },
+  "gunlance_charge": {
+    "subtitle": "subtitles.ecraft.gunlance_charge",
+    "sounds": [
+      "ecraft:gunlance_charge"
+    ]
+  },
+  "gunlance_charge_fire": {
+    "subtitle": "subtitles.ecraft.gunlance_charge_fire",
+    "sounds": [
+      "ecraft:gunlance_charge_fire"
+    ]
+  }
+}

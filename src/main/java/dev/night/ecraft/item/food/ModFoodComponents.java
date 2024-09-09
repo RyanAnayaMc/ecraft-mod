@@ -24,7 +24,7 @@ public class ModFoodComponents {
                             new StatusEffectInstance(StatusEffects.HASTE, 2400, 4), 1.0F
                     )
                     .statusEffect(
-                            new StatusEffectInstance(StatusEffects.ABSORPTION, 2400, 5), 1.0F
+                            new StatusEffectInstance(StatusEffects.ABSORPTION, 2400, 4), 1.0F
                     )
                     .alwaysEdible().build();
 

@@ -1,13 +1,12 @@
 package dev.night.ecraft.item;
 
+import com.provismet.AdditionalArmoury.items.AAToolMaterials;
 import com.provismet.AdditionalArmoury.items.DaggerItem;
 import com.provismet.AdditionalArmoury.items.MaceItem;
 import com.provismet.AdditionalArmoury.registries.AADataComponentTypes;
 import com.provismet.AdditionalArmoury.registries.AAItems;
 import dev.night.ecraft.Ecraft;
-import dev.night.ecraft.item.fishing_rod.EModFishingRodItem;
-import dev.night.ecraft.item.fishing_rod.EModOnAStickItem;
-import dev.night.ecraft.item.spear.ESpearItem;
+import dev.night.ecraft.util.ItemList;
 import dev.night.ecraft.util.Utilities;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.component.type.PotionContentsComponent;
@@ -21,30 +20,153 @@ import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.resource.featuretoggle.FeatureSet;
 import net.minecraft.util.Rarity;
 import nourl.mythicmetals.item.tools.MythicToolMaterials;
-import solipingen.sassot.SpearsAxesSwordsShieldsAndOtherTools;
-import solipingen.sassot.item.ModFishingRodItem;
-import solipingen.sassot.item.ModOnAStickItem;
-import solipingen.sassot.item.ModShieldItem;
-import solipingen.sassot.item.SpearItem;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class ModWeapons {
+    protected static ItemList<Item> lances = new ItemList<Item>();
+    protected static ItemList<Item> gunlances = new ItemList<Item>();
 
-    public static final Item METALLURGIUM_SPEAR = ModItems.registerItem("metallurgium_spear",
-            new ESpearItem(
-                    MythicToolMaterials.METALLURGIUM,
+    //region Lances
+    public static final Item WOODEN_LANCE = lances.put(ModItems.registerItem("wooden_lance",
+            new LanceItem(ToolMaterials.WOOD)));
+
+    public static final Item STONE_LANCE = lances.put(ModItems.registerItem("stone_lance",
+            new LanceItem(ToolMaterials.STONE)));
+
+    public static final Item COPPER_LANCE = lances.put(ModItems.registerItem("copper_lance",
+            new LanceItem(MythicToolMaterials.COPPER)));
+
+    public static final Item IRON_LANCE = lances.put(ModItems.registerItem("iron_lance",
+            new LanceItem(ToolMaterials.IRON)));
+
+    public static final Item GOLDEN_LANCE = lances.put(ModItems.registerItem("golden_lance",
+            new LanceItem(ToolMaterials.GOLD, 0, 0.05f)));
+
+    public static final Item DIAMOND_LANCE = lances.put(ModItems.registerItem("diamond_lance",
+            new LanceItem(ToolMaterials.DIAMOND, 0, 0.05f)));
+
+    public static final Item ADAMANTITE_LANCE = lances.put(ModItems.registerItem("adamantite_lance",
+            new LanceItem(MythicToolMaterials.ADAMANTITE, 0, 0.1f)));
+
+    public static final Item AQUARIUM_LANCE = lances.put(ModItems.registerItem("aquarium_lance",
+            new LanceItem(MythicToolMaterials.AQUARIUM, 0, 0.05f)));
+
+    public static final Item BANGLUM_LANCE = lances.put(ModItems.registerItem("banglum_lance",
+            new LanceItem(MythicToolMaterials.BANGLUM, 0, 0.05f)));
+
+    public static final Item BRONZE_LANCE = lances.put(ModItems.registerItem("bronze_lance",
+            new LanceItem(MythicToolMaterials.BRONZE, 0, 0.05f)));
+
+    // TODO add bonus fortune
+    public static final Item CARMOT_LANCE = lances.put(ModItems.registerItem("carmot_lance",
+            new LanceItem(MythicToolMaterials.CARMOT,0, 0.05f)));
+
+    public static final Item CELESTIUM_LANCE = lances.put(ModItems.registerItem("celestium_lance",
+            new LanceItem(MythicToolMaterials.CELESTIUM, 1, 0.7f)));
+
+    public static final Item CINCINNASITE_DIAMOND_LANCE = lances.put(ModItems.registerItem("cincinnasite_diamond_lance",
+            new LanceItem(ModToolMaterials.CINCINNASITE_DIAMOND, -2.3f, 0.4f)));
+
+    public static final Item DURASTEEL_LANCE = lances.put(ModItems.registerItem("durasteel_lance",
+            new LanceItem(MythicToolMaterials.DURASTEEL, 0, 0.05f)));
+
+    // TODO buff endernether
+    public static final Item ENDERNETHER_LANCE = lances.put(ModItems.registerItem("endernether_lance",
+            new LanceItem(AAToolMaterials.ENDERNETHER, 0, 0.4f)));
+
+    public static final Item HALLOWED_LANCE = lances.put(ModItems.registerItem("hallowed_lance",
+            new LanceItem(MythicToolMaterials.HALLOWED, 0, 0.1f)));
+
+    public static final Item KYBER_LANCE = lances.put(ModItems.registerItem("kyber_lance",
+            new LanceItem(MythicToolMaterials.KYBER, 0, 0.1f)));
+
+    // TODO add natural knockback 3
+    public static final Item LEGENDARY_BANGLUM_LANCE = lances.put(ModItems.registerItem("legendary_banglum_lance",
+            new LanceItem(MythicToolMaterials.LEGENDARY_BANGLUM)));
+
+    public static final Item METALLURGIUM_LANCE = lances.put(ModItems.registerItem("metallurgium_lance",
+            new LanceItem(MythicToolMaterials.METALLURGIUM, 3, 0.5f)));
+
+    public static final Item MYTHRIL_LANCE = lances.put(ModItems.registerItem("mythril_lance",
+            new LanceItem(MythicToolMaterials.MYTHRIL, 0, 0.25f)));
+
+    // TODO buff netherite
+    public static final Item NETHERITE_LANCE = lances.put(ModItems.registerItem("netherite_lance",
+            new LanceItem(ToolMaterials.NETHERITE, 0, 0.1f)));
+
+    public static final Item ORICHALCUM_LANCE = lances.put(ModItems.registerItem("orichalcum_lance",
+            new LanceItem(MythicToolMaterials.ORICHALCUM)));
+
+    public static final Item OSMIUM_LANCE = lances.put(ModItems.registerItem("osmium_lance",
+            new LanceItem(MythicToolMaterials.OSMIUM)));
+
+    // TODO buff overnether
+    public static final Item OVERNETHER_LANCE = lances.put(ModItems.registerItem("overnether_lance",
+            new LanceItem(AAToolMaterials.OVERNETHER, 0, 0.1f)));
+
+    // TODO add branding
+    public static final Item PALLADIUM_LANCE = lances.put(ModItems.registerItem("palladium_lance",
+            new LanceItem(MythicToolMaterials.PALLADIUM, 0, 0.1f)));
+
+    // TODO add regrowth
+    public static final Item PROMETHEUM_LANCE = lances.put(ModItems.registerItem("prometheum_lance",
+            new LanceItem(MythicToolMaterials.PROMETHEUM, 0, 0.05f)));
+
+    public static final Item QUADRILLUM_LANCE = lances.put(ModItems.registerItem("quadrillum_lance",
+            new LanceItem(MythicToolMaterials.QUADRILLUM)));
+
+    public static final Item RUNITE_LANCE = lances.put(ModItems.registerItem("runite_lance",
+            new LanceItem(MythicToolMaterials.RUNITE, 0f, 0.05f)));
+
+    public static final Item STAR_PLATINUM_LANCE = lances.put(ModItems.registerItem("star_platinum_lance",
+            new LanceItem(MythicToolMaterials.STAR_PLATINUM, 0, 0.3f)));
+
+    public static final Item STEEL_LANCE = lances.put(ModItems.registerItem("steel_lance",
+            new LanceItem(MythicToolMaterials.STEEL)));
+
+    public static final Item STORMYX_LANCE = lances.put(ModItems.registerItem("stormyx_lance",
+            new LanceItem(MythicToolMaterials.STORMYX, 0, 0.05f)));
+
+    public static final Item TERRASTEEL_LANCE = lances.put(ModItems.registerItem("terrasteel_lance",
+            new LanceItem(ModToolMaterials.TERRASTEEL, 1, 0.55f)));
+
+    // TODO add submerged buff
+    public static final Item TIDESINGER_LANCE = lances.put(ModItems.registerItem("tidesinger_lance",
+            new LanceItem(MythicToolMaterials.TIDESINGER, 0, 0.3f)));
+    //endregion
+
+    //region Gunlances
+    public static final Item CINCINNASITE_DIAMOND_GUNLANCE = gunlances.put(ModItems.registerItem("cincinnasite_diamond_gunlance",
+            new GunlanceItem(
+                    ModToolMaterials.CINCINNASITE_DIAMOND,
                     new Item.Settings()
-                            .rarity(Rarity.RARE)
                             .attributeModifiers(
-                                    SpearItem.createAttributeModifiers(
-                                            MythicToolMaterials.METALLURGIUM,
-                                            solipingen.sassot.item.ModItems.SPEAR_BASE_ATTACK_DAMAGE,
-                                            -2.3f
+                                    LanceItem.getLanceAttributes(
+                                            ModToolMaterials.CINCINNASITE_DIAMOND,
+                                            1.3f,
+                                            -2.6f
                                     )
                             )
             )
-            , Ecraft.SASSOT_ID); // spoofed mod ID because sassot hardcodes it in asset loading
+    ));
 
 
+    public static final Item NETHERITE_GUNLANCE = gunlances.put(ModItems.registerItem("netherite_gunlance",
+            new GunlanceItem(
+                    ToolMaterials.NETHERITE,
+                    new Item.Settings()
+                            .attributeModifiers(
+                                    LanceItem.getLanceAttributes(
+                                            ToolMaterials.NETHERITE,
+                                            4f,
+                                            -2.6f
+                                    )
+                            )
+            )
+    ));
+    //endregion
 
     //region Cincinnasite-Diamond Gear
     public static final Item CINCINNASITE_DIAMOND_DAGGER = ModItems.registerItem("cincinnasite_diamond_dagger",
@@ -70,68 +192,6 @@ public class ModWeapons {
                             )
             )
     );
-
-    public static final Item CINCINNASITE_DIAMOND_SPEAR = ModItems.registerItem("cincinnasite_diamond_spear",
-            new ESpearItem(
-                    ModToolMaterials.CINCINNASITE_DIAMOND,
-                    new Item.Settings()
-                            .rarity(Rarity.UNCOMMON)
-                            .attributeModifiers(
-                                    SpearItem.createAttributeModifiers(
-                                            ModToolMaterials.CINCINNASITE_DIAMOND,
-                                            solipingen.sassot.item.ModItems.SPEAR_BASE_ATTACK_DAMAGE,
-                                            -2.2f
-                                    )
-                            )
-            )
-    , Ecraft.SASSOT_ID); // spoofed mod ID because sassot hardcodes it in asset loading
-
-    public static final Item CINCINNASITE_DIAMOND_SHIELD = ModItems.registerItem("cincinnasite_diamond_shield",
-            new ModShieldItem(
-                    ModToolMaterials.CINCINNASITE_DIAMOND,
-                    5.7F,
-                    false,
-                    130,
-                    0.14f,
-                    new Item.Settings()
-            )
-    , Ecraft.SASSOT_ID); // spoofed mod ID because sassot hardcodes it in asset loading
-
-    public static final Item CINCINNASITE_DIAMOND_FRAMED_WOODEN_SHIELD = ModItems.registerItem("cincinnasite_diamond_framed_wooden_shield",
-            new ModShieldItem(
-                    ModToolMaterials.CINCINNASITE_DIAMOND,
-                    4.0F,
-                    true,
-                    60,
-                    0.5f,
-                    new Item.Settings()
-            )
-    , Ecraft.SASSOT_ID); // spoofed mod ID because sassot hardcodes it in asset loading
-
-    public static final Item CINCINNASITE_DIAMOND_FUSED_FISHING_ROD = ModItems.registerItem("cincinnasite_diamond_fused_fishing_rod",
-            new EModFishingRodItem(
-                    new Item.Settings(),
-                    ModToolMaterials.CINCINNASITE_DIAMOND
-            )
-    , Ecraft.SASSOT_ID); // spoofed mod ID because sassot hardcodes it in asset loading
-
-    public static final Item WARPED_FUNGUS_ON_A_CINCINNASITE_DIAMOND_FUSED_STICK = ModItems.registerItem("warped_fungus_on_a_cincinnasite_diamond_fused_stick",
-            new EModOnAStickItem<StriderEntity>(
-                    new Item.Settings().maxDamage(100),
-                    EntityType.STRIDER,
-                    ModToolMaterials.CINCINNASITE_DIAMOND,
-                    1
-            )
-    , Ecraft.SASSOT_ID);
-
-    public static final Item CARROT_ON_A_CINCINNASITE_DIAMOND_FUSED_STICK = ModItems.registerItem("carrot_on_a_cincinnasite_diamond_fused_stick",
-            new EModOnAStickItem<PigEntity>(
-                    new Item.Settings().maxDamage(25),
-                    EntityType.PIG,
-                    ModToolMaterials.CINCINNASITE_DIAMOND,
-                    7
-            )
-    , Ecraft.SASSOT_ID);
     //endregion
 
     //region Terrasteel Gear

@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "sassot:item/cincinnasite_diamond_spear/cincinnasite_diamond_spear"
-  }
-}

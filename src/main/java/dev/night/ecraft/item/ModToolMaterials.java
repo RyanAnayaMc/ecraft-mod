@@ -1,9 +1,11 @@
 package dev.night.ecraft.item;
 
 import com.google.common.base.Suppliers;
+import dev.night.ecraft.tags.ModBlockTags;
 import net.minecraft.block.Block;
 import net.minecraft.entity.attribute.EntityAttribute;
 import net.minecraft.entity.attribute.EntityAttributes;
+import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.registry.RegistryKeys;
@@ -16,7 +18,8 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
     CINCINNASITE_DIAMOND(2061, 8.2F, 6F, 25, BlockTags.INCORRECT_FOR_DIAMOND_TOOL, EntityAttributes.GENERIC_ATTACK_SPEED, 0F, () -> Ingredient.ofItems(ModItems.CINCINNASITE_DIAMOND_INGOT)),
-    TERRASTEEL(2740, 17F, 7F, 28, TagKey.of(RegistryKeys.BLOCK, Identifier.of("mythicmetals", "incorrect_for_unobtainium_alloy_tools")), EntityAttributes.GENERIC_ATTACK_KNOCKBACK, 2f, () -> Ingredient.ofItems(ModItems.TERRASTEEL_INGOT));
+    TERRASTEEL(2740, 17F, 7F, 28, TagKey.of(RegistryKeys.BLOCK, Identifier.of("mythicmetals", "incorrect_for_unobtainium_alloy_tools")), EntityAttributes.GENERIC_ATTACK_KNOCKBACK, 2f, () -> Ingredient.ofItems(ModItems.TERRASTEEL_INGOT)),
+    COPPER(420, 4f, 2f, 14, ModBlockTags.INCORRECT_FOR_COPPER_TOOL, EntityAttributes.GENERIC_ATTACK_SPEED, 0F, () -> Ingredient.ofItems(Items.COPPER_INGOT));
 
 
     private final int itemDurability;

@@ -6,6 +6,7 @@ import net.minecraft.component.type.AttributeModifierSlot;
 import net.minecraft.component.type.AttributeModifiersComponent;
 import net.minecraft.entity.attribute.EntityAttributeModifier;
 import net.minecraft.entity.attribute.EntityAttributes;
+import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.item.Item;
 import net.minecraft.item.ToolMaterial;
 

@@ -1,0 +1,28 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "ecraft:item/lances/tidesinger_lance"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-2, 90, 40],
+			"translation": [0, 5.75, 0],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 0, -45],
+			"translation": [0, 2.5, 0]
+		},
+		"firstperson_righthand": {
+			"rotation": [4, 90, -40],
+			"translation": [0.75, 1.75, -7.75],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 75, -40],
+			"translation": [3.75, 9, -4.5],
+			"scale": [1.25, 1.25, 1.25]
+		}
+	}
+}

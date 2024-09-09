@@ -1,0 +1,33 @@
+{
+  "attributes": {
+    "two_handed": true,
+    "attack_range": 3.5,
+    "category": "gunlance",
+    "attacks": [
+      {
+        "hitbox": "FORWARD_BOX",
+        "upswing": 0.75,
+        "animation": "bettercombat:two_handed_stab_right",
+        "swing_sound": {
+          "id": "bettercombat:spear_stab"
+        }
+      },
+      {
+        "hitbox": "FORWARD_BOX",
+        "upswing": 0.75,
+        "animation": "bettercombat:two_handed_stab_left",
+        "swing_sound": {
+          "id": "bettercombat:spear_stab"
+        }
+      },
+      {
+        "hitbox": "VERTICAL_PLANE",
+        "upswing": 0.75,
+        "animation": "bettercombat:two_handed_slam_heavy",
+        "swing_sound": {
+          "id": "bettercombat:hammer_slam"
+        }
+      }
+    ]
+  }
+}
