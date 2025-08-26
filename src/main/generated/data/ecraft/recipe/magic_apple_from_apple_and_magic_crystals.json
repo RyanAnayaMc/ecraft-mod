@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:arrow"
+    },
+    "m": {
+      "tag": "ecraft:gems/magic"
+    }
+  },
+  "pattern": [
+    "mmm",
+    "mam",
+    "mmm"
+  ],
+  "result": {
+    "count": 4,
+    "id": "ecraft:magic_arrow"
+  }
+}

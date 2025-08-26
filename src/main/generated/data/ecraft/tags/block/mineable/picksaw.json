@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#minecraft:mineable/axe",
+    "#minecraft:mineable/shovel",
+    "#minecraft:mineable/pickaxe",
+    "#minecraft:sword_efficient",
+    "#minecraft:mineable/hoe"
+  ]
+}

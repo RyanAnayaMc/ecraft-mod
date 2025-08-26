@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "T": {
+      "item": "minecraft:tnt"
+    },
+    "r": {
+      "tag": "c:dusts/redstone"
+    }
+  },
+  "pattern": [
+    " r ",
+    "rTr",
+    " r "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ecraft:charge"
+  }
+}

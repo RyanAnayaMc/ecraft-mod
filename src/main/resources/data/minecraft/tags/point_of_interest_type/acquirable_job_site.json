@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "ecraft:hunter_poi",
+      "required": false
+    }
+  ]
+}

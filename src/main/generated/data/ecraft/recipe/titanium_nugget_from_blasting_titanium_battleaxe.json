@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "group": "titanium_blasting",
+  "ingredient": {
+    "item": "ecraft:titanium_battleaxe"
+  },
+  "result": {
+    "id": "ecraft:titanium_nugget"
+  }
+}

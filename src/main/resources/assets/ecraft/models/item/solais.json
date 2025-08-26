@@ -1,0 +1,68 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "ecraft:item/solais"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "ecraft:charge": 0.1
+      },
+      "model": "ecraft:item/solais_charge1"
+    },
+    {
+      "predicate": {
+        "ecraft:charge": 0.2
+      },
+      "model": "ecraft:item/solais_charge2"
+    },
+    {
+      "predicate": {
+        "ecraft:charge": 0.3
+      },
+      "model": "ecraft:item/solais_charge3"
+    },
+    {
+      "predicate": {
+        "ecraft:charge": 0.4
+      },
+      "model": "ecraft:item/solais_charge4"
+    },
+    {
+      "predicate": {
+        "ecraft:charge": 0.5
+      },
+      "model": "ecraft:item/solais_charge5"
+    },
+    {
+      "predicate": {
+        "ecraft:charge": 0.6
+      },
+      "model": "ecraft:item/solais_charge6"
+    },
+    {
+      "predicate": {
+        "ecraft:charge": 0.7
+      },
+      "model": "ecraft:item/solais_charge7"
+    },
+    {
+      "predicate": {
+        "ecraft:charge": 0.8
+      },
+      "model": "ecraft:item/solais_charge8"
+    },
+    {
+      "predicate": {
+        "ecraft:charge": 0.9
+      },
+      "model": "ecraft:item/solais_charge9"
+    },
+    {
+      "predicate": {
+        "ecraft:charge": 1.0
+      },
+      "model": "ecraft:item/solais_charge10"
+    }
+  ]
+}

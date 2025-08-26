@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "group": "hallowed_blasting",
+  "ingredient": {
+    "item": "ecraft:hallowed_sword"
+  },
+  "result": {
+    "id": "ecraft:hallowed_nugget"
+  }
+}

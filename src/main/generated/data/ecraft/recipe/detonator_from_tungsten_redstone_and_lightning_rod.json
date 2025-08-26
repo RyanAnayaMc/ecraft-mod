@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "R": {
+      "item": "minecraft:lightning_rod"
+    },
+    "r": {
+      "tag": "c:dusts/redstone"
+    },
+    "t": {
+      "tag": "ecraft:ingots/tungsten"
+    }
+  },
+  "pattern": [
+    " R ",
+    "trt",
+    "trt"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ecraft:detonium_detonator"
+  }
+}

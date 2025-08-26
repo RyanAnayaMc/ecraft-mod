@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_demonite_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ecraft:demonite_leggings"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ecraft:demonite_nugget_from_blasting_demonite_leggings"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_demonite_leggings"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ecraft:demonite_nugget_from_blasting_demonite_leggings"
+    ]
+  }
+}

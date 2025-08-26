@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "ecraft:block/eternal_ice_detonium_ore"
+  }
+}

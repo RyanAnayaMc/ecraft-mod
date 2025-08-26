@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_demonite_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ecraft:demonite_chestplate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ecraft:demonite_nugget_from_blasting_demonite_chestplate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_demonite_chestplate"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ecraft:demonite_nugget_from_blasting_demonite_chestplate"
+    ]
+  }
+}

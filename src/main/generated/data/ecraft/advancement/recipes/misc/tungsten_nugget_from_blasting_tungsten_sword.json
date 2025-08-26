@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ecraft:tungsten_nugget_from_blasting_tungsten_sword"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tungsten_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ecraft:tungsten_sword"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_tungsten_sword"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ecraft:tungsten_nugget_from_blasting_tungsten_sword"
+    ]
+  }
+}

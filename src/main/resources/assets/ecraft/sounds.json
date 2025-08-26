@@ -28,5 +28,176 @@
     "sounds": [
       "ecraft:gunlance_charge_fire"
     ]
+  },
+  "mega_buster_shot": {
+    "subtitle": "subtitles.ecraft.mega_buster_shot",
+    "sounds": [
+      "ecraft:mega_buster_shot"
+    ]
+  },
+  "mega_buster_hit": {
+    "subtitle": "subtitles.ecraft.mega_buster_hit",
+    "sounds": [
+      "ecraft:mega_buster_hit"
+    ]
+  },
+  "mega_buster_recharge": {
+    "subtitle": "subtitles.ecraft.mega_buster_recharge",
+    "sounds": [
+      "ecraft:mega_buster_recharge"
+    ]
+  },
+  "mega_buster_charging_start": {
+    "subtitle": "subtitles.ecraft.mega_buster_charging",
+    "sounds": [
+      "ecraft:mega_buster_charging_start"
+    ]
+  },
+  "mega_buster_charging_loop": {
+    "subtitle": "subtitles.ecraft.mega_buster_charging",
+    "sounds": [
+      "ecraft:mega_buster_charging_loop"
+    ]
+  },
+  "mega_buster_charge_shot": {
+    "subtitle": "subtitles.ecraft.mega_buster_charge_shot",
+    "sounds": [
+      "ecraft:mega_buster_charge_shot"
+    ]
+  },
+  "x_buster_charge_start": {
+    "subtitle": "subtitles.ecraft.x_buster_charging",
+    "sounds": [
+      "ecraft:x_buster_charge_start"
+    ]
+  },
+  "x_buster_charge_loop": {
+    "subtitle": "subtitles.ecraft.x_buster_charging",
+    "sounds": [
+      "ecraft:x_buster_charge_loop"
+    ]
+  },
+  "x_buster_charge_shot": {
+    "subtitle": "subtitles.ecraft.x_buster_charge_shot",
+    "sounds": [
+      "ecraft:x_buster_charge_shot"
+    ]
+  },
+  "x_buster_hit_block": {
+    "subtitle": "subtitles.ecraft.x_buster_hit",
+    "sounds": [
+      "ecraft:x_buster_hit_block"
+    ]
+  },
+  "x_buster_hit_entity": {
+    "subtitle": "subtitles.ecraft.x_buster_hit",
+    "sounds": [
+      "ecraft:x_buster_hit_entity"
+    ]
+  },
+  "x_buster_recharge": {
+    "subtitle": "subtitles.ecraft.x_buster_recharge",
+    "sounds": [
+      "ecraft:x_buster_recharge"
+    ]
+  },
+  "x_buster_recharge_full": {
+    "subtitle": "subtitles.ecraft.x_buster_recharge",
+    "sounds": [
+      "ecraft:x_buster_recharge_full"
+    ]
+  },
+  "x_buster_shot": {
+    "subtitle": "subtitles.ecraft.x_buster_shot",
+    "sounds": [
+      "ecraft:x_buster_shot"
+    ]
+  },
+  "x_buster_super_charge_shot": {
+    "subtitle": "subtitles.ecraft.x_buster_super_charge_shot",
+    "sounds": [
+      "ecraft:x_buster_super_charge_shot"
+    ]
+  },
+  "caliburn_charged": {
+    "subtitle": "subtitles.ecraft.caliburn_charged",
+    "sounds": [
+      "ecraft:caliburn_charged_1",
+      "ecraft:caliburn_charged_2"
+    ]
+  },
+  "caliburn_super": {
+    "subtitle": "subtitles.ecraft.caliburn_super",
+    "sounds": [
+      "ecraft:caliburn_super"
+    ]
+  },
+  "solais_charged": {
+    "subtitle": "subtitles.ecraft.solais_charged",
+    "sounds": [
+      "ecraft:solais_charged"
+    ]
+  },
+  "solais_heal": {
+    "subtitle": "subtitles.ecraft.solais_heal",
+    "sounds": [
+      "ecraft:solais_heal"
+    ]
+  },
+  "solais_super": {
+    "subtitle": "subtitles.ecraft.solais_super",
+    "sounds": [
+      "ecraft:solais_super"
+    ]
+  },
+  "staff_cast": {
+    "subtitle": "subtitles.ecraft.staff_cast",
+    "sounds": [
+      "ecraft:staff_cast"
+    ]
+  },
+  "staff_impact": {
+    "subtitle": "subtitles.ecraft.staff_impact",
+    "sounds": [
+      "ecraft:staff_impact"
+    ]
+  },
+  "staff_fire_fire": {
+    "subtitle": "subtitles.ecraft.staff_fire_fire",
+    "sounds": [
+      "ecraft:staff_fire_fire"
+    ]
+  },
+  "staff_fire_impact": {
+    "subtitle": "subtitles.ecraft.staff_fire_impact",
+    "sounds": [
+      "ecraft:staff_fire_impact_1",
+      "ecraft:staff_fire_impact_2",
+      "ecraft:staff_fire_impact_3"
+    ]
+  },
+  "staff_ice_fire": {
+    "subtitle": "subtitles.ecraft.staff_ice_fire",
+    "sounds": [
+      "ecraft:staff_ice_fire"
+    ]
+  },
+  "staff_wind_fire": {
+    "subtitle": "subtitles.ecraft.staff_wind_fire",
+    "sounds": [
+      "ecraft:staff_wind_fire"
+    ]
+  },
+  "staff_lightning_fire": {
+    "subtitle": "subtitles.ecraft.staff_lightning_fire",
+    "sounds": [
+      "ecraft:staff_lightning_fire"
+    ]
+  },
+  "staff_swing": {
+    "sounds": [
+      "ecraft:staff_swing_1",
+      "ecraft:staff_swing_2"
+    ]
   }
 }

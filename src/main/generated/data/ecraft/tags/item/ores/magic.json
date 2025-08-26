@@ -1,0 +1,11 @@
+{
+  "values": [
+    "ecraft:magic_ore",
+    "ecraft:dirt_magic_ore",
+    "ecraft:andesite_magic_ore",
+    "ecraft:diorite_magic_ore",
+    "ecraft:granite_magic_ore",
+    "ecraft:tuff_magic_ore",
+    "ecraft:deepslate_magic_ore"
+  ]
+}

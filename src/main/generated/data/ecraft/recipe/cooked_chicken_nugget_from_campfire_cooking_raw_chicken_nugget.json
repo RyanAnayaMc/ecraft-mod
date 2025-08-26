@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 90,
+  "experience": 0.03,
+  "group": "chicken",
+  "ingredient": {
+    "item": "ecraft:raw_chicken_nugget"
+  },
+  "result": {
+    "id": "ecraft:cooked_chicken_nugget"
+  }
+}

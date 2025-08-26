@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_detonium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#ecraft:ingots/detonium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ecraft:detonium_sword"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_detonium"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ecraft:detonium_sword"
+    ]
+  }
+}

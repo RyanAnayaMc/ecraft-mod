@@ -1,0 +1,26 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "tag": "ecraft:raw_materials/cobalt"
+    },
+    {
+      "tag": "ecraft:raw_materials/orichalcum"
+    },
+    {
+      "tag": "ecraft:raw_materials/titanium"
+    }
+  ],
+  "output": {
+    "id": "ecraft:hallowed_ingot",
+    "count": 1
+  },
+  "overrides": {
+    "4+": {
+      "id": "ecraft:hallowed_ingot",
+      "count": 2
+    }
+  },
+  "min_forge_tier": 3,
+  "fuel_per_tick": 30
+}

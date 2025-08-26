@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "ecraft:caliburn_blast",
+    "ecraft:fire_staff",
+    "ecraft:wind_staff",
+    "ecraft:ice_staff",
+    "ecraft:lightning_staff",
+    "ecraft:chaos_state"
+  ]
+}

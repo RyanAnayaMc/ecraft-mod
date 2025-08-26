@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "tag": "ecraft:ingots/orichalcum"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "MsM",
+    " s "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ecraft:orichalcum_battleaxe"
+  }
+}

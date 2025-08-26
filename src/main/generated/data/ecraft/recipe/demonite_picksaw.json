@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "ecraft:demonite_pickaxe"
+    },
+    {
+      "item": "ecraft:demonite_shovel"
+    },
+    {
+      "item": "ecraft:demonite_axe"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "ecraft:demonite_picksaw"
+  }
+}

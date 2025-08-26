@@ -1,0 +1,27 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "item": "ecraft:magic_crystal",
+      "count": 48
+    },
+    {
+      "item": "ecraft:cincinnasite_diamond_ingot",
+      "count": 24
+    },
+    {
+      "item": "eternal_starlight:aethersent_ingot",
+      "count": 16
+    },
+    {
+      "item": "ecraft:refined_aetherium_crystal",
+      "count": 12
+    }
+  ],
+  "output": {
+    "id": "ecraft:flawless_aetherium_crystal",
+    "count": 1
+  },
+  "min_forge_tier": 4,
+  "fuel_per_tick": 720
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_magic": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#ecraft:ingots/cobalt"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ecraft:magic_rail_from_cobalt_and_magic_crystals"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_magic"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ecraft:magic_rail_from_cobalt_and_magic_crystals"
+    ]
+  }
+}

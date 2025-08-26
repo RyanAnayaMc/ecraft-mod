@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "detonium_smelting",
+  "ingredient": {
+    "item": "ecraft:detonium_battleaxe"
+  },
+  "result": {
+    "id": "ecraft:detonium_nugget"
+  }
+}

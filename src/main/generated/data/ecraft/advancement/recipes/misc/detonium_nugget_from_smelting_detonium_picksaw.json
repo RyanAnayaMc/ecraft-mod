@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_detonium_picksaw": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ecraft:detonium_picksaw"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ecraft:detonium_nugget_from_smelting_detonium_picksaw"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_detonium_picksaw"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ecraft:detonium_nugget_from_smelting_detonium_picksaw"
+    ]
+  }
+}

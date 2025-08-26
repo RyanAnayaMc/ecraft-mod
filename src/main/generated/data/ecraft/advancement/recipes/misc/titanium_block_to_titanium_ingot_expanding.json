@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ecraft:titanium_block_to_titanium_ingot_expanding"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_titanium_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ecraft:titanium_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_titanium_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ecraft:titanium_block_to_titanium_ingot_expanding"
+    ]
+  }
+}

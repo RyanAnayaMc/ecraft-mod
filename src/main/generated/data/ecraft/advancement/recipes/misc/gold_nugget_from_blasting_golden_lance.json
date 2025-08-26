@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_golden_lance": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ecraft:golden_lance"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ecraft:gold_nugget_from_blasting_golden_lance"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_golden_lance"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ecraft:gold_nugget_from_blasting_golden_lance"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "B": {
+      "item": "ecraft:detonium_block"
+    },
+    "D": {
+      "item": "ecraft:detonium_charge"
+    },
+    "T": {
+      "item": "ecraft:charge"
+    }
+  },
+  "pattern": [
+    "TDT",
+    "DBD",
+    "TDT"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ecraft:detonium_nuke"
+  }
+}

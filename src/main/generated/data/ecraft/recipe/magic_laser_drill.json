@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "ecraft:cincinnasite_diamond_block"
+    },
+    "L": {
+      "item": "ecraft:magic_lamp"
+    },
+    "S": {
+      "item": "ecraft:mana_star"
+    },
+    "i": {
+      "tag": "c:ingots/iron"
+    }
+  },
+  "pattern": [
+    "iCi",
+    "iSL",
+    "iii"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ecraft:magic_laser_drill"
+  }
+}

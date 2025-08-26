@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "ecraft:demonite_sword"
+    },
+    {
+      "item": "ecraft:blade_of_grass"
+    },
+    {
+      "item": "ecraft:volcano"
+    },
+    {
+      "item": "ecraft:muramasa"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "ecraft:nights_edge"
+  }
+}

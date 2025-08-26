@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "tag": "ecraft:ingots/cobalt"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "M",
+    "M",
+    "s"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ecraft:cobalt_sword"
+  }
+}

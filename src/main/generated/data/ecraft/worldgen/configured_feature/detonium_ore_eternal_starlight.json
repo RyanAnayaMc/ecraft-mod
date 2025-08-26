@@ -1,0 +1,63 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "discard_chance_on_air_exposure": 0.2,
+    "size": 6,
+    "targets": [
+      {
+        "state": {
+          "Name": "ecraft:detonium_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "minecraft:stone_ore_replaceables"
+        }
+      },
+      {
+        "state": {
+          "Name": "ecraft:deepslate_detonium_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "minecraft:deepslate_ore_replaceables"
+        }
+      },
+      {
+        "state": {
+          "Name": "ecraft:grimstone_detonium_ore"
+        },
+        "target": {
+          "block": "eternal_starlight:grimstone",
+          "predicate_type": "minecraft:block_match"
+        }
+      },
+      {
+        "state": {
+          "Name": "ecraft:voidstone_detonium_ore"
+        },
+        "target": {
+          "block": "eternal_starlight:voidstone",
+          "predicate_type": "minecraft:block_match"
+        }
+      },
+      {
+        "state": {
+          "Name": "ecraft:eternal_ice_detonium_ore"
+        },
+        "target": {
+          "block": "eternal_starlight:eternal_ice",
+          "predicate_type": "minecraft:block_match"
+        }
+      },
+      {
+        "state": {
+          "Name": "ecraft:haze_ice_detonium_ore"
+        },
+        "target": {
+          "block": "eternal_starlight:haze_ice",
+          "predicate_type": "minecraft:block_match"
+        }
+      }
+    ]
+  }
+}

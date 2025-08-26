@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "c": {
+      "tag": "ecraft:ingots/cobalt"
+    },
+    "m": {
+      "tag": "ecraft:gems/magic"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "cmc",
+    "csc",
+    "cmc"
+  ],
+  "result": {
+    "count": 32,
+    "id": "ecraft:magic_rail"
+  }
+}

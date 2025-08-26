@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "verdant",
+  "ingredients": [
+    {
+      "item": "ecraft:verdant_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "ecraft:verdant_ingot"
+  }
+}

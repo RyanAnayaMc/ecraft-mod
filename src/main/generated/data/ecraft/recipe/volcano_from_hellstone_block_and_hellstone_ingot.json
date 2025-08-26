@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "ecraft:hellstone_block"
+    },
+    "i": {
+      "item": "ecraft:hellstone_ingot"
+    }
+  },
+  "pattern": [
+    "B",
+    "B",
+    "i"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ecraft:volcano"
+  }
+}

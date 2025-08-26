@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "tag": "ecraft:ingots/hellstone"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "MMM",
+    " s ",
+    " s "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ecraft:hellstone_pickaxe"
+  }
+}

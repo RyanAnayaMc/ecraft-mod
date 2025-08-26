@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_hallowed_lance": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ecraft:hallowed_lance"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ecraft:hallowed_nugget_from_smelting_hallowed_lance"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_hallowed_lance"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ecraft:hallowed_nugget_from_smelting_hallowed_lance"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "ecraft:copper_pickaxe"
+    },
+    {
+      "item": "ecraft:copper_shovel"
+    },
+    {
+      "item": "ecraft:copper_axe"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "ecraft:copper_picksaw"
+  }
+}

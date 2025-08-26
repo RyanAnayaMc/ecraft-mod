@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "ecraft:hellstone_pickaxe"
+    },
+    {
+      "item": "ecraft:hellstone_shovel"
+    },
+    {
+      "item": "ecraft:hellstone_axe"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "ecraft:hellstone_picksaw"
+  }
+}

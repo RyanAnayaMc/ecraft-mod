@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "hallowed",
+  "key": {
+    "#": {
+      "item": "ecraft:hallowed_ingot"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ecraft:hallowed_block"
+  }
+}

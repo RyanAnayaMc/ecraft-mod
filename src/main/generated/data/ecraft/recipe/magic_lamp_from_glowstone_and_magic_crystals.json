@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "G": {
+      "item": "minecraft:glowstone"
+    },
+    "m": {
+      "tag": "ecraft:gems/magic"
+    }
+  },
+  "pattern": [
+    " m ",
+    "mGm",
+    " m "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ecraft:magic_lamp"
+  }
+}

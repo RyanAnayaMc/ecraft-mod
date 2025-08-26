@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "ecraft:medallion_of_space_tungsten"
+    },
+    "m": {
+      "tag": "ecraft:ingots/demonite"
+    }
+  },
+  "pattern": [
+    " m ",
+    "mMm",
+    " m "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ecraft:medallion_of_space_demonite"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cooked_chicken_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ecraft:cooked_chicken_nugget"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ecraft:cooked_chicken_nugget_to_cooked_chicken_compacting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cooked_chicken_nugget"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ecraft:cooked_chicken_nugget_to_cooked_chicken_compacting"
+    ]
+  }
+}

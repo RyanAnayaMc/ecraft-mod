@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "detonium",
+  "ingredients": [
+    {
+      "item": "ecraft:detonium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "ecraft:detonium_ingot"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_hellstone_lance": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ecraft:hellstone_lance"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ecraft:hellstone_nugget_from_smelting_hellstone_lance"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_hellstone_lance"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ecraft:hellstone_nugget_from_smelting_hellstone_lance"
+    ]
+  }
+}

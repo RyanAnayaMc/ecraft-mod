@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "ecraft:cobalt_pickaxe"
+    },
+    {
+      "item": "ecraft:cobalt_shovel"
+    },
+    {
+      "item": "ecraft:cobalt_battleaxe"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "ecraft:cobalt_picksaw"
+  }
+}

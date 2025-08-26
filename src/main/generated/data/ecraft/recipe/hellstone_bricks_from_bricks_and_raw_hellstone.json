@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "b": {
+      "item": "minecraft:brick"
+    },
+    "h": {
+      "item": "ecraft:raw_hellstone"
+    }
+  },
+  "pattern": [
+    " b ",
+    "bhb",
+    " b "
+  ],
+  "result": {
+    "count": 8,
+    "id": "ecraft:hellstone_bricks"
+  }
+}

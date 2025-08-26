@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "tag": "c:chests"
+    },
+    "m": {
+      "tag": "minecraft:stone_tool_materials"
+    }
+  },
+  "pattern": [
+    " m ",
+    "mMm",
+    " m "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ecraft:medallion_of_space_stone"
+  }
+}

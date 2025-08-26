@@ -1,22 +1,20 @@
 package dev.night.ecraft.client.model;
 
 import dev.night.ecraft.Ecraft;
-import dev.night.ecraft.item.GunlanceItem;
-import dev.night.ecraft.item.ModToolMaterials;
+import dev.night.ecraft.item.tools.weapons.GunlanceItem;
 import net.minecraft.item.ToolMaterial;
-import net.minecraft.item.ToolMaterials;
 import net.minecraft.util.Identifier;
 import software.bernie.geckolib.model.GeoModel;
 
-import java.util.Map;
+
+import static dev.night.ecraft.client.item.GunlanceItemRenderer.materialToId;
+
 
 public class GunlanceItemGeoModel extends GeoModel<GunlanceItem> {
-    private ToolMaterial material;
-    public static final Map<ToolMaterial, String> materialToId = Map.of(
-            ModToolMaterials.CINCINNASITE_DIAMOND, "cincinnasite_diamond",
-            ToolMaterials.NETHERITE, "netherite"
-    );
-    private String itemId;
+
+    private final ToolMaterial material;
+
+    private final String itemId;
 
     public GunlanceItemGeoModel(ToolMaterial material) {
         super();

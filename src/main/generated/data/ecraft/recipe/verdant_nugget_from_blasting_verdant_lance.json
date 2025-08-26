@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "group": "verdant_blasting",
+  "ingredient": {
+    "item": "ecraft:verdant_lance"
+  },
+  "result": {
+    "id": "ecraft:verdant_nugget"
+  }
+}

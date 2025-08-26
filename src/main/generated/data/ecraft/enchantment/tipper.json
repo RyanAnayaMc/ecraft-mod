@@ -1,0 +1,52 @@
+{
+  "anvil_cost": 3,
+  "description": {
+    "translate": "enchantment.ecraft.tipper"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": -0.33,
+        "attribute": "minecraft:generic.attack_damage",
+        "id": "ecraft:enchantment.tipperdmg",
+        "operation": "add_multiplied_total"
+      },
+      {
+        "amount": -0.33,
+        "attribute": "minecraft:generic.attack_knockback",
+        "id": "ecraft:enchantment.tipperkb",
+        "operation": "add_multiplied_total"
+      }
+    ],
+    "minecraft:post_attack": [
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "ecraft:tipper_effect",
+          "tipperAttackDamageMultiplier": {
+            "type": "minecraft:linear",
+            "base": 1.5,
+            "per_level_above_first": 0.5
+          }
+        },
+        "enchanted": "attacker"
+      }
+    ]
+  },
+  "exclusive_set": "#ecraft:exclusive_set/range",
+  "max_cost": {
+    "base": 30,
+    "per_level_above_first": 11
+  },
+  "max_level": 2,
+  "min_cost": {
+    "base": 7,
+    "per_level_above_first": 10
+  },
+  "primary_items": "#ecraft:enchantable/lance",
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#ecraft:enchantable/lance",
+  "weight": 5
+}

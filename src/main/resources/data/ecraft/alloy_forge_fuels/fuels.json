@@ -1,0 +1,9 @@
+{
+  "fuels": [
+    {
+      "item": "ecraft:endless_lava_bucket",
+      "return_item": "ecraft:endless_lava_bucket",
+      "fuel": 24000
+    }
+  ]
+}

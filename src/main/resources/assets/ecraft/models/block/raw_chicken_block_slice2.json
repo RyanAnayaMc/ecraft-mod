@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"particle": "ecraft:block/raw_chicken_block",
+		"down": "ecraft:block/raw_chicken_block"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 8, 16],
+			"faces": {
+				"north": {"uv": [0, 8, 16, 16], "texture": "#down", "cullface": "north"},
+				"east": {"uv": [0, 8, 16, 16], "texture": "#down", "cullface": "east"},
+				"south": {"uv": [0, 8, 16, 16], "texture": "#down", "cullface": "south"},
+				"west": {"uv": [0, 8, 16, 16], "texture": "#down", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#down", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#down", "cullface": "down"}
+			}
+		}
+	]
+}

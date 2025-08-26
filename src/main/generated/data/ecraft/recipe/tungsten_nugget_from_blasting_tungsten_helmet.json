@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "group": "tungsten_blasting",
+  "ingredient": {
+    "item": "ecraft:tungsten_helmet"
+  },
+  "result": {
+    "id": "ecraft:tungsten_nugget"
+  }
+}

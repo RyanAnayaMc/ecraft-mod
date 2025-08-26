@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "tag": "c:ingots/gold"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "  M",
+    " s ",
+    "s  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ecraft:golden_lance"
+  }
+}

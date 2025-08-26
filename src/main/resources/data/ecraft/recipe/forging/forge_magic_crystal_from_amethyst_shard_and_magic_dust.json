@@ -1,0 +1,25 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "tag": "ecraft:dusts/magic",
+      "count": 5
+    },
+    {
+      "tag": "c:gems/amethyst",
+      "count": 2
+    }
+  ],
+  "output": {
+    "item": "ecraft:magic_crystal",
+    "count": 2
+  },
+  "overrides": {
+    "2+": {
+      "item": "ecraft:magic_crystal",
+      "count": 3
+    }
+  },
+  "min_forge_tier": 1,
+  "fuel_per_tick": 10
+}

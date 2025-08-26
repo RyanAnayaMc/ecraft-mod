@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "group": "gold_blasting",
+  "ingredient": {
+    "item": "ecraft:golden_lance"
+  },
+  "result": {
+    "id": "minecraft:gold_nugget"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "cincinnasite_diamond",
+  "ingredients": [
+    {
+      "item": "betternether:cincinnasite_pickaxe_diamond"
+    },
+    {
+      "item": "betternether:cincinnasite_shovel_diamond"
+    },
+    {
+      "item": "betternether:cincinnasite_axe_diamond"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "ecraft:cincinnasite_diamond_picksaw"
+  }
+}

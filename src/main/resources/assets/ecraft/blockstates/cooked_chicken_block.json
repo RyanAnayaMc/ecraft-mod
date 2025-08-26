@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "chicken_block_bites=0": {
+      "model": "ecraft:block/cooked_chicken_block"
+    },
+    "chicken_block_bites=1": {
+      "model": "ecraft:block/cooked_chicken_block_slice1"
+    },
+    "chicken_block_bites=2": {
+      "model": "ecraft:block/cooked_chicken_block_slice2"
+    },
+    "chicken_block_bites=3": {
+      "model": "ecraft:block/cooked_chicken_block_slice3"
+    }
+  }
+}

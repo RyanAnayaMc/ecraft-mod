@@ -30,7 +30,7 @@ public class GunlanceExplosionBehavior extends AdvancedExplosionBehavior {
 
     @Override
     public boolean shouldDamage(Explosion explosion, Entity entity) {
-        return (USER == null || !entity.equals(USER));
+        return (USER != null && !entity.equals(USER));
     }
 
     @Override

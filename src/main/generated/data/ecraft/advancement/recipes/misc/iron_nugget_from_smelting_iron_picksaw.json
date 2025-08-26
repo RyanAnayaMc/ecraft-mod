@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_iron_picksaw": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ecraft:iron_picksaw"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ecraft:iron_nugget_from_smelting_iron_picksaw"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_iron_picksaw"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ecraft:iron_nugget_from_smelting_iron_picksaw"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ecraft:demonite_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "ecraft:demonite_nugget"
+  }
+}

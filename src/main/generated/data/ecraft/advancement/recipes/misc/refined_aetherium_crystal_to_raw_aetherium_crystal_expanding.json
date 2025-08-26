@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_refined_aetherium_crystal": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ecraft:refined_aetherium_crystal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ecraft:refined_aetherium_crystal_to_raw_aetherium_crystal_expanding"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_refined_aetherium_crystal"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ecraft:refined_aetherium_crystal_to_raw_aetherium_crystal_expanding"
+    ]
+  }
+}

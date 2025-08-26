@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "ecraft:block/deepslate_detonium_ore"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_magic": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#ecraft:gems/magic"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ecraft:mana_star_from_ender_pearl_and_magic_crystal"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_magic"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ecraft:mana_star_from_ender_pearl_and_magic_crystal"
+    ]
+  }
+}

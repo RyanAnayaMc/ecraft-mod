@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_hallowed": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#ecraft:ingots/hallowed"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ecraft:hallowed_lance"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_hallowed"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ecraft:hallowed_lance"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "ecraft:item/solais",
+  "textures": {
+    "layer0": "ecraft:item/solais_charge6"
+  }
+}

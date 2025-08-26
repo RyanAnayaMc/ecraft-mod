@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "tag": "ecraft:ingots/detonium"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "M s",
+    "  s"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ecraft:detonium_scythe"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "verdant_smelting",
+  "ingredient": {
+    "item": "ecraft:verdant_chestplate"
+  },
+  "result": {
+    "id": "ecraft:verdant_nugget"
+  }
+}

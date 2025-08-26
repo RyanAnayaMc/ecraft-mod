@@ -1,0 +1,6 @@
+{
+  "message_id": "chaos_state",
+  "exhaustion": 0.1,
+  "scaling": "never",
+  "effects": "hurt"
+}

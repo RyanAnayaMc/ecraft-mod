@@ -1,0 +1,24 @@
+{
+  "attribute.name.generic.backpack_capacity": "Pocket Storage Dimension Slots",
+
+  "category.backpackattribute.category": "Pocket Storage Dimension",
+
+  "gamerule.keepBackpackInventory": "Keep storage dimension content on death",
+  "gamerule.clearBackpackInventoryOnDeath": "Destroy storage dimension content on death",
+  "gamerule.clearBackpackInventoryOnDeath.description": "This only matters, if the gamerule 'keepBackpackInventory' is set to false.",
+
+  "gui.backpack_screen.title": "Pocket Storage Dimension",
+
+  "hud.message.itemRemovedFromInactiveBackpackSlots": "Your storage dimension got smaller and some items were transferred to your normal inventory. If your inventory was full, they were dropped at your location.",
+  "hud.message.no_active_capacity": "You currently have no storage dimension slots.",
+
+  "key.backpackattribute.backpackScreen": "Open/Close Pocket Storage Dimension",
+
+  "backpackattribute.client": "Client Side Settings",
+
+  "backpackattribute.client.show_inactive_slots": "Show Inactive Slots",
+
+  "backpackattribute.server": "Server Side Settings",
+
+  "backpackattribute.server.default_backpack_slot_amount": "Default Pocket Storage Dimension Slot Amount"
+}

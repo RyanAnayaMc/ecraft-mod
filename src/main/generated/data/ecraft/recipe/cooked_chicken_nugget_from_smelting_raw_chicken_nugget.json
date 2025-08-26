@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 30,
+  "experience": 0.03,
+  "group": "chicken",
+  "ingredient": {
+    "item": "ecraft:raw_chicken_nugget"
+  },
+  "result": {
+    "id": "ecraft:cooked_chicken_nugget"
+  }
+}

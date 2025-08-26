@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "tag": "ecraft:ingots/demonite"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "M",
+    "s",
+    "s"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ecraft:demonite_shovel"
+  }
+}

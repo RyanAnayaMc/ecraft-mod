@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:apple"
+    },
+    "m": {
+      "tag": "ecraft:dusts/magic"
+    }
+  },
+  "pattern": [
+    "mmm",
+    "mam",
+    "mmm"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ecraft:magic_apple"
+  }
+}

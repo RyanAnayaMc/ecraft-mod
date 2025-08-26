@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_detonium_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ecraft:detonium_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ecraft:detonium_nugget_from_smelting_detonium_boots"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_detonium_boots"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ecraft:detonium_nugget_from_smelting_detonium_boots"
+    ]
+  }
+}

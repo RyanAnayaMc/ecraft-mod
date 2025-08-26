@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "titanium_smelting",
+  "ingredient": {
+    "item": "ecraft:titanium_chestplate"
+  },
+  "result": {
+    "id": "ecraft:titanium_nugget"
+  }
+}

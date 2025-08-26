@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "ecraft:titanium_pickaxe"
+    },
+    {
+      "item": "ecraft:titanium_shovel"
+    },
+    {
+      "item": "ecraft:titanium_battleaxe"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "ecraft:titanium_picksaw"
+  }
+}

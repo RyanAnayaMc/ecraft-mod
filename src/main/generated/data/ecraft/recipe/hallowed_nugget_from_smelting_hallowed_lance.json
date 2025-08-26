@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "hallowed_smelting",
+  "ingredient": {
+    "item": "ecraft:hallowed_lance"
+  },
+  "result": {
+    "id": "ecraft:hallowed_nugget"
+  }
+}

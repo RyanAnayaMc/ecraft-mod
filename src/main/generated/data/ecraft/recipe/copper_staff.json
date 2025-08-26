@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": {
+      "tag": "c:gems/amethyst"
+    },
+    "M": {
+      "tag": "c:ingots/copper"
+    },
+    "m": {
+      "tag": "ecraft:gems/magic"
+    }
+  },
+  "pattern": [
+    "mGm",
+    " M ",
+    " M "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ecraft:copper_staff"
+  }
+}

@@ -12,31 +12,28 @@ base {
 
 
 repositories {
-
+	maven { url "https://maven.shedaniel.me/" }
 	maven { url "https://maven.terraformersmc.com/releases/" }
-
+	repositories {
+		maven {
+			name = "TerraformersMC"
+			url = "https://maven.terraformersmc.com/"
+		}
+	}
 	maven {
 		name 'Xander Maven'
 		url 'https://maven.isxander.dev/releases'
 	}
-
 	maven { url 'https://maven.wispforest.io/releases/' }
-
 	mavenCentral()
-
 	maven { url 'https://maven.ambertation.de/releases' }
-
-	maven {
-		url "https://jitpack.io"
-	}
-
+	maven {	url "https://jitpack.io" }
 	maven {
 		url "https://cursemaven.com"
 		content {
 			includeGroup "curse.maven"
 		}
 	}
-
 	maven {
 		name = 'GeckoLib'
 		url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
@@ -45,17 +42,14 @@ repositories {
 			includeGroup("com.eliotlash.mclib")
 		}
 	}
-
 	maven {
 		name "KosmX's maven"
 		url 'https://maven.kosmx.dev/'
 	}
-
 	maven {
 		name = 'Ladysnake Mods'
 		url = 'https://maven.ladysnake.org/releases'
 	}
-
 	exclusiveContent {
 		forRepository {
 			maven {
@@ -66,6 +60,11 @@ repositories {
 		filter {
 			includeGroup "maven.modrinth"
 		}
+	}
+
+	maven {
+		name = "FzzyMaven"
+		url = uri("https://maven.fzzyhmstrs.me/")
 	}
 
 	flatDir{ dir 'lib' }
@@ -87,11 +86,10 @@ dependencies {
 
 	modImplementation "curse.maven:combat-plus-core-973671:5566228"
 	modImplementation "curse.maven:dual-swords-893211:5535831"
-	modImplementation "curse.maven:additional-armoury-973673:5535673"
 	modImplementation "com.github.provismet:lilylib:${project.lilylib_version}"
 	include "com.github.provismet:lilylib:${project.lilylib_version}"
 
-	modImplementation "maven.modrinth:mythicmetals:${project.mythicmetals_version}"
+	// modImplementation "maven.modrinth:alloy-forgery:${project.alloy_forgery_version}"
 
 	modImplementation("software.bernie.geckolib:geckolib-fabric-${minecraft_version}:${geckolib_version}")
 	implementation("com.eliotlash.mclib:mclib:20")
@@ -100,17 +98,40 @@ dependencies {
 	annotationProcessor "io.wispforest:owo-lib:${project.owo_version}"
 	include "io.wispforest:owo-sentinel:${project.owo_version}"
 
-	modImplementation "maven.modrinth:vics-point-blank:ngBvqWhl"
+	modImplementation "maven.modrinth:vics-point-blank:590gE9Xi"
+
+	modImplementation "maven.modrinth:trinkets:JagCscwi"
 
 	modImplementation "maven.modrinth:better-combat:${project.bettercombat_version}-fabric"
 	include modImplementation("dev.kosmx.player-anim:player-animation-lib-fabric:${project.player_anim_version}")
-	// include modRuntimeOnly("io.github.kosmx.bendy-lib:bendy-lib-fabric:${project.bendylib_version}")
 
 	modImplementation "org.ladysnake.cardinal-components-api:cardinal-components-base:${project.cardinalcomponents_version}"
 	modImplementation "org.ladysnake.cardinal-components-api:cardinal-components-entity:${project.cardinalcomponents_version}"
 
 	modImplementation include("maven.modrinth:AdditionalEntityAttributes:${project.additionalentityattributes_version}")
 
+	modImplementation "curse.maven:backpack-attribute-1062588:6013690"
+	modImplementation "maven.modrinth:mana-attributes:sI2fXbq8"
+	modImplementation "maven.modrinth:resource-bar-api:fsWi2Vl7"
+	modImplementation "curse.maven:slot-customization-api-1061163:5679722"
+	modImplementation("me.fzzyhmstrs:fzzy_config:$project.fzzy_version")
+
+	modImplementation "maven.modrinth:attributes:Nbt6F2yS"
+
+	modImplementation "maven.modrinth:eternal-starlight:lpXbh5Uh"
+
+	// modImplementation "maven.modrinth:betternether:M1o6hR2m"
+	// modImplementation "maven.modrinth:betterend:4qhBEg6J"
+	// modImplementation "maven.modrinth:bclib:TxWM7AW8"
+	// modImplementation "maven.modrinth:worldweaver:mPmeykPR"
+	// modImplementation "maven.modrinth:wunderlib:NWOZ9B7R"
+
+	modCompileOnly "dev.emi:emi-fabric:${emi_version}:api"
+	modLocalRuntime "dev.emi:emi-fabric:${emi_version}"
+
+	modApi("me.shedaniel.cloth:cloth-config-fabric:15.0.140") {
+		exclude(group: "net.fabricmc.fabric-api")
+	}
 }
 
 

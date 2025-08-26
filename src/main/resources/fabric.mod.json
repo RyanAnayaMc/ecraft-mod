@@ -25,7 +25,10 @@
 			"dev.night.ecraft.EcraftClient"
 		],
 		"dynamicHud": [
-			"dev.night.ecraft.client.GunlanceAmmoHudOverlay"
+          "dev.night.ecraft.client.hud.GunlanceAmmoHudOverlay"
+		],
+		"emi": [
+			"dev.night.ecraft.compat.EcraftEmiPlugin"
 		]
 	},
 	"mixins": [
@@ -39,11 +42,7 @@
 		"fabricloader": ">=0.16.0",
 		"minecraft": "~1.21.1",
 		"java": ">=21",
-		"fabric-api": "*",
-		"mythicmetals": ">=0.20.1+1.21",
-		"betternether": ">=21.0.10",
-		"betterend": "*",
-		"additional-armoury": "*"
+		"fabric-api": "*"
 	},
 	"suggests": {
 

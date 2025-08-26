@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "ecraft:block/verdant_charge_top",
+    "side": "ecraft:block/verdant_charge_side"
+  }
+}

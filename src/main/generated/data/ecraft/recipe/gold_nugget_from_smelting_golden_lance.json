@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "gold_smelting",
+  "ingredient": {
+    "item": "ecraft:golden_lance"
+  },
+  "result": {
+    "id": "minecraft:gold_nugget"
+  }
+}

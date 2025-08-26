@@ -12,4 +12,10 @@ public class EcraftConfigModel {
     public boolean displayGunlanceHud = true;
     public int gunlanceHudOffsetX = 0;
     public int gunlanceHudOffsetY = 0;
+    public boolean displayMegaBusterHud = true;
+    public int megaBusterHudOffsetX = 0;
+    public int megaBusterHudOffsetY = 0;
+    public boolean displayManaHud = true;
+    public int manaHudOffsetX = 0;
+    public int manaHudOffsetY = 0;
 }

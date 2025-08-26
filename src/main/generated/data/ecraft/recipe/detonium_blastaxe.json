@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "D": {
+      "item": "ecraft:detonium_block"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "DDD",
+    " s ",
+    " s "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ecraft:detonium_blastaxe"
+  }
+}

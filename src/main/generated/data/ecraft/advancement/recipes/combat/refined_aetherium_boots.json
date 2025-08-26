@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_refined_aetherium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#ecraft:gems/aetherium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ecraft:refined_aetherium_boots"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_refined_aetherium"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ecraft:refined_aetherium_boots"
+    ]
+  }
+}

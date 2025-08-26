@@ -1,0 +1,36 @@
+{
+  "anvil_cost": 3,
+  "description": {
+    "translate": "enchantment.ecraft.extender"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.25,
+          "per_level_above_first": 0.25
+        },
+        "attribute": "minecraft:player.entity_interaction_range",
+        "id": "ecraft:enchantment.extender",
+        "operation": "add_value"
+      }
+    ]
+  },
+  "exclusive_set": "#ecraft:exclusive_set/range",
+  "max_cost": {
+    "base": 30,
+    "per_level_above_first": 11
+  },
+  "max_level": 4,
+  "min_cost": {
+    "base": 7,
+    "per_level_above_first": 10
+  },
+  "primary_items": "#ecraft:enchantable/lance",
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#ecraft:enchantable/lance",
+  "weight": 5
+}

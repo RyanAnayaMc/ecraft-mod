@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "tag": "minecraft:planks"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "  M",
+    " s ",
+    "s  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "ecraft:wooden_lance"
+  }
+}

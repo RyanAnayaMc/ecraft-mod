@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "group": "orichalcum_blasting",
+  "ingredient": {
+    "item": "ecraft:orichalcum_helmet"
+  },
+  "result": {
+    "id": "ecraft:orichalcum_nugget"
+  }
+}

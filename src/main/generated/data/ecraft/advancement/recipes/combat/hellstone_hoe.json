@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_hellstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#ecraft:ingots/hellstone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ecraft:hellstone_hoe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_hellstone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ecraft:hellstone_hoe"
+    ]
+  }
+}

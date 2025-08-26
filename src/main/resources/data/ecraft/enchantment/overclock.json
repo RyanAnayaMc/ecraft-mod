@@ -1,0 +1,21 @@
+{
+  "description": {
+    "translate": "enchantment.ecraft.overclock"
+  },
+  "exclusive_set": "ecraft:repeater",
+  "supported_items": "ecraft:x_buster",
+  "weight": 3,
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_cost": {
+    "base": 10,
+    "per_level_above_first": 3
+  },
+  "anvil_cost": 2,
+  "slots": [
+    "hand"
+  ]
+}

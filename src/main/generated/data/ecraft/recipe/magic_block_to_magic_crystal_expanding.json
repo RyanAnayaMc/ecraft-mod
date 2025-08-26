@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ecraft:magic_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "ecraft:magic_crystal"
+  }
+}

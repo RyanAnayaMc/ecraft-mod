@@ -1,0 +1,6 @@
+{
+  "parent": "ecraft:item/lance",
+  "textures": {
+    "layer0": "ecraft:item/wooden_lance"
+  }
+}

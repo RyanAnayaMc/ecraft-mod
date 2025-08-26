@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "ecraft:hallowed_pickaxe"
+    },
+    {
+      "item": "ecraft:hallowed_shovel"
+    },
+    {
+      "item": "ecraft:hallowed_battleaxe"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "ecraft:hallowed_picksaw"
+  }
+}

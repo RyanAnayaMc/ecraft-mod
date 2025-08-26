@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "ecraft:block/magic_lamp"
+    },
+    "lit=true": {
+      "model": "ecraft:block/magic_lamp_on"
+    }
+  }
+}

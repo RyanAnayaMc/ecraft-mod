@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "aetherium",
+  "ingredients": [
+    {
+      "item": "ecraft:refined_aetherium_crystal"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "ecraft:raw_aetherium_crystal"
+  }
+}

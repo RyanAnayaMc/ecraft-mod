@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "ecraft:tungsten_pickaxe"
+    },
+    {
+      "item": "ecraft:tungsten_shovel"
+    },
+    {
+      "item": "ecraft:tungsten_axe"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "ecraft:tungsten_picksaw"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "demonite_smelting",
+  "ingredient": {
+    "item": "ecraft:demonite_boots"
+  },
+  "result": {
+    "id": "ecraft:demonite_nugget"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "tag": "ecraft:ores/verdant"
+    },
+    {
+      "tag": "minecraft:gold_ores"
+    },
+    {
+      "tag": "minecraft:emerald_ores"
+    }
+  ],
+  "output": {
+    "id": "ecraft:verdant_ingot",
+    "count": 2
+  },
+  "overrides": {
+    "4+": {
+      "id": "ecraft:verdant_ingot",
+      "count": 3
+    }
+  },
+  "min_forge_tier": 3,
+  "fuel_per_tick": 30
+}

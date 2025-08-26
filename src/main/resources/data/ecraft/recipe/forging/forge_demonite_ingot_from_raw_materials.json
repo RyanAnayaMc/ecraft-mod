@@ -1,0 +1,26 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "tag": "ecraft:raw_materials/demonite"
+    },
+    {
+      "tag": "c:dusts/redstone"
+    },
+    {
+      "tag": "c:dusts/glowstone"
+    }
+  ],
+  "output": {
+    "id": "ecraft:detonium_ingot",
+    "count": 1
+  },
+  "overrides": {
+    "4+": {
+      "id": "ecraft:detonium_ingot",
+      "count": 2
+    }
+  },
+  "min_forge_tier": 3,
+  "fuel_per_tick": 30
+}

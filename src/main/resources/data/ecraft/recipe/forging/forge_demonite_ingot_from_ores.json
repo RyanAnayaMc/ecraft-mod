@@ -1,0 +1,25 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "tag": "ecraft:ores/demonite",
+      "count": 2
+    },
+    {
+      "tag": "c:ores/quartz",
+      "count": 2
+    }
+  ],
+  "output": {
+    "id": "ecraft:demonite_ingot",
+    "count": 2
+  },
+  "overrides": {
+    "3+": {
+      "id": "ecraft:demonite_ingot",
+      "count": 3
+    }
+  },
+  "min_forge_tier": 2,
+  "fuel_per_tick": 30
+}

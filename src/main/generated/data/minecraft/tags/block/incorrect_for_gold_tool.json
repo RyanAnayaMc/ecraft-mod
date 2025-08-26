@@ -1,0 +1,13 @@
+{
+  "values": [
+    "#ecraft:needs_copper_tool",
+    "#ecraft:needs_netherite_tool",
+    "#ecraft:needs_cobalt_tool",
+    "#ecraft:needs_orichalcum_tool",
+    "#ecraft:needs_titanium_tool",
+    "#ecraft:needs_hallowed_tool",
+    "#ecraft:needs_verdant_tool",
+    "#ecraft:needs_detonium_tool",
+    "#ecraft:needs_aetherium_tool"
+  ]
+}

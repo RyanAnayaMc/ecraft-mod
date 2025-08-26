@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_orichalcum_picksaw": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ecraft:orichalcum_picksaw"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ecraft:orichalcum_nugget_from_smelting_orichalcum_picksaw"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_orichalcum_picksaw"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ecraft:orichalcum_nugget_from_smelting_orichalcum_picksaw"
+    ]
+  }
+}

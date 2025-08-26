@@ -1,0 +1,6 @@
+{
+  "parent": "ecraft:item/detonium_detonator",
+  "textures": {
+    "layer0": "ecraft:item/detonium_detonator_charge2"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "orichalcum_smelting",
+  "ingredient": {
+    "item": "ecraft:orichalcum_shovel"
+  },
+  "result": {
+    "id": "ecraft:orichalcum_nugget"
+  }
+}

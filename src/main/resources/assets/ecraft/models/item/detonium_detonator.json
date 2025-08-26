@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "ecraft:item/detonium_detonator"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "ecraft:charge": 0.3
+      },
+      "model": "ecraft:item/detonium_detonator_charge1"
+    },
+    {
+      "predicate": {
+        "ecraft:charge": 0.6
+      },
+      "model": "ecraft:item/detonium_detonator_charge2"
+    },
+    {
+      "predicate": {
+        "ecraft:charge": 0.9
+      },
+      "model": "ecraft:item/detonium_detonator_charge3"
+    }
+  ]
+}

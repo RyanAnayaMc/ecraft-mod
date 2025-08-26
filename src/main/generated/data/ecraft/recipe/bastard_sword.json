@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "c": {
+      "item": "minecraft:copper_ingot"
+    },
+    "d": {
+      "item": "ecraft:magic_crystal"
+    },
+    "m": {
+      "item": "ecraft:titanium_block"
+    },
+    "q": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "pattern": [
+    "dmd",
+    "dmd",
+    "qcq"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ecraft:bastard_sword"
+  }
+}

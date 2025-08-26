@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "R": {
+      "tag": "c:ingots/gold"
+    },
+    "T": {
+      "item": "ecraft:detonium_charge"
+    },
+    "d": {
+      "item": "ecraft:verdant_ingot"
+    }
+  },
+  "pattern": [
+    "dRd",
+    "RTR",
+    "dRd"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ecraft:verdant_charge"
+  }
+}

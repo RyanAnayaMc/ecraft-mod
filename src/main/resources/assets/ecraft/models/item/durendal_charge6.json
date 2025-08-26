@@ -1,0 +1,6 @@
+{
+  "parent": "ecraft:item/durendal",
+  "textures": {
+    "layer0": "ecraft:item/durendal_charge6"
+  }
+}

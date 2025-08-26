@@ -1,0 +1,6 @@
+{
+  "parent": "ecraft:item/caliburn",
+  "textures": {
+    "layer0": "ecraft:item/caliburn_charge4"
+  }
+}

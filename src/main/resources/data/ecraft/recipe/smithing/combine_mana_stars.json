@@ -1,0 +1,16 @@
+{
+  "type": "ecraft:mana_star",
+  "base": {
+    "item": "ecraft:mana_star"
+  },
+  "addition": {
+    "item": "ecraft:mana_star"
+  },
+  "template": {
+    "item": "ecraft:mana_star_smithing_template"
+  },
+  "result": {
+    "id": "ecraft:mana_star",
+    "count": 1
+  }
+}

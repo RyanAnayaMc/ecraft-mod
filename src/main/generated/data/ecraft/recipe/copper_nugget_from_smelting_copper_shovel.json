@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "group": "copper_smelting",
+  "ingredient": {
+    "item": "ecraft:copper_shovel"
+  },
+  "result": {
+    "id": "ecraft:copper_nugget"
+  }
+}

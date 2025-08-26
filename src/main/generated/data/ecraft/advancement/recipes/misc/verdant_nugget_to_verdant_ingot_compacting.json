@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ecraft:verdant_nugget_to_verdant_ingot_compacting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_verdant_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ecraft:verdant_nugget"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_verdant_nugget"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ecraft:verdant_nugget_to_verdant_ingot_compacting"
+    ]
+  }
+}

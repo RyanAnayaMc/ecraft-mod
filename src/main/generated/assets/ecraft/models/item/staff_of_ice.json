@@ -1,0 +1,6 @@
+{
+  "parent": "ecraft:item/staff",
+  "textures": {
+    "layer0": "ecraft:item/staff_of_ice"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "values": [
+    "ecraft:raw_magic_block",
+    "ecraft:magic_block",
+    "ecraft:raw_tungsten_block",
+    "ecraft:tungsten_block",
+    "ecraft:raw_demonite_block",
+    "ecraft:demonite_block",
+    "ecraft:raw_diamond_block",
+    "ecraft:raw_hellstone_block",
+    "ecraft:hellstone_block",
+    "ecraft:raw_cobalt_block",
+    "ecraft:cobalt_block",
+    "ecraft:raw_orichalcum_block",
+    "ecraft:orichalcum_block",
+    "ecraft:raw_titanium_block",
+    "ecraft:titanium_block",
+    "ecraft:hallowed_block",
+    "ecraft:raw_verdant_block",
+    "ecraft:verdant_block",
+    "ecraft:raw_detonium_block",
+    "ecraft:detonium_block",
+    "ecraft:refined_aetherium_block",
+    "ecraft:cincinnasite_diamond_block",
+    "ecraft:terrasteel_block"
+  ]
+}

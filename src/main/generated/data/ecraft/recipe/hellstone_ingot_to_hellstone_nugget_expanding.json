@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ecraft:hellstone_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "ecraft:hellstone_nugget"
+  }
+}

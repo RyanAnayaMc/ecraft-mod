@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "aetherium",
+  "key": {
+    "#": {
+      "item": "ecraft:refined_aetherium_crystal"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ecraft:refined_aetherium_block"
+  }
+}

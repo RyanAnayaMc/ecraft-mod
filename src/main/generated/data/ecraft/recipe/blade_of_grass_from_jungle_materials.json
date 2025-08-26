@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "L": {
+      "item": "minecraft:jungle_wood"
+    },
+    "l": {
+      "item": "minecraft:jungle_leaves"
+    },
+    "m": {
+      "item": "minecraft:moss_block"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "v": {
+      "item": "minecraft:vine"
+    }
+  },
+  "pattern": [
+    "vlv",
+    "mlm",
+    "sLs"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ecraft:blade_of_grass"
+  }
+}

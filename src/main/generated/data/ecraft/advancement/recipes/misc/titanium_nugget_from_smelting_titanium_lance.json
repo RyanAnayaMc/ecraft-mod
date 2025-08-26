@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ecraft:titanium_nugget_from_smelting_titanium_lance"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_titanium_lance": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ecraft:titanium_lance"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_titanium_lance"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ecraft:titanium_nugget_from_smelting_titanium_lance"
+    ]
+  }
+}

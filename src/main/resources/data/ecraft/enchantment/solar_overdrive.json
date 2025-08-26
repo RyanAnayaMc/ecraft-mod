@@ -1,0 +1,21 @@
+{
+  "description": {
+    "translate": "enchantment.ecraft.solar_overdrive"
+  },
+  "exclusive_set": "ecraft:steady_recharge",
+  "supported_items": ["ecraft:mega_buster", "ecraft:x_buster"],
+  "weight": 3,
+  "max_level": 3,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_cost": {
+    "base": 10,
+    "per_level_above_first": 3
+  },
+  "anvil_cost": 2,
+  "slots": [
+    "hand"
+  ]
+}

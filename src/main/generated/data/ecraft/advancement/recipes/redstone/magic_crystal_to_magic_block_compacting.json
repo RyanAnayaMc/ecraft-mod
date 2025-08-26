@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_magic_crystal": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ecraft:magic_crystal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "ecraft:magic_crystal_to_magic_block_compacting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_magic_crystal"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "ecraft:magic_crystal_to_magic_block_compacting"
+    ]
+  }
+}
